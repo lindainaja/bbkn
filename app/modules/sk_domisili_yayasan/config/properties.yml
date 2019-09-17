@@ -1,0 +1,18 @@
+properties:
+    tablePk: sk_domisili_yayasanid
+    tableName: sk_domisili_yayasan
+    autosetPostKeys: 
+        add: [date,'no',ttd_nama,ttd_nip,ttd_jabatan,create_on,create_by,syarat,agama,no_telp,jk,lokasi,lampiran,nama,jabatan,kewarganegaraan,tempat_lahir,tanggal_lahir,nik,no_bapl,tgl_bapl,alamat,nama_yayasan,alamat_yayasan,jenis_kegiatan,jenis_bangunan,jumlah_pengurus,lokasi_lingkungan,luas_bangunan,status_bangunan,luas_parkir,no_yayasan,batas_utara,batas_selatan,batas_timur,batas_barat,sf_toko_ruko,sf_gudang,ruang_kerja_produksi,mesin_produksi,jml_kry_pria,jml_kry_wanita,jml_kry_wna,tempat_ibadah,tanggal_berdiri,petugas_1,petugas_2,status_jenis_luas_bangunan_fasilitas,status_surat_izin,status_kabul_permohonan,status_hasil_skdty,status_hasil_jarak_lingkungan,status_hasil_periksa_fasilitas]
+        edit: [date,'no',ttd_nama,ttd_nip,ttd_jabatan,update_on,update_by,syarat,agama,no_telp,jk,lokasi,lampiran,nama,jabatan,kewarganegaraan,tempat_lahir,tanggal_lahir,nik,no_bapl,tgl_bapl,alamat,nama_yayasan,alamat_yayasan,jenis_kegiatan,jenis_bangunan,jumlah_pengurus,lokasi_lingkungan,luas_bangunan,status_bangunan,luas_parkir,no_yayasan,batas_utara,batas_selatan,batas_timur,batas_barat,sf_toko_ruko,sf_gudang,ruang_kerja_produksi,mesin_produksi,jml_kry_pria,jml_kry_wanita,jml_kry_wna,tempat_ibadah,tanggal_berdiri,petugas_1,petugas_2,status_jenis_luas_bangunan_fasilitas,status_surat_izin,status_kabul_permohonan,status_hasil_skdty,status_hasil_jarak_lingkungan,status_hasil_periksa_fasilitas] 
+    dateFields: [date,tanggal_lahir,tgl_bapl,tanggal_berdiri]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'Domisili Yayasan'
+    func: sk_domisili_yayasan
+    modelName: m_sk_domisili_yayasan
+    menuId: 115
+    subject: 'SK Domisili Yayasan'
+    mechIds: [348,349,350,351]
+    breadcrumbs: { index: Beranda }

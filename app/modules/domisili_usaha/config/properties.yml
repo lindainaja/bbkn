@@ -1,0 +1,16 @@
+properties:
+    tablePk: domisili_usahaid
+    tableName: t_domisili_usaha
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: nama, 5: jk, 6: tempat_lahir, 7: tanggal_lahir, 8: kewarganegaraan, 9: agama, 10: nik, 11: pasport, 12: pekerjaan, 13: alamat, 14: jenis_usaha, 15: alamat_usaha, 16: tgl_berlaku_dari, 17: tgl_berlaku_sampai, 18: ttd_nama, 19: ttd_nip, 20: ttd_jabatan, 26: create_on, 27: create_by }, edit: [syarat, no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, nik, pasport, pekerjaan, alamat, jenis_usaha, alamat_usaha, tgl_berlaku_dari, tgl_berlaku_sampai, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date, tanggal_lahir, tgl_berlaku_dari, tgl_berlaku_sampai]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Domisili Usaha'
+    func: domisili_usaha
+    modelName: m_domisili_usaha
+    menuId: '43'
+    subject: 'SK Domisili Usaha'
+    mechIds: ['94', '95', '96', '97']
+    breadcrumbs: { index: Beranda }

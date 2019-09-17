@@ -1,0 +1,16 @@
+properties:
+    tablePk: surat_pernyataanid
+    tableName: t_surat_pernyataan
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: nama, 4: tempat_lahir, 5: tanggal_lahir, 6: kewarganegaraan, 7: agama, 8: pekerjaan, 9: alamat, 10: tertuju_status, 11: tertuju_nama, 12: tertuju_tempat_lahir, 13: tertuju_tanggal_lahir, 14: tertuju_kewarganegaraan, 15: tertuju_agama, 16: tertuju_pekerjaan, 17: tertuju_alamat, 18: saksi_1, 19: saksi_2, 20: rt, 21: rw, 22: rt_nama, 23: rw_nama, 29: create_on, 30: create_by }, edit: [syarat, no_kel, date, nama, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, alamat, tertuju_status, tertuju_nama, tertuju_tempat_lahir, tertuju_tanggal_lahir, tertuju_kewarganegaraan, tertuju_agama, tertuju_pekerjaan, tertuju_alamat, saksi_1, saksi_2, rt, rw, rt_nama, rw_nama, update_on, update_by] }
+    dateFields: [date, tanggal_lahir, tertuju_tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Surat Pernyataan'
+    func: surat_pernyataan
+    modelName: m_surat_pernyataan
+    menuId: '53'
+    subject: 'SK Surat Pernyataan'
+    mechIds: ['134', '135', '136', '137']
+    breadcrumbs: { index: Beranda }

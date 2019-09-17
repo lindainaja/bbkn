@@ -1,0 +1,82 @@
+-fix record jabata "CAMAT LEGOK" setup_kec
+-fix logo to logo_kab_tangerang.png
+-move/change twig cache folder to APPPATH/cache/twig
+
+List Checked Feature
+
+1.Pengantar KTP [ok]
+2.Permohonan KTP [ok
+3.Proses KTP [ok]
+4.Hilang KTP [ok]
+5.Ralat KTP [ok]
+
+
+6.Permohonan KK [ok]
+7.Perubahan KK [ok]
+8.Hilang KK [ok]
+
+9.Domisili WNI [ok]
+10.Domisili WNA [ok]
+11.Domisili Kantor [ok]
+12.Domisili KK [ok]
+
+13.Lahir Baru [ok]
+14.Lahir Lama [ok]
+15.SK Kematian [ok]
+
+------------------------------
+- Remove Modul main/public
+- Remove '_' from url , change with '-' charachter
+
+16. SK Untuk nikah [ok]
+17. SK Asal- Usul [ok]
+18. SK Kematian Suami - Isteri [ok]
+19. SK Keterangan Orang Tua [ok]
+20. SK Persetujuan Mempelai [ok]
+21. SK Izin Orang Tua [ok]
+22. Verbal Wali Hakim [ok]
+23. SK Numpang Nikah [ok]
+24. SK Penghasilan [ok]
+25. SK Belum Pernah Nikah [ok]
+26. SK Duda Janda [ok]
+27. SK Suami Isteri [ok]
+28. SK Wali Nikah [ok]
+
+
+----------------------------------------
+
+29. Tempat Usaha [ok]
+30. Domisili Usaha [skip]
+
+
+-----------------------------
+New Features
+-----------------------------
+Surat Izin Keramaian
+Surat Keterangan Kelahiran
+Domisili Penduduk
+Surat Keterangan Usaha
+SK Domisili Usaha (NEW)
+SK Domisili Yayasan
+SPP PBB
+SKTM
+Surat Keterangan Kelakuan Baik
+Surat Keterangan Suami Istri
+Surat Keterangan Lainya
+Surat Izin Lingkungan Rame2
+SK Belum Pernah Menikah
+SK Belum Memiliki Rumah
+SK Untuk Nikah n1
+SK Asal Usul n2
+SK Kematian Suami Istri n3
+
+SK Persetujuan Mempelai n2
+SK Izin Orangtua n5
+
+--------------------------------JADUL
+
+sk_domosili_usaha
+
+
+
+

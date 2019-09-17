@@ -1,0 +1,17 @@
+properties:
+    tablePk: sk_suami_istriid
+    tableName: t_sk_suami_istri
+    autosetPostKeys: { add: [ keperluan, syarat,  no_kel,  date,  'no',  pria_nama,  pria_tempat_lahir,  pria_tanggal_lahir,  pria_kewarganegaraan,  pria_agama,  pria_pekerjaan,  pria_alamat,  perempuan_nama,  perempuan_tempat_lahir,  perempuan_tanggal_lahir,  perempuan_kewarganegaraan,  perempuan_agama,  perempuan_pekerjaan,  perempuan_alamat,  ttd_nama,  ttd_nip,  ttd_jabatan,  create_on,  create_by ], edit: [syarat, no_kel, date, 'no', pria_nama, pria_tempat_lahir, pria_tanggal_lahir, pria_kewarganegaraan, pria_agama, pria_pekerjaan, pria_alamat, perempuan_nama, perempuan_tempat_lahir, perempuan_tanggal_lahir, perempuan_kewarganegaraan, perempuan_agama, perempuan_pekerjaan, perempuan_alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    autosetPostKeys: { add: [ keperluan, syarat,  no_kel,  date,  'no',  pria_nama,  pria_tempat_lahir,  pria_tanggal_lahir,  pria_kewarganegaraan,  pria_agama,  pria_pekerjaan,  pria_alamat,  perempuan_nama,  perempuan_tempat_lahir,  perempuan_tanggal_lahir,  perempuan_kewarganegaraan,  perempuan_agama,  perempuan_pekerjaan,  perempuan_alamat,  ttd_nama,  ttd_nip,  ttd_jabatan,  create_on,  create_by ], edit: [syarat, no_kel, date, 'no', pria_nama, pria_tempat_lahir, pria_tanggal_lahir, pria_kewarganegaraan, pria_agama, pria_pekerjaan, pria_alamat, perempuan_nama, perempuan_tempat_lahir, perempuan_tanggal_lahir, perempuan_kewarganegaraan, perempuan_agama, perempuan_pekerjaan, perempuan_alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date, pria_tanggal_lahir, perempuan_tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SK Suami Istri'
+    func: sk_suami_istri
+    modelName: m_sk_suami_istri
+    menuId: '40'
+    subject: 'SK SK Suami Istri'
+    mechIds: ['82', '83', '84', '85']
+    breadcrumbs: { index: Beranda }

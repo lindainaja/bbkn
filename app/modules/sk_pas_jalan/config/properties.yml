@@ -1,0 +1,17 @@
+properties:
+    fields: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, suku, alamat_asal, jalan, kelurahan, kecamatan, kabupaten, provinsi, maksud, no_ktp, barang_yang_dibawa, lamanya, pengikut]
+    tablePk: sk_pas_jalanid
+    tableName: t_sk_pas_jalan
+    autosetPostKeys: { add: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by, syarat, suku, alamat_asal, jalan, kelurahan, kecamatan, kabupaten, provinsi, maksud, no_ktp, barang_yang_dibawa, lamanya, pengikut], edit: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, syarat, suku, alamat_asal, jalan, kelurahan, kecamatan, kabupaten, provinsi, maksud, no_ktp, barang_yang_dibawa, lamanya, pengikut] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'Pas Jalan'
+    func: sk_pas_jalan
+    modelName: m_sk_pas_jalan
+    menuId: 89
+    subject: 'SK Pas Jalan'
+    mechIds: [245, 246, 247, 248]
+    breadcrumbs: { index: Beranda }

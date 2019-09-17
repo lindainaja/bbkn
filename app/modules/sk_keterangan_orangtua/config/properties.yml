@@ -1,0 +1,17 @@
+properties:
+    fields: [no_kel, date, 'no', ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, ayah_nama, ayah_alias, ayah_tempat_lahir, ayah_tanggal_lahir, ayah_kewarganegaraan, ayah_agama, ayah_pekerjaan, ayah_tempat_tinggal, ibu_nama, ibu_alias, ibu_tempat_lahir, ibu_tanggal_lahir, ibu_kewarganegaraan, ibu_agama, ibu_pekerjaan, ibu_tempat_tinggal, c_nama, c_alias, c_tempat_lahir, c_tanggal_lahir, c_kewarganegaraan, c_agama, c_pekerjaan, c_tempat_tinggal]
+    tablePk: sk_keterangan_orangtuaid
+    tableName: t_sk_keterangan_orangtua
+    autosetPostKeys: { add: [no_kel, date, 'no', ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by, syarat, ayah_nama, ayah_alias, ayah_tempat_lahir, ayah_tanggal_lahir, ayah_kewarganegaraan, ayah_agama, ayah_pekerjaan, ayah_tempat_tinggal, ibu_nama, ibu_alias, ibu_tempat_lahir, ibu_tanggal_lahir, ibu_kewarganegaraan, ibu_agama, ibu_pekerjaan, ibu_tempat_tinggal, c_nama,c_jk, c_alias, c_tempat_lahir, c_tanggal_lahir, c_kewarganegaraan, c_agama, c_pekerjaan, c_tempat_tinggal], edit: [no_kel, date, 'no', ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, syarat, ayah_nama, ayah_alias, ayah_tempat_lahir, ayah_tanggal_lahir, ayah_kewarganegaraan, ayah_agama, ayah_pekerjaan, ayah_tempat_tinggal, ibu_nama, ibu_alias, ibu_tempat_lahir, ibu_tanggal_lahir, ibu_kewarganegaraan, ibu_agama, ibu_pekerjaan, ibu_tempat_tinggal, c_nama,c_jk, c_alias, c_tempat_lahir, c_tanggal_lahir, c_kewarganegaraan, c_agama, c_pekerjaan, c_tempat_tinggal] }
+    dateFields: [date, ayah_tanggal_lahir, ibu_tanggal_lahir, c_tanggal_lahir]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'Keterangan Orang Tua'
+    func: sk_keterangan_orangtua
+    modelName: m_sk_keterangan_orangtua
+    menuId: 75
+    subject: 'SK Keterangan Orang Tua'
+    mechIds: [199, 200, 201, 202]
+    breadcrumbs: { index: Beranda }

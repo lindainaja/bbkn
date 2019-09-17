@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mysqldump -h localhost -u root -p db_simakel>db/db_simakel.sql

@@ -1,0 +1,18 @@
+properties:
+    tablePk: sk_asal_usulid
+    tableName: t_asal_usul
+    autosetPostKeys: 
+        add: [no_kel,date,'no',nama,alias,jk,tempat_lahir,tanggal_lahir,kewarganegaraan,agama,pekerjaan,alamat,ayah_nama,ayah_alias,ayah_tempat_lahir,ayah_tanggal_lahir,ayah_kewarganegaraan,ayah_agama,ayah_pekerjaan,ayah_alamat,ibu_nama,ibu_alias,ibu_tempat_lahir,ibu_tanggal_lahir,ibu_kewarganegaraan,ibu_agama,ibu_pekerjaan,ibu_alamat,ttd_nama,ttd_nip,ttd_jabatan,create_on,create_by,syarat]
+        edit: [no_kel,date,'no',nama,alias,jk,tempat_lahir,tanggal_lahir,kewarganegaraan,agama,pekerjaan,alamat,ayah_nama,ayah_alias,ayah_tempat_lahir,ayah_tanggal_lahir,ayah_kewarganegaraan,ayah_agama,ayah_pekerjaan,ayah_alamat,ibu_nama,ibu_alias,ibu_tempat_lahir,ibu_tanggal_lahir,ibu_kewarganegaraan,ibu_agama,ibu_pekerjaan,ibu_alamat,ttd_nama,ttd_nip,ttd_jabatan,update_on,update_by,syarat] 
+    dateFields: [date,tanggal_lahir,ayah_tanggal_lahir,ibu_tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SK Asal Usul'
+    func: sk_asal_usul
+    modelName: m_sk_asal_usul
+    menuId: '33'
+    subject: 'SK SK Asal Usul'
+    mechIds: ['54', '55', '56', '57']
+    breadcrumbs: { index: Beranda }

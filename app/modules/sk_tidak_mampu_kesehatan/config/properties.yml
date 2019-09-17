@@ -1,0 +1,17 @@
+properties:
+    fields: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, status_perkawinan, golongan_darah, lingkungan, nomor_registrasi, tanggal_registrasi]
+    tablePk: sk_tidak_mampu_kesehatanid
+    tableName: t_sk_tidak_mampu_kesehatan
+    autosetPostKeys: { add: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by, syarat, status_perkawinan, golongan_darah, lingkungan, nomor_registrasi, tanggal_registrasi], edit: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, syarat, status_perkawinan, golongan_darah, lingkungan, nomor_registrasi, tanggal_registrasi] }
+    dateFields: [date, tanggal_lahir, tanggal_registrasi]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: SK Tidak Mampu Kesehatan
+    func: sk_tidak_mampu_kesehatan
+    modelName: m_sk_tidak_mampu_kesehatan
+    menuId: 80
+    subject: 'SK Kesehatan'
+    mechIds: [219, 220, 221, 222]
+    breadcrumbs: { index: Beranda }

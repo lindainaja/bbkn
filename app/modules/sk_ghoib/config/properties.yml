@@ -1,0 +1,16 @@
+properties:
+    tablePk: sk_ghoibid
+    tableName: t_sk_ghoib
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: pengajuan, 5: status_pemohon, 6: nama, 7: tempat_lahir, 8: tanggal_lahir, 9: kewarganegaraan, 10: agama, 11: pekerjaan, 12: alamat, 13: tertuju_nama, 14: tertuju_tempat_lahir, 15: tertuju_tanggal_lahir, 16: tertuju_kewarganegaraan, 17: tertuju_agama, 18: tertuju_pekerjaan, 19: tertuju_alamat, 20: ttd_nama, 21: ttd_nip, 22: ttd_jabatan, 28: create_on, 29: create_by }, edit: [syarat, no_kel, date, 'no', pengajuan, status_pemohon, nama, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, alamat, tertuju_nama, tertuju_tempat_lahir, tertuju_tanggal_lahir, tertuju_kewarganegaraan, tertuju_agama, tertuju_pekerjaan, tertuju_alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date, tanggal_lahir, tertuju_tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SK Ghoib'
+    func: sk_ghoib
+    modelName: m_sk_ghoib
+    menuId: '54'
+    subject: 'SK SK Ghoib'
+    mechIds: ['138', '139', '140', '141']
+    breadcrumbs: { index: Beranda }

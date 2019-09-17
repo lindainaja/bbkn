@@ -1,0 +1,18 @@
+properties:
+    tablePk: skckid
+    tableName: t_skck
+    autosetPostKeys: 
+        add: [nopol,tgl_nopol,pp_nama,pp_jabatan,pp_nip,syarat,  no_kel,  date,alamat,suku,domisili,no_reg,tgl_reg,pol_nama,pol_jabatan,pol_nip , 'no',  nama,  jk,  tempat_lahir,  tanggal_lahir,  kewarganegaraan,  agama,  status_perkawinan,  pekerjaan,    nik,   persyaratan_untuk,  ttd_nama,  ttd_nip,  ttd_jabatan,  create_on,  create_by ]
+        edit: [nopol,tgl_nopol,pp_nama,pp_jabatan,pp_nip,syarat, no_kel, date,alamat,suku,domisili,no_reg,tgl_reg,pol_nama,pol_jabatan,pol_nip ,'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, status_perkawinan, pekerjaan,  nik, persyaratan_untuk, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by]
+    dateFields: [date,tgl_reg, tanggal_lahir,tgl_nopol]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: SKCK
+    func: skck
+    modelName: m_skck
+    menuId: '44'
+    subject: 'SK SKCK'
+    mechIds: ['98', '99', '100', '101']
+    breadcrumbs: { index: Beranda }

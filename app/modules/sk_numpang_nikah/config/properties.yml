@@ -1,0 +1,16 @@
+properties:
+    tablePk: sk_numpang_nikahid
+    tableName: t_sk_numpang_nikah
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: nik, 5: nama, 6: jk, 7: tempat_lahir, 8: tanggal_lahir, 9: kewarganegaraan, 10: agama, 11: pekerjaan, 12: alamat, 13: nama_calon, 14: alamat_calon, 15: tgl_berlaku_dari, 16: tgl_berlaku_sampai, 17: ttd_nama, 18: ttd_nip, 19: ttd_jabatan, 25: create_on, 26: create_by,27: keterangan_1, 28: keterangan_2, 29: keterangan_3, 30: keterangan_4, 31: keterangan_5 }, edit: [syarat, no_kel, date, 'no', nik, nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, alamat, nama_calon, alamat_calon, tgl_berlaku_dari, tgl_berlaku_sampai, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by,keterangan_1,keterangan_2,keterangan_3,keterangan_4,keterangan_5] }
+    dateFields: [date, tanggal_lahir, tgl_berlaku_dari, tgl_berlaku_sampai]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SK Numpang Nikah'
+    func: sk_numpang_nikah
+    modelName: m_sk_numpang_nikah
+    menuId: '36'
+    subject: 'SK SK Numpang Nikah'
+    mechIds: ['66', '67', '68', '69']
+    breadcrumbs: { index: Beranda }

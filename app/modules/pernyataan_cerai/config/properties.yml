@@ -1,0 +1,16 @@
+properties:
+    tablePk: pernyataan_ceraiid
+    tableName: t_pernyataan_cerai
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: perempuan_nama, 4: perempuan_tempat_lahir, 5: perempuan_tanggal_lahir, 6: perempuan_kewarganegaraan, 7: perempuan_agama, 8: perempuan_pekerjaan, 9: perempuan_alamat, 10: pria_nama, 11: pria_tempat_lahir, 12: pria_tanggal_lahir, 13: pria_kewarganegaraan, 14: pria_agama, 15: pria_pekerjaan, 16: pria_alamat, 17: talak_ke, 23: create_on, 24: create_by }, edit: [syarat, no_kel, date, perempuan_nama, perempuan_tempat_lahir, perempuan_tanggal_lahir, perempuan_kewarganegaraan, perempuan_agama, perempuan_pekerjaan, perempuan_alamat, pria_nama, pria_tempat_lahir, pria_tanggal_lahir, pria_kewarganegaraan, pria_agama, pria_pekerjaan, pria_alamat, talak_ke, update_on, update_by] }
+    dateFields: [date, perempuan_tanggal_lahir, pria_tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Pernyataan Cerai'
+    func: pernyataan_cerai
+    modelName: m_pernyataan_cerai
+    menuId: '42'
+    subject: 'SK Pernyataan Cerai'
+    mechIds: ['90', '91', '92', '93']
+    breadcrumbs: { index: Beranda }

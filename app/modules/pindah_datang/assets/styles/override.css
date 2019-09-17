@@ -1,0 +1,85 @@
+.modal-body {
+	position:relative;
+	padding:20px;
+	font-size:inherit;
+}
+@media screen and (min-width:768px) {
+	.modal-dialog {
+		width:80%;
+		padding-top:30px;
+		padding-bottom:30px
+	}
+}
+.dataTablesContainer table th.actions.sorting_desc,
+.dataTablesContainer table th.actions.sorting,
+.dataTablesContainer table th.actions.sorting_asc{
+	background-image: none;
+	cursor:none;
+}
+
+.dataTablesContainer table th[field_name=date],
+.dataTablesContainer table td.field-date,
+.dataTablesContainer table th.actions,
+.dataTablesContainer table td.actions{
+	text-align: center;
+}
+
+.dataTablesContainer table th[field_name=download],
+.dataTablesContainer table td.field-download{
+	text-align: right;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+	padding: 0px !important;
+	margin:0px !important;
+	/*height: auto !important;*/
+}
+.pagination>li>a, .pagination>li>span{
+	padding: .5em !important;
+}
+/*.datepicker.datepicker-dropdown.dropdown-menu { z-index: 9999999; }*/
+a.go-to-edit-form{display: none !important}
+
+table.dataTable tbody th, table.dataTable tbody td{
+	padding: 8px !important;
+	line-height: 1.428571429 !important;
+	vertical-align: top;
+    /*border-top: 1px solid #ddd;*/
+    font-size: 12px;
+    color: #393939;
+    -webkit-font-smoothing: antialiased;
+}
+table.dataTable{
+	border-collapse: collapse !important;
+	/*border:none !important;*/
+}
+.table .btn{
+	margin:0 !important;
+	padding: 1px 5px !important;
+}
+body.skin-black.modal-open{
+	overflow-y: hidden !important;
+}
+
+.has-error .hidden{
+	display: block !important;
+    visibility: visible !important;
+}
+.modal-dialog {
+  width: 99% !important;
+  height: 99% !important;
+  margin: .5em !important;
+  padding: .5em !important;
+}
+
+.modal-content {
+  height: auto !important;
+  min-height: 100% !important;
+  border-radius: 0 !important;
+}
+
+input.ag-nik.error,
+input.ag-nama.error,
+input.ag-shdk.error{
+	border-color: red;
+}

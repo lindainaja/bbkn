@@ -1,0 +1,44 @@
+ 
+@media screen and (min-width:768px) {
+	 
+
+	/*#crudForm #field-no_kk_asal,*/
+	/*#crudForm #field-nama_kk_asal,*/
+	#crudForm #field-alamat_asal,
+	#crudForm #field-alamat_pindah,
+	#crudForm #field-alasan_pindah_lain,
+	#crudForm #field-pindah_antar_disabled,
+	#crudForm #field-dusun_dukuh_kampung,
+	#crudForm #field-dusun_dukuh_kampung_asal,
+	#crudForm #field-dusun_dukuh_kampung_pindah,
+	#crudForm #field-alasan_pindah_no
+	{
+		width: 580px;
+	}
+	#crudForm #field-alasan_pindah_no{
+		width: 250px;
+	}
+	#crudForm #field-jenis_kepindahan_no,
+	#crudForm #field-status_no_kk_tdk_pindah_no,
+	#crudForm #field-status_no_kk_pindah_no,
+	#crudForm #field-ttd_nama,
+	#crudForm #field-ttd_nip,
+	#crudForm #field-ttd_jabatan
+	{
+		width: 400px;
+	}
+
+	#crudForm #field-jml_ag_disabled{
+		width: 100px;
+		text-align: center;
+	}
+
+}
+
+#crudForm div[aria-label=alasan_pindah_lain]{
+	display: none;
+}
+
+#crudForm .f-126-dk{
+	padding: 1em 0;
+}

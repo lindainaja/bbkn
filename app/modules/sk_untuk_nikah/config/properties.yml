@@ -1,0 +1,17 @@
+properties:
+    fields: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, alias, bin_binti, status_perkawinan, jumlah_istri, nama_mantan, tempat_tinggal]
+    tablePk: sk_untuk_nikahid
+    tableName: t_sk_untuk_nikah
+    autosetPostKeys: { add: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by, syarat, alias, bin_binti, status_perkawinan, jumlah_istri, nama_mantan, tempat_tinggal], edit: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, syarat, alias, bin_binti, status_perkawinan, jumlah_istri, nama_mantan, tempat_tinggal] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'SK Untuk Nikah'
+    func: sk_untuk_nikah
+    modelName: m_sk_untuk_nikah
+    menuId: '32'
+    subject: 'SK Untuk Nikah'
+    mechIds: ['50', '51', '52', '53']
+    breadcrumbs: { index: Beranda }

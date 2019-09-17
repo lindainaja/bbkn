@@ -1,0 +1,16 @@
+properties:
+    tablePk: sk_wali_nikahid
+    tableName: t_sk_wali_nikah
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: status_wali, 5: nama, 6: jk, 7: tempat_lahir, 8: tanggal_lahir, 9: kewarganegaraan, 10: agama, 11: pekerjaan, 12: alamat, 13: perempuan_nama, 14: perempuan_tempat_lahir, 15: perempuan_tanggal_lahir, 16: perempuan_kewarganegaraan, 17: perempuan_agama, 18: perempuan_pekerjaan, 19: perempuan_alamat, 20: pria_nama, 21: pria_tempat_lahir, 22: pria_tanggal_lahir, 23: pria_kewarganegaraan, 24: pria_agama, 25: pria_pekerjaan, 26: pria_alamat, 27: ttd_nama, 28: ttd_nip, 29: ttd_jabatan, 35: create_on, 36: create_by }, edit: [syarat, no_kel, date, 'no', status_wali, nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, alamat, perempuan_nama, perempuan_tempat_lahir, perempuan_tanggal_lahir, perempuan_kewarganegaraan, perempuan_agama, perempuan_pekerjaan, perempuan_alamat, pria_nama, pria_tempat_lahir, pria_tanggal_lahir, pria_kewarganegaraan, pria_agama, pria_pekerjaan, pria_alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date, tanggal_lahir, perempuan_tanggal_lahir, pria_tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SK Wali Nikah'
+    func: sk_wali_nikah
+    modelName: m_sk_wali_nikah
+    menuId: '41'
+    subject: 'SK SK Wali Nikah'
+    mechIds: ['86', '87', '88', '89']
+    breadcrumbs: { index: Beranda }

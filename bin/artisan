@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ARGS="$1"
+shift
+for i in "$@" ; do
+	ARGS="${ARGS} $i"
+done
+
+php console artisan console $ARGS

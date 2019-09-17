@@ -1,0 +1,16 @@
+properties:
+    tablePk: perubahan_kkid
+    tableName: t_perubahan_kk
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: nama, 4: nik, 5: nama_kk, 6: no_kk, 7: alamat, 8: rt, 9: rw, 10: kodepos, 11: tlp, 12: nama_kk_lama, 13: no_kk_lama, 14: alamat_lama, 15: rt_lama, 16: rw_lama, 17: kel_lama, 18: kec_lama, 19: kab_lama, 20: prop_lama, 21: kodepos_lama, 22: tlp_lama, 23: alasan_permohonan, 24: jml_anggota, 25: ttd_nama, 26: ttd_nip, 27: ttd_jabatan, 33: create_on, 34: create_by }, edit: [syarat, no_kel, date, nama, nik, nama_kk, no_kk, alamat, rt, rw, kodepos, tlp, nama_kk_lama, no_kk_lama, alamat_lama, rt_lama, rw_lama, kel_lama, kec_lama, kab_lama, prop_lama, kodepos_lama, tlp_lama, alasan_permohonan, jml_anggota, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Perubahan KK'
+    func: perubahan_kk
+    modelName: m_perubahan_kk
+    menuId: '26'
+    subject: 'SK Perubahan KK'
+    mechIds: ['26', '27', '28', '29']
+    breadcrumbs: { index: Beranda }

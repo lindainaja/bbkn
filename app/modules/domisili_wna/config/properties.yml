@@ -1,0 +1,16 @@
+properties:
+    tablePk: domisili_wnaid
+    tableName: t_domisili_wna
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: nama, 5: jk, 6: tempat_lahir, 7: tanggal_lahir, 8: kewarganegaraan, 9: no_ket, 10: stmd_polres, 11: pasport, 12: visa, 13: kim, 14: izin_kerja, 15: npwpd, 16: tujuan_kunjungan, 17: tempat_kunjungan, 18: nama_penanggung_jawab, 19: alamat_penanggung_jawab, 20: tgl_berlaku_dari, 21: tgl_berlaku_sampai, 22: ttd_nama, 23: ttd_nip, 24: ttd_jabatan, 30: create_on, 31: create_by }, edit: [syarat, no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, no_ket, stmd_polres, pasport, visa, kim, izin_kerja, npwpd, tujuan_kunjungan, tempat_kunjungan, nama_penanggung_jawab, alamat_penanggung_jawab, tgl_berlaku_dari, tgl_berlaku_sampai, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date, tanggal_lahir, tgl_berlaku_dari, tgl_berlaku_sampai]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Domisili WNA'
+    func: domisili_wna
+    modelName: m_domisili_wna
+    menuId: '28'
+    subject: 'SK Domisili WNA'
+    mechIds: ['34', '35', '36', '37']
+    breadcrumbs: { index: Beranda }

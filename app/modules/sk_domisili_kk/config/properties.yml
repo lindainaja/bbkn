@@ -1,0 +1,17 @@
+properties:
+    fields: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, domisili, lingkungan, status_perkawinan, berlaku_sampai]
+    tablePk: sk_domisili_kkid
+    tableName: t_sk_domisili_kk
+    autosetPostKeys: { add: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by, syarat, domisili, lingkungan, status_perkawinan, berlaku_sampai], edit: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, syarat, domisili, lingkungan, status_perkawinan, berlaku_sampai] }
+    dateFields: [date, tanggal_lahir, berlaku_sampai]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'Domisili KK'
+    func: sk_domisili_kk
+    modelName: m_sk_domisili_kk
+    menuId: 72
+    subject: 'SK Domisili KK'
+    mechIds: [187, 188, 189, 190]
+    breadcrumbs: { index: Beranda }

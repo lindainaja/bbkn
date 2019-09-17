@@ -1,0 +1,16 @@
+properties:
+    tablePk: permohonan_kkid
+    tableName: t_permohonan_kk
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: nama, 4: nik, 5: no_kk, 6: alamat, 7: rt, 8: rw, 9: kodepos, 10: tlp, 11: alasan_permohonan, 12: jml_anggota, 13: ttd_nama, 14: ttd_nip, 15: ttd_jabatan, 21: create_on, 22: create_by }, edit: [syarat, no_kel, date, nama, nik, no_kk, alamat, rt, rw, kodepos, tlp, alasan_permohonan, jml_anggota, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Permohonan KK'
+    func: permohonan_kk
+    modelName: m_permohonan_kk
+    menuId: '25'
+    subject: 'SK Permohonan KK'
+    mechIds: ['22', '23', '24', '25']
+    breadcrumbs: { index: Beranda }

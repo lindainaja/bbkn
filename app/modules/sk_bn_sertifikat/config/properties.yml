@@ -1,0 +1,17 @@
+properties:
+    fields: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, no_ktp,status_perkawinan, atas_nama, alamat_2, nomor_hak_milik, data_a, data_b, data_c]
+    tablePk: sk_bn_sertifikatid
+    tableName: t_sk_bn_sertifikat
+    autosetPostKeys: { add: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by, syarat, no_ktp,status_perkawinan, atas_nama, alamat_2, nomor_hak_milik, data_a, data_b, data_c], edit: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, syarat, no_ktp,status_perkawinan, atas_nama, alamat_2, nomor_hak_milik, data_a, data_b, data_c] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'SK Beda Nama Sertifikat'
+    func: sk_bn_sertifikat
+    modelName: m_sk_bn_sertifikat
+    menuId: 101
+    subject: 'SK Beda Nama Sertifikat'
+    mechIds: [293, 294, 295, 296]
+    breadcrumbs: { index: Beranda }

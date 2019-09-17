@@ -1,0 +1,16 @@
+properties:
+    tablePk: sk_tidak_memiliki_rumahid
+    tableName: t_tidak_memiliki_rumah
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: nama, 5: jk, 6: tempat_lahir, 7: tanggal_lahir, 8: kewarganegaraan, 9: agama, 10: pekerjaan, 11: alamat,  12: ttd_nama, 13: ttd_nip, 14: ttd_jabatan, 22: create_on, 23: create_by, 24: gol_darah, 25: lingkungan, 27: status_perkawinan, 28: no_ktp }, edit: [syarat, no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by,gol_darah, lingkungan,status_perkawinan,no_ktp] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SK Tidak Memiliki Rumah'
+    func: sk_tidak_memiliki_rumah
+    modelName: m_sk_tidak_memiliki_rumah
+    menuId: '46'
+    subject: 'SK SK Tidak Memiliki Rumah'
+    mechIds: ['106', '107', '108', '109']
+    breadcrumbs: { index: Beranda }

@@ -1,0 +1,16 @@
+properties:
+    tablePk: sk_harga_pasaran_tanahid
+    tableName: t_harga_pasaran_tanah
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: no_shm, 5: harga_tanah, 6: luas_tanah, 7: ttd_nama, 8: ttd_nip, 9: ttd_jabatan, 15: create_on, 16: create_by,17: lokasi }, edit: [syarat, no_kel, date, 'no', no_shm, harga_tanah, luas_tanah, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, lokasi] }
+    dateFields: [date]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SK Harga Pasaran Tanah'
+    func: sk_harga_pasaran_tanah
+    modelName: m_sk_harga_pasaran_tanah
+    menuId: '47'
+    subject: 'SK SK Harga Pasaran Tanah'
+    mechIds: ['110', '111', '112', '113']
+    breadcrumbs: { index: Beranda }

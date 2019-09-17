@@ -1,0 +1,5 @@
+<xsl:value-of select=""/>
+<w:t>(\s*|[a-z_A-Z_0-9]*)</w:t>
+<w:t><xsl:value-of select="\1"/></w:t>
+
+<w:t xml:space="preserve">  no </w:t>

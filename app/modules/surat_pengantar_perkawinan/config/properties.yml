@@ -1,0 +1,19 @@
+properties:
+    tablePk: surat_pengantar_perkawinanid
+    tableName: surat_pengantar_perkawinan
+    fields: [c_nik,ayah_nik,ibu_nik,id,no_prop,no_kab,no_kec,no_kel,date,'no',ttd_nama,ttd_nip,ttd_jabatan,file,download,archive,create_on,update_on,create_by,update_by,syarat,status_doc,ayah_nama,ayah_alias,ayah_tempat_lahir,ayah_tanggal_lahir,ayah_kewarganegaraan,ayah_agama,ayah_pekerjaan,ayah_alamat,ibu_nama,ibu_alias,ibu_tempat_lahir,ibu_tanggal_lahir,ibu_kewarganegaraan,ibu_agama,ibu_pekerjaan,ibu_alamat,c_nama,c_alias,c_jk,c_tempat_lahir,c_tanggal_lahir,c_kewarganegaraan,c_agama,c_pekerjaan,c_alamat,c_status_perkawinan,c_jumlah_istri,c_nama_mantan]
+    autosetPostKeys: 
+      add: [c_nik,ayah_nik,ibu_nik,no_kel,date,'no',ttd_nama,ttd_nip,ttd_jabatan,create_on,create_by,syarat,status_doc,ayah_nama,ayah_alias,ayah_tempat_lahir,ayah_tanggal_lahir,ayah_kewarganegaraan,ayah_agama,ayah_pekerjaan,ayah_alamat,ibu_nama,ibu_alias,ibu_tempat_lahir,ibu_tanggal_lahir,ibu_kewarganegaraan,ibu_agama,ibu_pekerjaan,ibu_alamat,c_nama,c_alias,c_jk,c_tempat_lahir,c_tanggal_lahir,c_kewarganegaraan,c_agama,c_pekerjaan,c_alamat,c_status_perkawinan,c_jumlah_istri,c_nama_mantan]
+      edit: [c_nik,ayah_nik,ibu_nik,no_kel,date,'no',ttd_nama,ttd_nip,ttd_jabatan,update_on,update_by,syarat,status_doc,ayah_nama,ayah_alias,ayah_tempat_lahir,ayah_tanggal_lahir,ayah_kewarganegaraan,ayah_agama,ayah_pekerjaan,ayah_alamat,ibu_nama,ibu_alias,ibu_tempat_lahir,ibu_tanggal_lahir,ibu_kewarganegaraan,ibu_agama,ibu_pekerjaan,ibu_alamat,c_nama,c_alias,c_jk,c_tempat_lahir,c_tanggal_lahir,c_kewarganegaraan,c_agama,c_pekerjaan,c_alamat,c_status_perkawinan,c_jumlah_istri,c_nama_mantan] 
+    dateFields: [date,ayah_tanggal_lahir,ibu_tanggal_lahir,c_tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Surat Pengantar Perkawinan'
+    func: surat_pengantar_perkawinan
+    modelName: m_surat_pengantar_perkawinan
+    menuId: '119'
+    subject: 'Surat Pengantar Perkawinan'
+    mechIds: [364,365,366,367]
+    breadcrumbs: { index: Beranda }

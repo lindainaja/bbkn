@@ -1,0 +1,18 @@
+properties:
+    tablePk: spp_pbbid
+    tableName: t_spp_pbb
+    autosetPostKeys: 
+        add: [no_kel,date,'no',lampiran,nama,alamat,letak_objek_pajak,nop,luas_tanah_asal,luas_tanah,luas_bangunan,pc_shm_shgb_ajb,lokasi_tanah,mutasi_nama,mutasi_nop,mutasi_alamat,mutasi_luas_tanah,mutasi_luas_bangunan,mutasi_shm_shgb_ajb,mutasi_tanggal,pb_nama,pb_alamat,pb_nop,pb_luas_tanah,pb_luas_bangunan,pb_shm_shgb_ajb,pb_tanggal,ttd_nama,ttd_nip,ttd_jabatan,create_on,create_by,syarat]
+        edit: [no_kel,date,'no',lampiran,nama,alamat,letak_objek_pajak,nop,luas_tanah_asal,luas_tanah,luas_bangunan,pc_shm_shgb_ajb,lokasi_tanah,mutasi_nama,mutasi_nop,mutasi_alamat,mutasi_luas_tanah,mutasi_luas_bangunan,mutasi_shm_shgb_ajb,mutasi_tanggal,pb_nama,pb_alamat,pb_nop,pb_luas_tanah,pb_luas_bangunan,pb_shm_shgb_ajb,pb_tanggal,ttd_nama,ttd_nip,ttd_jabatan,update_on,update_by,syarat] 
+    dateFields: [date,mutasi_tanggal,pb_tanggal]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SPP PBB'
+    func: spp_pbb
+    modelName: m_spp_pbb
+    menuId: 116
+    subject: 'SPP PBB'
+    mechIds: [352,353,354,355]
+    breadcrumbs: { index: Beranda }

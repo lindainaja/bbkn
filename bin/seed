@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Seeding DB"
+mysql -h localhost -u root -p db_simakel<db/db_simakel.sql

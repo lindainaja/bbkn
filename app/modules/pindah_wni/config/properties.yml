@@ -1,0 +1,17 @@
+properties:
+    tablePk: pindah_wniid
+    tableName: t_pindah_wni
+    autosetPostKeys: 
+        add: [no_kel,date,'no',pindah_antar,prop_asal,kab_asal,kec_asal,kel_asal,no_kk_asal,kampung_asal,nama_kk_asal,alamat_asal,rt_asal,rw_asal,kodepos_asal,tlp_asal,nik,nama,tempat_lahir,tanggal_lahir,agama,status_perkawinan,alasan_pindah,alamat_pindah,rt_pindah,rw_pindah,dusun_pindah,kodepos_pindah,jml_pengikut,tlp_pindah,kampung_pindah,prop_pindah,kab_pindah,kec_pindah,kel_pindah,jenis_pindah,ttd_nama,ttd_nip,ttd_jabatan,create_on,create_by,syarat,no_reg,tgl_reg,alasan_pindah_no,klasifikasi_pindah_no,r_tgl_pindah,sn_kk_pindah_no,sn_kk_menetap_no,jenis_kepindahan_no,alasan_pindah_lainya]
+        edit: [no_kel,date,'no',pindah_antar,prop_asal,kab_asal,kec_asal,kel_asal,no_kk_asal,kampung_asal,nama_kk_asal,alamat_asal,rt_asal,rw_asal,kodepos_asal,tlp_asal,nik,nama,tempat_lahir,tanggal_lahir,agama,status_perkawinan,alasan_pindah,alamat_pindah,rt_pindah,rw_pindah,dusun_pindah,kodepos_pindah,jml_pengikut,tlp_pindah,kampung_pindah,prop_pindah,kab_pindah,kec_pindah,kel_pindah,jenis_pindah,ttd_nama,ttd_nip,ttd_jabatan,update_on,update_by,syarat,no_reg,tgl_reg,alasan_pindah_no,klasifikasi_pindah_no,r_tgl_pindah,sn_kk_pindah_no,sn_kk_menetap_no,jenis_kepindahan_no,alasan_pindah_lainya] 
+    dateFields: [date,tanggal_lahir,tgl_reg,r_tgl_pindah]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: Pindah
+    func: pindah_wni
+    modelName: m_pindah_wni
+    menuId: '61'
+    subject: 'SK Pindah'
+    mechIds: ['159', '160', '161', '162']
+    breadcrumbs: { index: Beranda }

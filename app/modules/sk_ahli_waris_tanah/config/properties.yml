@@ -1,0 +1,17 @@
+properties:
+    fields: [jumlah_anak,alias_nama_pasangan,aw1_nama,aw2_nama,aw3_nama,aw4_nama,aw1_tempat_lahir,aw2_tempat_lahir,aw3_tempat_lahir,aw4_tempat_lahir,aw1_tanggal_lahir,aw2_tanggal_lahir,aw3_tanggal_lahir,aw4_tanggal_lahir,aw1_status,aw2_status,aw3_status,aw4_status,aw1_pekerjaan,aw2_pekerjaan,aw3_pekerjaan,aw4_pekerjaan,aw1_alamat,aw2_alamat,aw3_alamat,aw4_alamat,no_kel, date, 'no', ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, nama_almarhum, nama_pasangan_almarhum, no_sertifikat, tanggal_meninggal, no_surat_kematian, aw1_nama, aw1_status, aw1_pekerjaan, aw1_alamat, aw2_nama, aw2_status, aw2_pekerjaan, aw2_alamat, aw3_nama, aw3_status, aw3_pekerjaan, aw3_alamat, aw4_nama, aw4_status, aw4_pekerjaan, aw4_alamat, saksi_1, saksi_2, nomor_registrasi, tanggal_registrasi, ttd_kl_nama, ttd_kl_nip, ttd_kl_jabatan]
+    tablePk: sk_ahli_waris_tanahid
+    tableName: t_sk_ahli_waris_tanah
+    autosetPostKeys: { add: [jumlah_anak,alias_nama_pasangan,aw1_nama,aw2_nama,aw3_nama,aw4_nama,aw1_tempat_lahir,aw2_tempat_lahir,aw3_tempat_lahir,aw4_tempat_lahir,aw1_tanggal_lahir,aw2_tanggal_lahir,aw3_tanggal_lahir,aw4_tanggal_lahir,aw1_status,aw2_status,aw3_status,aw4_status,aw1_pekerjaan,aw2_pekerjaan,aw3_pekerjaan,aw4_pekerjaan,aw1_alamat,aw2_alamat,aw3_alamat,aw4_alamat,no_kel, date, 'no', ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by, syarat, nama_almarhum, nama_pasangan_almarhum, no_sertifikat, tanggal_meninggal, no_surat_kematian, aw1_nama, aw1_status, aw1_pekerjaan, aw1_alamat, aw2_nama, aw2_status, aw2_pekerjaan, aw2_alamat, aw3_nama, aw3_status, aw3_pekerjaan, aw3_alamat, aw4_nama, aw4_status, aw4_pekerjaan, aw4_alamat, saksi_1, saksi_2, nomor_registrasi, tanggal_registrasi, ttd_kl_nama, ttd_kl_nip, ttd_kl_jabatan], edit: [jumlah_anak,alias_nama_pasangan,aw1_nama,aw2_nama,aw3_nama,aw4_nama,aw1_tempat_lahir,aw2_tempat_lahir,aw3_tempat_lahir,aw4_tempat_lahir,aw1_tanggal_lahir,aw2_tanggal_lahir,aw3_tanggal_lahir,aw4_tanggal_lahir,aw1_status,aw2_status,aw3_status,aw4_status,aw1_pekerjaan,aw2_pekerjaan,aw3_pekerjaan,aw4_pekerjaan,aw1_alamat,aw2_alamat,aw3_alamat,aw4_alamat,no_kel, date, 'no', ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, syarat, nama_almarhum, nama_pasangan_almarhum, no_sertifikat, tanggal_meninggal, no_surat_kematian, aw1_nama, aw1_status, aw1_pekerjaan, aw1_alamat, aw2_nama, aw2_status, aw2_pekerjaan, aw2_alamat, aw3_nama, aw3_status, aw3_pekerjaan, aw3_alamat, aw4_nama, aw4_status, aw4_pekerjaan, aw4_alamat, saksi_1, saksi_2, nomor_registrasi, tanggal_registrasi, ttd_kl_nama, ttd_kl_nip, ttd_kl_jabatan] }
+    dateFields: [date, tanggal_meninggal, tanggal_registrasi,aw1_tanggal_lahir,aw2_tanggal_lahir,aw3_tanggal_lahir,aw4_tanggal_lahir]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'Ahli Waris Tanah'
+    func: sk_ahli_waris_tanah
+    modelName: m_sk_ahli_waris_tanah
+    menuId: 86
+    subject: 'SK Ahli Waris Tanah'
+    mechIds: [233, 234, 235, 236]
+    breadcrumbs: { index: Beranda }

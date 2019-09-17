@@ -1,0 +1,16 @@
+properties:
+    tablePk: sk_kehilanganid
+    tableName: t_kehilangan
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: nama, 5: jk, 6: tempat_lahir, 7: tanggal_lahir, 8: kewarganegaraan, 9: agama, 10: pekerjaan, 11: alamat, 12: tanggal_kehilangan, 13: kehilangan_di, 14: ttd_nama, 15: ttd_nip, 16: ttd_jabatan, 22: create_on, 23: create_by }, edit: [syarat, no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, alamat, tanggal_kehilangan, kehilangan_di, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date, tanggal_lahir, tanggal_kehilangan]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SK Kehilangan'
+    func: sk_kehilangan
+    modelName: m_sk_kehilangan
+    menuId: '50'
+    subject: 'SK SK Kehilangan'
+    mechIds: ['122', '123', '124', '125']
+    breadcrumbs: { index: Beranda }

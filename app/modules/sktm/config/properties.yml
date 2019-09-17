@@ -1,0 +1,16 @@
+properties:
+    tablePk: sktmid
+    tableName: t_sktm
+    autosetPostKeys: { add: [ nik,keperluan,kewarganegaraan,syarat, no_kel, date, 'no', nama, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat,  ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by,jk ], edit: [jk,nik,keperluan,kewarganegaraan,syarat, no_kel, date, 'no', nama, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat,  ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Surat Keterangan Tidak Mampu'
+    func: sktm
+    modelName: m_sktm
+    menuId: 111
+    subject: 'SK Tidak Mampu'
+    mechIds: [332,333,334,335]
+    breadcrumbs: { index: Beranda }

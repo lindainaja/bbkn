@@ -1,0 +1,16 @@
+properties:
+    tablePk: sk_belum_pernah_menikahid
+    tableName: t_sk_belum_pernah_menikah
+    autosetPostKeys: { add: [ syarat, no_kel, date, 'no', nik, nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, alamat, keperluan, ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by ], edit: [syarat, no_kel, date, 'no', nik, nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, alamat, keperluan, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'SK Belum Pernah Menikah'
+    func: sk_belum_pernah_menikah
+    modelName: m_sk_belum_pernah_menikah
+    menuId: '109'
+    subject: 'SK Belum Pernah Menikah'
+    mechIds: [324,325,326,327] 
+    breadcrumbs: { index: Beranda }

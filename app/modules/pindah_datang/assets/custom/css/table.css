@@ -1,0 +1,4 @@
+.dataTablesContainer table th[field_name=tgl_kedatangan],
+.dataTablesContainer table td.field-tgl_kedatangan{
+	text-align: center !important;
+}

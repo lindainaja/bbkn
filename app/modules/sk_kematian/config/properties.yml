@@ -1,0 +1,17 @@
+properties:
+    fields: [no_kel, date, 'no', nama, jk, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, umur, tanggal_meninggal, tempat_meninggal, sebab_kematian, nama_pelapor, hubungan_pelapor]
+    tablePk: sk_kematianid
+    tableName: t_sk_kematian
+    autosetPostKeys: { add: [no_kel, date, 'no', nama, jk, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by, syarat, umur, tanggal_meninggal, tempat_meninggal, sebab_kematian, nama_pelapor, hubungan_pelapor], edit: [no_kel, date, 'no', nama, jk, alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, syarat, umur, tanggal_meninggal, tempat_meninggal, sebab_kematian, nama_pelapor, hubungan_pelapor] }
+    dateFields: [date, tanggal_meninggal]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'SK Kematian'
+    func: sk_kematian
+    modelName: m_sk_kematian
+    menuId: 31
+    subject: 'SK SK Kematian'
+    mechIds: [46, 47, 48, 49]
+    breadcrumbs: { index: Beranda }

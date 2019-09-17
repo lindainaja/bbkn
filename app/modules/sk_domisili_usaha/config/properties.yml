@@ -1,0 +1,18 @@
+properties:
+    tablePk: sk_domisili_usahaid
+    tableName: sk_domisili_usaha
+    autosetPostKeys: 
+        add: [no_bapl,date,'no',ttd_nama,ttd_nip,ttd_jabatan,create_on,create_by,syarat,agama,jk,lokasi,lingkungan,lampiran,nama,kewarganegaraan,tempat_lahir,tanggal_lahir,nik,pasport,tgl_bapl,alamat,nama_usaha,alamat_usaha,jenis_usaha,jenis_bangunan,lokasi_lingkungan,luas_bangunan,status_bangunan,luas_parkir,no_perusahaan,batas_utara,batas_selatan,batas_timur,batas_barat,sf_toko_ruko,sf_gudang,ruang_kerja_produksi,mesin_produksi,jml_kry_pria,jml_kry_wanita,jml_kry_wna,jumlah_karyawan,tempat_ibadah,tanggal_berdiri,petugas_1,petugas_2,status_jenis_luas_bangunan_fasilitas,status_surat_izin,status_kabul_permohonan,status_hasil_skdtu,status_hasil_jarak_lingkungan,status_hasil_periksa_fasilitas]
+        edit: [no_bapl,date,'no',ttd_nama,ttd_nip,ttd_jabatan,update_on,update_by,syarat,agama,jk,lokasi,lingkungan,lampiran,nama,kewarganegaraan,tempat_lahir,tanggal_lahir,nik,pasport,tgl_bapl,alamat,nama_usaha,alamat_usaha,jenis_usaha,jenis_bangunan,lokasi_lingkungan,luas_bangunan,status_bangunan,luas_parkir,no_perusahaan,batas_utara,batas_selatan,batas_timur,batas_barat,sf_toko_ruko,sf_gudang,ruang_kerja_produksi,mesin_produksi,jml_kry_pria,jml_kry_wanita,jml_kry_wna,jumlah_karyawan,tempat_ibadah,tanggal_berdiri,petugas_1,petugas_2,status_jenis_luas_bangunan_fasilitas,status_surat_izin,status_kabul_permohonan,status_hasil_skdtu,status_hasil_jarak_lingkungan,status_hasil_periksa_fasilitas] 
+    dateFields: [date,tanggal_lahir,tgl_bapl,tanggal_berdiri]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'Domisili Usaha'
+    func: sk_domisili_usaha
+    modelName: m_sk_domisili_usaha
+    menuId: 73
+    subject: 'SK Domisili Usaha'
+    mechIds: [191, 192, 193, 194]
+    breadcrumbs: { index: Beranda }

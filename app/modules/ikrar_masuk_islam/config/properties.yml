@@ -1,0 +1,16 @@
+properties:
+    tablePk: ikrar_masuk_islamid
+    tableName: t_ikrar_masuk_islam
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: nama, 4: tempat_lahir, 5: tanggal_lahir, 6: kewarganegaraan, 7: agama, 8: pekerjaan, 9: alamat, 10: pembimbing, 16: create_on, 17: create_by ,18: saksi_1, 19: saksi_2, 20: saksi_3,21: saksi_4, 22: saksi_5, 23: saksi_6}, edit: [syarat, no_kel, date, nama, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan, alamat, pembimbing, update_on, update_by,saksi_1,saksi_2,saksi_3,saksi_4,saksi_5,saksi_6] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Ikrar Masuk Islam'
+    func: ikrar_masuk_islam
+    modelName: m_ikrar_masuk_islam
+    menuId: '52'
+    subject: 'SK Ikrar Masuk Islam'
+    mechIds: ['130', '131', '132', '133']
+    breadcrumbs: { index: Beranda }

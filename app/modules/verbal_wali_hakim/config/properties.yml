@@ -1,0 +1,16 @@
+properties:
+    tablePk: verbal_wali_hakimid
+    tableName: t_verbal_wali_hakim
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: perempuan_nama, 5: perempuan_tempat_lahir, 6: perempuan_tanggal_lahir, 7: perempuan_kewarganegaraan, 8: perempuan_agama, 9: perempuan_pekerjaan, 10: perempuan_alamat, 11: pria_nama, 12: pria_tempat_lahir, 13: pria_tanggal_lahir, 14: pria_kewarganegaraan, 15: pria_agama, 16: pria_pekerjaan, 17: pria_alamat, 18: ttd_nama, 19: ttd_nip, 20: ttd_jabatan, 26: create_on, 27: create_by, 30: sebab_1,31: sebab_2,32: sebab_3,24: sebab_4, 25: sebab_5 }, edit: [syarat, no_kel, date, 'no', perempuan_nama, perempuan_tempat_lahir, perempuan_tanggal_lahir, perempuan_kewarganegaraan, perempuan_agama, perempuan_pekerjaan, perempuan_alamat, pria_nama, pria_tempat_lahir, pria_tanggal_lahir, pria_kewarganegaraan, pria_agama, pria_pekerjaan, pria_alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by,sebab_1,sebab_2,sebab_3,sebab_4,sebab_5] }
+    dateFields: [date, perempuan_tanggal_lahir, pria_tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Verbal Wali Hakim'
+    func: verbal_wali_hakim
+    modelName: m_verbal_wali_hakim
+    menuId: '35'
+    subject: 'SK Verbal Wali Hakim'
+    mechIds: ['62', '63', '64', '65']
+    breadcrumbs: { index: Beranda }

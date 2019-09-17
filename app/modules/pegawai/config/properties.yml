@@ -1,0 +1,18 @@
+properties:
+    tablePk: pegawaiid
+    tableName: r_pegawai
+    autosetPostKeys: 
+        add: [status_pegawai,nip,gelar_nonakademis,nama_pegawai,jabatan,pangkat,golongan,unit_kerja,gelar_depan,gelar_belakang,gender,tempat_lahir,tanggal_lahir,agama,gol_darah,rhesus,status_perkawinan,nomor_tlp_rumah,nomor_hp,foto,status,create_on,  create_by ]
+        edit: [status_pegawai,nip,gelar_nonakademis,nama_pegawai,jabatan,pangkat,golongan,unit_kerja,gelar_depan,gelar_belakang,gender,tempat_lahir,tanggal_lahir,agama,gol_darah,rhesus,status_perkawinan,nomor_tlp_rumah,nomor_hp,foto,status,update_on, update_by]
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: []
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Pegawai'
+    func: pegawai
+    modelName: m_pegawai
+    menuId: 2
+    subject: 'Data Pegawai'
+    mechIds: [2,3,4,5]
+    breadcrumbs: { index: Beranda }

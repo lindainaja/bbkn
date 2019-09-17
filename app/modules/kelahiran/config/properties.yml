@@ -1,0 +1,16 @@
+properties:
+    tablePk: kelahiranid
+    tableName: t_kelahiran
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: nama, 5: jk, 6: tempat_lahir, 7: tanggal_lahir, 8: pukul, 9: ibu_nama, 10: ibu_nik, 11: ibu_umur, 12: ibu_pekerjaan, 13: ibu_alamat, 14: ayah_nama, 15: ayah_nik, 16: ayah_umur, 17: ayah_pekerjaan, 18: ayah_alamat, 25: ttd_nama, 26: ttd_nip, 27: ttd_jabatan, 33: create_on, 34: create_by ,35: keperluan,36: ayah_agama,37: ayah_kewarganegaraan,38: ibu_agama,39: ibu_kewarganegaraan,40: alamat,41: pekerjaan, 42: agama, 43 :kewarganegaraan}, edit: [syarat, no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, pukul, ibu_nama, ibu_nik, ibu_umur, ibu_pekerjaan, ibu_alamat, ayah_nama, ayah_nik, ayah_umur, ayah_pekerjaan,ayah_agama,ayah_kewarganegaraan,ibu_agama,ibu_kewarganegaraan, ayah_alamat,  ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by,keperluan,pekerjaan,kewarganegaraan,agama] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'kelahiran'
+    func: kelahiran
+    modelName: m_kelahiran
+    menuId: 104
+    subject: 'SK Kelahiran'
+    mechIds: [304,305,306,307]
+    breadcrumbs: { index: Beranda }

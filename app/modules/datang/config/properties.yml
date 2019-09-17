@@ -1,0 +1,16 @@
+properties:
+    tablePk: datangid
+    tableName: t_datang
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: nik, 5: nama, 6: status_kk_yg_pindah, 7: tgl_pindah, 8: tgl_datang, 9: jml_pengikut, 10: no_kk_asal, 11: nama_kk_asal, 12: alamat_asal, 13: rt_asal, 14: rw_asal, 15: prop_asal, 16: kab_asal, 17: kec_asal, 18: kel_asal, 19: kodepos, 20: tlp, 21: ttd_nama, 22: ttd_nip, 23: ttd_jabatan, 29: create_on, 30: create_by ,31: no_kk_tujuan,32: nama_kk_tujuan,33: nik_kk_tujuan,34: alamat_tujuan,35: rt_tujuan,36: rw_tujuan, 37: no_reg, 38: sn_kk_pindah_no}, edit: [syarat, no_kel, date, 'no', nik, nama, status_kk_yg_pindah, tgl_pindah, tgl_datang, jml_pengikut, no_kk_asal, nama_kk_asal, alamat_asal, rt_asal, rw_asal, prop_asal, kab_asal, kec_asal, kel_asal, kodepos, tlp, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by,sn_kk_pindah_no,no_kk_tujuan,nama_kk_tujuan,nik_kk_tujuan,alamat_tujuan,rt_tujuan,rw_tujuan, no_reg] }
+    dateFields: [date, tgl_pindah, tgl_datang]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: Datang
+    func: datang
+    modelName: m_datang
+    menuId: '62'
+    subject: 'SK Datang'
+    mechIds: ['163', '164', '165', '166']
+    breadcrumbs: { index: Beranda }

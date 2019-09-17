@@ -1,0 +1,17 @@
+properties:
+    fields: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, status_perkawinan, golongan_darah, lingkungan]
+    tablePk: sk_tidak_mampu_pendidikanid
+    tableName: t_sk_tidak_mampu_pendidikan
+    autosetPostKeys: { add: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, create_on, create_by, syarat, status_perkawinan, golongan_darah, lingkungan], edit: [no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, agama, pekerjaan, alamat, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by, syarat, status_perkawinan, golongan_darah, lingkungan] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: SK Tidak Mampu Pendidikan
+    func: sk_tidak_mampu_pendidikan
+    modelName: m_sk_tidak_mampu_pendidikan
+    menuId: 81
+    subject: 'SK Pendidikan'
+    mechIds: [223, 224, 225, 226]
+    breadcrumbs: { index: Beranda }

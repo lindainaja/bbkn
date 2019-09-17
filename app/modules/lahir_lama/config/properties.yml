@@ -1,0 +1,16 @@
+properties:
+    tablePk: lahir_lamaid
+    tableName: t_lahir_lama
+    autosetPostKeys: { add: { 0: syarat, 1: no_kel, 2: date, 3: 'no', 4: nama, 5: nama_dewasa, 6: jk, 7: tempat_lahir, 8: tanggal_lahir, 9: jenis_kelahiran, 10: alamat_kelahiran, 11: alamat_ortu, 12: ibu_nama, 13: ibu_umur, 14: ayah_nama, 15: ayah_umur, 16: ayah_pekerjaan, 17: kelahiran_ke, 18: ttd_nama, 19: ttd_nip, 20: ttd_jabatan, 26: create_on, 27: create_by }, edit: [syarat, no_kel, date, 'no', nama, nama_dewasa, jk, tempat_lahir, tanggal_lahir, jenis_kelahiran, alamat_kelahiran, alamat_ortu, ibu_nama, ibu_umur, ayah_nama, ayah_umur, ayah_pekerjaan, kelahiran_ke, ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] }
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Lahir Lama'
+    func: lahir_lama
+    modelName: m_lahir_lama
+    menuId: '30'
+    subject: 'SK Lahir Lama'
+    mechIds: ['42', '43', '44', '45']
+    breadcrumbs: { index: Beranda }

@@ -1,0 +1,18 @@
+properties:
+    tablePk: surat_keterangan_lainid
+    tableName: surat_keterangan_lain
+    autosetPostKeys: 
+        add: [perihal,keperluan,alamat,nik,syarat,no_kel, date,  'no',  nama,  jk,  tempat_lahir,  tanggal_lahir,  kewarganegaraan,  agama,   pekerjaan,      ttd_nama,  ttd_nip,  ttd_jabatan,  create_on,  create_by]
+        edit: [perihal,keperluan,alamat,nik,syarat, no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan,   ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] 
+    dateFields: [date, tanggal_lahir]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Surat Keterangan Lain'
+    func: surat_keterangan_lain
+    modelName: m_surat_keterangan_lain
+    menuId: '108'
+    subject: 'Surat Keterangan Lain'
+    mechIds: [320,321,322,323]
+    breadcrumbs: { index: Beranda }

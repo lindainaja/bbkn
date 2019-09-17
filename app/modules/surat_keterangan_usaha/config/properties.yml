@@ -1,0 +1,18 @@
+properties:
+    tablePk: surat_keterangan_usahaid
+    tableName: surat_keterangan_usaha
+    autosetPostKeys: 
+        add: [lokasi,bidang_usaha,alamat,nik,syarat,berlaku_sampai,no_kel, date,  'no',  nama,  jk,  tempat_lahir,  tanggal_lahir,  kewarganegaraan,  agama,   pekerjaan,      ttd_nama,  ttd_nip,  ttd_jabatan,  create_on,  create_by]
+        edit: [lokasi,bidang_usaha,alamat,nik,syarat,berlaku_sampai, no_kel, date, 'no', nama, jk, tempat_lahir, tanggal_lahir, kewarganegaraan, agama, pekerjaan,   ttd_nama, ttd_nip, ttd_jabatan, update_on, update_by] 
+    dateFields: [date, tanggal_lahir,berlaku_sampai]
+    currentDateFields: [update_on, create_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [update_by, create_by]
+    behaviour: default
+    title: 'Surat Keterangan Usaha'
+    func: surat_keterangan_usaha
+    modelName: m_surat_keterangan_usaha
+    menuId: '106'
+    subject: 'Surat Keterangan Usaha'
+    mechIds: [312,313,314,315]
+    breadcrumbs: { index: Beranda }

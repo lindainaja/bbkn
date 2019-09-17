@@ -1,0 +1,67 @@
+config:
+  gc:
+    methods:
+      columns: ['no',nama_pemohon,date,download]
+      display_as:
+        no_kel: 'Kelurahan'
+        no: 'Nomor'
+        date: 'Tanggal Surat'
+        pindah_antar_disabled: 'Pindah Antar'
+        dusun_dukuh_kampung_asal: 'Dusun/Dukuh/Kampung'
+        dusun_dukuh_kampung_pindah: 'Dusun/Dukuh/Kampung'
+        dusun_dukuh_kampung: 'Dusun/Dukuh/Kampung'
+        no_kk_asal: 'Nomor Kartu Keluarga'
+        nama_kk_asal: 'Nama Kpl. Keluarga'
+        alamat_asal: 'Alamat'
+        rt_asal: 'RT'
+        rw_asal: 'RW'
+        kel_asal: 'Desa/Kelurahan'
+        kec_asal: 'Kecamatan'
+        kab_asal: 'Kabupaten/Kota'
+        prop_asal: 'Provinsi'
+        kodepos_asal: 'Kode Pos'
+        tlp_asal: 'Telp.'
+        nik_pemohon: 'NIK Pemohon'
+        nama_pemohon: 'Nama Pemohon'
+        alasan_pindah_no: 'Alasan Pindah'
+        alasan_pindah_lain: 'Tulis Alasan Pindah'
+        alamat_pindah: 'Alamat'
+        rt_pindah: 'RT'
+        rw_pindah: 'RW'
+        kel_pindah: 'Desa/Kelurahan'
+        kec_pindah: 'Kecamatan'
+        kab_pindah: 'Kabupaten/Kota'
+        prop_pindah: 'Provinsi'
+        kodepos_pindah: 'Kode Pos'
+        tlp_pindah: 'Telp.'
+        jenis_kepindahan_no: 'Jenis Kepindahan'
+        status_no_kk_tdk_pindah_no: 'Status KK bagi yang tidak Pindah'
+        status_no_kk_pindah_no: 'Status No. KK bagi yang Pindah'
+        ttd_nama: 'Nama'
+        ttd_nip: 'NIP'
+        ttd_jabatan: 'Jabatan'
+      unset_texteditor: [alamat_asal,alamat_pindah]
+      field_type:
+        ac_data: [hidden]
+        pindah_antar: [hidden,'Antar Kecamatan Dalam Satu Kabupaten / Kota']
+        create_on: [hidden]
+        update_on: [hidden]
+        create_by: [hidden]
+        update_by: [hidden]
+        daftar_keluarga_data: [hidden]
+        alasan_pindah_no: [dropdown,data_alasan_pindah_no]
+        jenis_kepindahan_no: [dropdown,data_jenis_kepindahan_no]
+        status_no_kk_pindah_no: [dropdown,data_status_no_kk_pindah_no]
+        status_no_kk_tdk_pindah_no: [dropdown,data_status_no_kk_pindah_no]
+      fields: [no_prop,no_kab,no_kec,no_kel,pindah_antar, dusun_dukuh_kampung, no, date, pindah_antar_disabled, no_kk_asal, nama_kk_asal, prop_asal,kab_asal,kec_asal,kel_asal, dusun_dukuh_kampung_asal, alamat_asal, rt_asal, rw_asal, kodepos_asal, tlp_asal, nik_pemohon, nama_pemohon, alasan_pindah_no, alasan_pindah_lain, prop_pindah,kab_pindah,kec_pindah,kel_pindah, dusun_dukuh_kampung_pindah, alamat_pindah, rt_pindah, rw_pindah, kodepos_pindah, tlp_pindah, jenis_kepindahan_no, status_no_kk_tdk_pindah_no, status_no_kk_pindah_no, ttd_nama, ttd_jabatan, ttd_nip, ac_data, daftar_keluarga_data,create_on,create_by,update_on,update_by]
+      required_fields: [no_kel, dusun_dukuh_kampung, 'no', date, no_kk_asal, nama_kk_asal, alamat_asal, rt_asal, rw_asal, dusun_dukuh_kampung_asal, kel_asal, kec_asal, kab_asal, prop_asal, kodepos_asal, nik_pemohon, nama_pemohon, alasan_pindah_no, alamat_pindah, rt_pindah, rw_pindah, dusun_dukuh_kampung_pindah, kel_pindah, kec_pindah, kab_pindah, prop_pindah, kodepos_pindah, jenis_kepindahan_no, status_no_kk_tdk_pindah_no, status_no_kk_pindah_no, ttd_nama, ttd_jabatan, ttd_nip]
+      set_rules:
+        kodepos_asal: ['Kode Pos Asal','required|numeric|min_length[5]']
+        kodepos_pindah: ['Kode Pos Pindah','required|numeric|min_length[5]']
+        tlp_asal: ['Telepon Asal','numeric']
+        tlp_pindah: ['Telepon Asal','numeric']
+        no_kk_asal: ['Nomor KK Asal','required|numeric|min_length[10]']
+        rt_asal: ['RT Asal','required|numeric|min_length[3]']
+        rw_asal: ['RW Asal','required|numeric|min_length[3]']
+        rt_pindah: ['RT Pindah','required|numeric|min_length[3]']
+        rw_pindah: ['RW Pindah','required|numeric|min_length[3]']

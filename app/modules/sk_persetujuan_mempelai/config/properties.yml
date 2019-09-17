@@ -1,0 +1,19 @@
+properties:
+    fields: [no_kel, date, 'no', ttd_nama, ttd_nip, ttd_jabatan, create_on, update_on, create_by, update_by, syarat, cs_nama, cs_alias, cs_bin, cs_tempat_lahir, cs_tanggal_lahir, cs_kewarganegaraan, cs_agama, cs_pekerjaan, cs_tempat_tinggal, ci_nama, ci_alias, ci_binti, ci_tempat_lahir, ci_tanggal_lahir, ci_kewarganegaraan, ci_agama, ci_pekerjaan, ci_tempat_tinggal]
+    tablePk: sk_persetujuan_mempelaiid
+    tableName: t_sk_persetujuan_mempelai
+    autosetPostKeys: 
+        add: [no_kel,date,ttd_nama,ttd_nip,ttd_jabatan,create_on,create_by,syarat,status_doc,cs_nama,cs_alias,cs_bin,cs_tempat_lahir,cs_tanggal_lahir,cs_kewarganegaraan,cs_agama,cs_pekerjaan,cs_tempat_tinggal,ci_nama,ci_alias,ci_binti,ci_tempat_lahir,ci_tanggal_lahir,ci_kewarganegaraan,ci_agama,ci_pekerjaan,ci_tempat_tinggal]
+        edit: [no_kel,date,ttd_nama,ttd_nip,ttd_jabatan,update_on,update_by,syarat,status_doc,cs_nama,cs_alias,cs_bin,cs_tempat_lahir,cs_tanggal_lahir,cs_kewarganegaraan,cs_agama,cs_pekerjaan,cs_tempat_tinggal,ci_nama,ci_alias,ci_binti,ci_tempat_lahir,ci_tanggal_lahir,ci_kewarganegaraan,ci_agama,ci_pekerjaan,ci_tempat_tinggal] 
+    dateFields: [date,cs_tanggal_lahir,ci_tanggal_lahir]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'Persetujuan Mempelai'
+    func: sk_persetujuan_mempelai
+    modelName: m_sk_persetujuan_mempelai
+    menuId: 74
+    subject: 'SK Persetujuan Mempelai'
+    mechIds: [195, 196, 197, 198]
+    breadcrumbs: { index: Beranda }

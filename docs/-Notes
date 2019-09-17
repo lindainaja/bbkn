@@ -1,0 +1,5 @@
+-Notes
+1. Convert Hardcode GC Setting To Config Yml
+2. Convert Js Hardcode to setting to then convert to JSON in view
+3. Implement Code Sharing and Reusable in PHP ,JS too
+4. CHeck DRY process, do refactoring after morning and after repetition of an instance of the codes that have same manner as before you have written 
