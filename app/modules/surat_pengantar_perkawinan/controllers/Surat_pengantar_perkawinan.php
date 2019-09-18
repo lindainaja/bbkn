@@ -100,7 +100,13 @@ class Surat_pengantar_perkawinan extends Crud_Controller{
     $negara        = negara_dropdown();
     $agama       = agama_2_dropdown();
     $pekerjaan   = pekerjaan_dropdown();
-        $status_perkawinan  = status_kawin_2_dropdown();
+        $status_perkawinan  = [
+            'jejaka'=>'Jejaka',
+            'duda'=>'Duda',
+            'beristri'=>'Beristri',
+            'perawan'=>'Perawan',
+            'janda'=>'Janda'
+        ];
     
  
         $data = array(
@@ -171,11 +177,46 @@ class Surat_pengantar_perkawinan extends Crud_Controller{
             $ret['ayah_ttl'] = $row['ayah_tempat_lahir'].', '.$ret['ayah_tanggal_lahir'];
             $ret['ibu_ttl'] = $row['ibu_tempat_lahir'].', '.$ret['ibu_tanggal_lahir'];
             $ret['c_ttl'] = $row['c_tempat_lahir'].', '.$ret['c_tanggal_lahir'];
-            $ret['c_jk'] = $gender[$row['c_jk']];
+            $ret['c_jenis_kelamin'] = $gender[$row['c_jk']];
 
             $ret['c_alias'] = $ret['c_alias']!='' ? ' alias ' . $ret['c_alias']:'';
             $ret['ayah_alias'] = $ret['ayah_alias']!='' ? ' alias ' . $ret['ayah_alias']:'';
             $ret['ibu_alias'] = $ret['ibu_alias']!='' ? ' alias ' . $ret['ibu_alias']:'';
+
+            $ret['perawan_atau_janda'] = '';
+            $ret['jejaka_duda_beristri'] = '';
+            $ret['jumlah_istri'] = '';
+            switch ($ret['c_status_perkawinan']) {
+                case 'perawan':
+                    $ret['perawan_atau_janda'] = $ret['c_status_perkawinan'];
+                    # code...
+                    break;
+                case 'jejaka':
+                    # code...
+                $ret['jejaka_duda_beristri'] = $ret['c_status_perkawinan'];
+
+                    break;
+                case 'janda':
+                    $ret['perawan_atau_janda'] = $ret['c_status_perkawinan'];
+
+                    # code...
+                    break;  
+                case 'duda':
+                $ret['jejaka_duda_beristri'] = $ret['c_status_perkawinan'];
+
+                    # code...
+                    break;      
+                case 'beristri':
+                    $ret['jejaka_duda_beristri'] = $ret['c_status_perkawinan'];
+                    $ret['jumlah_istri'] = $ret['c_jumlah_istri'];
+                    
+                    break;
+            }
+            // print_r($ret);
+            // die();
+            $ret['perawan_atau_janda'] = ucfirst($ret['perawan_atau_janda']);
+            $ret['jejaka_duda_beristri'] = ucfirst($ret['jejaka_duda_beristri'] );
+            $ret['jumlah_istri'] = '';
             return $ret;
         };
         $xml = new \Foundationphp\Exporter\Xml($result, null, $options);

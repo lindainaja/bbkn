@@ -3,1588 +3,2634 @@
  <xsl:template match="/">
   <w:document xmlns:ve="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml">
    <w:body>
-    	<xsl:for-each select="root/row">
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="0009790A">
+      <xsl:for-each select="root/row">
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D5503C" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-      </w:tabs>
-      <w:jc w:val="center"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="5040"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-       <w:sz w:val="38"/>
-       <w:szCs w:val="28"/>
-       <w:u w:val="single"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:proofErr w:type="gramStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D5503C">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-       <w:sz w:val="38"/>
-       <w:szCs w:val="28"/>
-       <w:u w:val="single"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:noProof/>
+       <w:sz w:val="12"/>
+       <w:szCs w:val="12"/>
       </w:rPr>
-      <w:t>SURAT  KETERANGAN</w:t>
-     </w:r>
-     <w:proofErr w:type="gramEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-       <w:sz w:val="38"/>
-       <w:szCs w:val="28"/>
-       <w:u w:val="single"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> USAHA</w:t>
+      <w:pict>
+       <v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
+        <v:stroke joinstyle="miter"/>
+        <v:path gradientshapeok="t" o:connecttype="rect"/>
+       </v:shapetype>
+       <v:shape id="Text Box 2" o:spid="_x0000_s1026" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:227.35pt;margin-top:-14.6pt;width:262.85pt;height:42.1pt;z-index:251658240;visibility:visible" o:gfxdata="UEsDBBQABgAIAAAAIQC2gziS/gAAAOEBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbJSRQU7DMBBF&#xA;90jcwfIWJU67QAgl6YK0S0CoHGBkTxKLZGx5TGhvj5O2G0SRWNoz/78nu9wcxkFMGNg6quQqL6RA&#xA;0s5Y6ir5vt9lD1JwBDIwOMJKHpHlpr69KfdHjyxSmriSfYz+USnWPY7AufNIadK6MEJMx9ApD/oD&#xA;OlTrorhX2lFEilmcO2RdNtjC5xDF9pCuTyYBB5bi6bQ4syoJ3g9WQ0ymaiLzg5KdCXlKLjvcW893&#xA;SUOqXwnz5DrgnHtJTxOsQfEKIT7DmDSUCaxw7Rqn8787ZsmRM9e2VmPeBN4uqYvTtW7jvijg9N/y&#xA;JsXecLq0q+WD6m8AAAD//wMAUEsDBBQABgAIAAAAIQA4/SH/1gAAAJQBAAALAAAAX3JlbHMvLnJl&#xA;bHOkkMFqwzAMhu+DvYPRfXGawxijTi+j0GvpHsDYimMaW0Yy2fr2M4PBMnrbUb/Q94l/f/hMi1qR&#xA;JVI2sOt6UJgd+ZiDgffL8ekFlFSbvV0oo4EbChzGx4f9GRdb25HMsYhqlCwG5lrLq9biZkxWOiqY&#xA;22YiTra2kYMu1l1tQD30/bPm3wwYN0x18gb45AdQl1tp5j/sFB2T0FQ7R0nTNEV3j6o9feQzro1i&#xA;OWA14Fm+Q8a1a8+Bvu/d/dMb2JY5uiPbhG/ktn4cqGU/er3pcvwCAAD//wMAUEsDBBQABgAIAAAA&#xA;IQBc8rI9RgIAAIgEAAAOAAAAZHJzL2Uyb0RvYy54bWysVNtu3CAQfa/Uf0C8N957Nla8UZp0q0rp&#xA;RUr6ARhjGxUYCuza6dd3gN3tJn2r6gfEDMPhzJkZX9+MWpG9cF6Cqej0YkKJMBwaabqKfn/avltT&#xA;4gMzDVNgREWfhac3m7dvrgdbihn0oBrhCIIYXw62on0ItiwKz3uhmb8AKwwetuA0C2i6rmgcGxBd&#xA;q2I2mayKAVxjHXDhPXrv8yHdJPy2FTx8bVsvAlEVRW4hrS6tdVyLzTUrO8dsL/mBBvsHFppJg4+e&#xA;oO5ZYGTn5F9QWnIHHtpwwUEX0LaSi5QDZjOdvMrmsWdWpFxQHG9PMvn/B8u/7L85Ihus3YoSwzTW&#xA;6EmMgbyHkcyiPIP1JUY9WowLI7oxNKXq7QPwH54YuOuZ6cStczD0gjVIbxpvFmdXM46PIPXwGRp8&#xA;hu0CJKCxdTpqh2oQRMcyPZ9KE6lwdM7n8/X0akkJx7PlfLG6TLUrWHm8bZ0PHwVoEjcVdVj6hM72&#xA;Dz5ENqw8hsTHPCjZbKVSyXBdfacc2TNsk236UgKvwpQhQ0WvlrNlFuAFROxYcQKpuyyS2mnMNgNP&#xA;J/HLLYd+bMzsP2aSmj5CJLIvCGoZcEyU1BVdn6FEtT+YJjVxYFLlPWaqzEH+qHjWPoz1eChnDc0z&#xA;FsJBHgccX9z04H5RMuAoVNT/3DEnKFGfDBbzarpYxNlJxmJ5OUPDnZ/U5yfMcISqaKAkb+9Cnred&#xA;dbLr8aWsjIFbbIBWptrETsmsDryx3ZMKh9GM83Rup6g/P5DNbwAAAP//AwBQSwMEFAAGAAgAAAAh&#xA;AE20Jf/gAAAACgEAAA8AAABkcnMvZG93bnJldi54bWxMj8FOwzAQRO9I/IO1SNxamygpTcimQiB6&#xA;Q4iCCkcnXpKIeB3Fbhv4eswJjqt5mnlbbmY7iCNNvneMcLVUIIgbZ3puEV5fHhZrED5oNnpwTAhf&#xA;5GFTnZ+VujDuxM903IVWxBL2hUboQhgLKX3TkdV+6UbimH24yeoQz6mVZtKnWG4HmSi1klb3HBc6&#xA;PdJdR83n7mARfKNW+6d0t3+r5Za+c2Pu37ePiJcX8+0NiEBz+IPhVz+qQxWdandg48WAkGbpdUQR&#xA;FkmegIhEvlYpiBohyxTIqpT/X6h+AAAA//8DAFBLAQItABQABgAIAAAAIQC2gziS/gAAAOEBAAAT&#xA;AAAAAAAAAAAAAAAAAAAAAABbQ29udGVudF9UeXBlc10ueG1sUEsBAi0AFAAGAAgAAAAhADj9If/W&#xA;AAAAlAEAAAsAAAAAAAAAAAAAAAAALwEAAF9yZWxzLy5yZWxzUEsBAi0AFAAGAAgAAAAhAFzysj1G&#xA;AgAAiAQAAA4AAAAAAAAAAAAAAAAALgIAAGRycy9lMm9Eb2MueG1sUEsBAi0AFAAGAAgAAAAhAE20&#xA;Jf/gAAAACgEAAA8AAAAAAAAAAAAAAAAAoAQAAGRycy9kb3ducmV2LnhtbFBLBQYAAAAABAAEAPMA&#xA;AACtBQAAAAA=&#xA;" strokecolor="white [3212]">
+        <v:textbox>
+         <w:txbxContent>
+          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+           <w:pPr>
+            <w:pStyle w:val="NoSpacing"/>
+            <w:contextualSpacing/>
+            <w:jc w:val="both"/>
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+           </w:pPr>
+           <w:r w:rsidRPr="00CC2970">
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+            </w:rPr>
+            <w:t xml:space="preserve">LAMPIRAN </w:t>
+           </w:r>
+           <w:r w:rsidRPr="00CC2970">
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+            <w:t>I</w:t>
+           </w:r>
+          </w:p>
+          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+           <w:pPr>
+            <w:pStyle w:val="NoSpacing"/>
+            <w:contextualSpacing/>
+            <w:jc w:val="both"/>
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+           </w:pPr>
+           <w:r w:rsidRPr="00CC2970">
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+            <w:t>KEPUTUSAN DIREKTUR JENDERAL BIMBINGAN MASYARAKAT ISLAM</w:t>
+           </w:r>
+          </w:p>
+          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+           <w:pPr>
+            <w:pStyle w:val="NoSpacing"/>
+            <w:contextualSpacing/>
+            <w:jc w:val="both"/>
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+           </w:pPr>
+           <w:r w:rsidRPr="00CC2970">
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+            <w:t>NOMOR 713 TAHUN 2018</w:t>
+           </w:r>
+          </w:p>
+          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+           <w:pPr>
+            <w:pStyle w:val="NoSpacing"/>
+            <w:contextualSpacing/>
+            <w:jc w:val="both"/>
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+           </w:pPr>
+           <w:r w:rsidRPr="00CC2970">
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+            <w:t>TENTANG</w:t>
+           </w:r>
+          </w:p>
+          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+           <w:pPr>
+            <w:pStyle w:val="NoSpacing"/>
+            <w:contextualSpacing/>
+            <w:jc w:val="both"/>
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+           </w:pPr>
+           <w:r w:rsidRPr="00CC2970">
+            <w:rPr>
+             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+             <w:sz w:val="12"/>
+             <w:szCs w:val="12"/>
+             <w:lang w:val="id-ID"/>
+            </w:rPr>
+            <w:t>PENETAPAN FORMULIR DAN LAPORAN PENCATATAN PERKAWINAN ATAU RUJUK</w:t>
+           </w:r>
+          </w:p>
+         </w:txbxContent>
+        </v:textbox>
+       </v:shape>
+      </w:pict>
      </w:r>
     </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
+    <w:p w:rsidR="00CC2970" w:rsidRPr="00D92D4B" w:rsidRDefault="00CC2970" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-      </w:tabs>
-      <w:jc w:val="center"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:jc w:val="right"/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:b/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+    </w:p>
+    <w:p w:rsidR="00CC2970" w:rsidRPr="00D92D4B" w:rsidRDefault="00CC2970" w:rsidP="00CC2970">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:b/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>Nomor</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:jc w:val="right"/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:bCs/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t xml:space="preserve"> : </w:t>
-     </w:r>
-     <w:r w:rsidR="004425F5">
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:bCs/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>Model N1</w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:jc w:val="right"/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:b/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>KANTOR KELURAHAN</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t>:</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t xml:space="preserve"> </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="nama_kel"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>KECAMATAN</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>:</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t xml:space="preserve"> </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="nama_kec"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>KABUPATEN</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t>:</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t xml:space="preserve"> </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="nama_kab"/></w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve"> </w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:b/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:u w:val="single"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00CC2970" w:rsidRPr="00D92D4B" w:rsidRDefault="00CC2970" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:b/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:u w:val="single"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:spacing w:line="276" w:lineRule="auto"/>
+      <w:contextualSpacing/>
+      <w:jc w:val="center"/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:bCs/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:u w:val="single"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:bCs/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:u w:val="single"/>
+      </w:rPr>
+      <w:t xml:space="preserve">SURAT </w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:bCs/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:u w:val="single"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>PENGANTAR PERKAWINAN</w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:spacing w:line="276" w:lineRule="auto"/>
+      <w:ind w:left="1440" w:firstLine="720"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve">Nomor :  </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
       <w:t><xsl:value-of select="no"/></w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-      </w:tabs>
-      <w:jc w:val="center"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
     </w:p>
-    <w:p w:rsidR="007A25F9" w:rsidRPr="00103A6D" w:rsidRDefault="007A25F9" w:rsidP="00F671D3">
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-      </w:tabs>
-      <w:jc w:val="center"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>Yang bertanda tangan di bawah ini me</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>njelaskan</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve"> dengan sesungguhnya bahwa :</w:t>
+     </w:r>
     </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="0079466C" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="1"/>
+      </w:numPr>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t xml:space="preserve">Yang </w:t>
+      <w:t xml:space="preserve">Nama </w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00D06BBE" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>bertanda</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
       <w:t xml:space="preserve"> </w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00D06BBE" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t>tangan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>dibawah</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>ini</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Lurah</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Babakan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Kecamatan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Legok</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Kabupaten</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:proofErr w:type="gramStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Tangerang</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
+      <w:tab/>
       <w:t xml:space="preserve">  </w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>Provinsi</w:t>
+      <w:tab/>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:proofErr w:type="gramEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
+      <w:tab/>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>Banten</w:t>
+      <w:tab/>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t xml:space="preserve">, </w:t>
+      <w:tab/>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="003D505E" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>menerangkan</w:t>
+      <w:t xml:space="preserve">: </w:t>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="009169B1">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>dengan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>sebenarnya</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>bahwa</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> :</w:t>
+      <w:t><xsl:value-of select="c_nama"/></w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="005175D6" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="1"/>
+      </w:numPr>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t xml:space="preserve">N </w:t>
+      <w:t>Nomor Induk Kependudukan (NIK)</w:t>
      </w:r>
-     <w:proofErr w:type="gramStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="003D505E" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>a</w:t>
-     </w:r>
-     <w:proofErr w:type="gramEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> m a</w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-      <w:t>:</w:t>
-     </w:r>
-     <w:r w:rsidR="005175D6">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:r w:rsidR="005924B8">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-      </w:rPr>
-      <w:t><xsl:value-of select="nama"/></w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-    </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
-     <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-     </w:pPr>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Jenis</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Kelamin</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-      <w:t>:</w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="jenis_kelamin"/></w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-    </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
-     <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-     </w:pPr>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Tempat</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>/</w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Tgl.Lahir</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-      <w:t>:</w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ttl"/></w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-    </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
-     <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-     </w:pPr>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Kewarganegaraan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-      <w:t>:</w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="kewarganegaraan"/></w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-    </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="008058AE" w:rsidP="00F671D3">
-     <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve">A g </w:t>
-     </w:r>
-     <w:proofErr w:type="gramStart"/>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>a</w:t>
-     </w:r>
-     <w:proofErr w:type="gramEnd"/>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> m a</w:t>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-      <w:t>:</w:t>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="agama"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="006F6076" w:rsidP="00F671D3">
-     <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-     </w:pPr>
-     <w:proofErr w:type="spellStart"/>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Pekerjaan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-      <w:t>:</w:t>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="pekerjaan"/></w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-    </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="003327F3">
-     <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-     </w:pPr>
-     <w:proofErr w:type="gramStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>A</w:t>
-     </w:r>
-     <w:proofErr w:type="gramEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> l a m a t</w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-      <w:t>:</w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="alamat"/></w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-    </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
-     <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3119"/>
-       <w:tab w:val="left" w:pos="3780"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="540"/>
-      <w:jc w:val="both"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve">  </w:t>
-     </w:r>
-     <w:r w:rsidR="00F33000">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>N I K</w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
       <w:tab/>
       <w:t xml:space="preserve">: </w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
+     <w:r w:rsidR="009169B1">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="nik"/></w:t>
+      <w:t><xsl:value-of select="c_nik"/></w:t>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
     </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
+    <w:p w:rsidR="0079466C" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="1"/>
+      </w:numPr>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve">Jenis </w:t>
+     </w:r>
+     <w:r w:rsidR="0079466C" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>k</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve">elamin </w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="003D505E" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="c_jenis_kelamin"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="1"/>
+      </w:numPr>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve">Tempat dan tanggal lahir </w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="c_ttl"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="1"/>
+      </w:numPr>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Kewarganegaraan</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve"> </w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="c_kewarganegaraan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="1"/>
+      </w:numPr>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve">Agama </w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="c_agama"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="1"/>
+      </w:numPr>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve">Pekerjaan </w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="c_pekerjaan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="1"/>
+      </w:numPr>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Alamat</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="c_alamat"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0079466C" w:rsidRPr="00D92D4B" w:rsidRDefault="0079466C" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="1"/>
+      </w:numPr>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve">Status </w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>p</w:t>
+     </w:r>
+     <w:r w:rsidR="00D06BBE" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve">erkawinan </w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="0079466C" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="4"/>
+      </w:numPr>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Laki-laki : Jejaka, Duda,</w:t>
+     </w:r>
+     <w:r w:rsidR="00D06BBE" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00D06BBE" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+      <w:r w:rsidR="001B5025">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>: <xsl:value-of select="jejaka_duda_beristri"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="009169B1" w:rsidRDefault="0079466C" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="426" w:firstLine="294"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t xml:space="preserve"> atau beristri ke.......</w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="jumlah_istri"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="00D92D4B" w:rsidRDefault="0079466C" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:numPr>
+       <w:ilvl w:val="0"/>
+       <w:numId w:val="4"/>
+      </w:numPr>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Perempuan : Perawan, Janda</w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="perawan_atau_janda"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0079466C" w:rsidRPr="009169B1" w:rsidRDefault="00F13C1B" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="426" w:hanging="426"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>10.</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="0079466C" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>Nama istri/suami terdahulu</w:t>
+     </w:r>
+     <w:r w:rsidR="0079466C" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="c_nama_mantan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0079466C" w:rsidRPr="00D92D4B" w:rsidRDefault="0079466C" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t xml:space="preserve"> </w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0079466C" w:rsidRPr="00D92D4B" w:rsidRDefault="0079466C" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Adalah benar anak dari perkawinan seorang pria :</w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0079466C" w:rsidRPr="009169B1" w:rsidRDefault="0079466C" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Nama lengkap dan alias</w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ayah_nama"/></w:t>
+     </w:r>
+     <w:r w:rsidR="009324BC">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t xml:space="preserve"> <xsl:value-of select="ayah_alias"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0079466C" w:rsidRPr="009169B1" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Nomor Induk Kependudukan (NIK)</w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ayah_nik"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="003D505E" w:rsidRPr="009169B1" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Tempat dan tanggal lahir</w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ayah_ttl"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="009169B1" w:rsidRDefault="003D505E" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Kewarganegaraan</w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ayah_kewarganegaraan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="003D505E" w:rsidRPr="009169B1" w:rsidRDefault="003D505E" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Agama</w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009169B1">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ayah_agama"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="003D505E" w:rsidRPr="009324BC" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Pekerjaan</w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009324BC">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ayah_pekerjaan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="003D505E" w:rsidRPr="009324BC" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Alamat</w:t>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="00F13C1B" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009324BC">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ayah_alamat"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="003D505E" w:rsidRPr="00D92D4B" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
     </w:p>
-    <w:p w:rsidR="00A7642F" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00A7642F">
+    <w:p w:rsidR="003D505E" w:rsidRPr="00D92D4B" w:rsidRDefault="00CC2970" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>Benar</w:t>
+      <w:t>d</w:t>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="003D505E" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
+      <w:t>engan seorang wanita :</w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="009324BC" w:rsidRDefault="00F13C1B" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t>nama</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
+      <w:t>Nama lengkap dan alias</w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>tersebut</w:t>
+      <w:tab/>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
+      <w:tab/>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>diatas</w:t>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidR="000978F8">
+     <w:r w:rsidR="009324BC">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ibu_nama"/> <xsl:value-of select="ibu_alias"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="009324BC" w:rsidRDefault="00F13C1B" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Nomor Induk Kependudukan (NIK)</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009324BC">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ibu_nik"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="009324BC" w:rsidRDefault="00F13C1B" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Tempat dan tanggal lahir</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009324BC">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ibu_ttl"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="009324BC" w:rsidRDefault="00F13C1B" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Kewarganegaraan</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009324BC">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ibu_kewarganegaraan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="009324BC" w:rsidRDefault="00F13C1B" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Agama</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009324BC">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ibu_agama"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="009324BC" w:rsidRDefault="00F13C1B" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Pekerjaan</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009324BC">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ibu_pekerjaan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00F13C1B" w:rsidRPr="009324BC" w:rsidRDefault="00F13C1B" w:rsidP="00F13C1B">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Alamat</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="009324BC">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ibu_alamat"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:jc w:val="both"/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>Demikian</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
       <w:t xml:space="preserve">, </w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="000978F8">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t>S</w:t>
+      <w:t xml:space="preserve">surat </w:t>
      </w:r>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>aat</w:t>
+      <w:t>pengantar</w:t>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00D06BBE" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
+      <w:t xml:space="preserve"> ini dibuat dengan mengingat sumpah jabatan d</w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00600964">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t>ini</w:t>
+      <w:t>an untuk di</w:t>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00315D3D">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
+      <w:t>per</w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t>mempunyai</w:t>
+      <w:t>gunakan se</w:t>
      </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
+      <w:t>bagaimana mestinya</w:t>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r w:rsidR="00D06BBE" w:rsidRPr="00D92D4B">
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>usaha</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:proofErr w:type="gramStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>dibidang</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:r w:rsidR="00A137FF">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-       <w:i/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-       <w:i/>
-      </w:rPr>
-      <w:t><xsl:value-of select="bidang_usaha"/></w:t>
-     </w:r>
-     <w:proofErr w:type="gramEnd"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-       <w:i/>
-      </w:rPr>
-      <w:t></w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidR="00356779">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-       <w:i/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve">yang </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>berlokasi</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>di</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidR="001424E8">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="lokasi"/></w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
       <w:t>.</w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="00FF4FDF" w:rsidRPr="00103A6D" w:rsidRDefault="00FF4FDF" w:rsidP="00DD7EF6">
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00D06BBE" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:ind w:firstLine="720"/>
-      <w:jc w:val="both"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="360"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
      </w:pPr>
     </w:p>
-    <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00F671D3">
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="00534D32" w:rsidP="003D505E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="720"/>
-       <w:tab w:val="left" w:pos="3060"/>
-       <w:tab w:val="left" w:pos="3240"/>
-      </w:tabs>
-      <w:spacing w:line="360" w:lineRule="auto"/>
-      <w:jc w:val="both"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="4320" w:firstLine="720"/>
+      <w:contextualSpacing/>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="00103A6D">
+     <w:r>
       <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="nama_kel"/></w:t>
+     </w:r>
+     <w:r w:rsidR="003D505E" w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t xml:space="preserve">,  </w:t>
+     </w:r>
+     <w:r w:rsidR="00445738">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="tanggal_surat"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="4320" w:firstLine="720"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>Kepala Desa/</w:t>
+     </w:r>
+     <w:r w:rsidRPr="00D92D4B">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Lurah</w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="003D505E" w:rsidRPr="00D92D4B" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="2880" w:firstLine="720"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="003D505E" w:rsidRPr="00D92D4B" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="2880" w:firstLine="720"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="003D505E" w:rsidRPr="00D92D4B" w:rsidRDefault="003D505E" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="2880" w:firstLine="720"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="003D505E" w:rsidRPr="00534D32" w:rsidRDefault="00534D32" w:rsidP="003D505E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="4320" w:firstLine="720"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="ttd_nama"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="00406C04" w:rsidRDefault="00D06BBE" w:rsidP="00406C04">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r w:rsidRPr="00315D3D">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="20"/>
+       <w:szCs w:val="20"/>
+      </w:rPr>
+      <w:t xml:space="preserve">*) nama terang   </w:t>
+     </w:r>
+     <w:r w:rsidRPr="00315D3D">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="20"/>
+       <w:szCs w:val="20"/>
       </w:rPr>
       <w:tab/>
      </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Demikian</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Surat</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:proofErr w:type="gramStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Keterangan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve">  </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>ini</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:proofErr w:type="gramEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>dibuat</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>dengan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>sebenarnya</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>untuk</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>dapat</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>diketahui</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>serta</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>dipergunakan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>sebagaimana</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>mestinya</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve">. </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Surat</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>keterangan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>ini</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>berlaku</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>sampai</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>dengan</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidR="00250C5B" w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:proofErr w:type="gramStart"/>
-     <w:r w:rsidR="00250C5B" w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t>Tanggal</w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
-     <w:r w:rsidR="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> :</w:t>
-     </w:r>
-     <w:proofErr w:type="gramEnd"/>
-     <w:r w:rsidR="00CD5819">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:r w:rsidRPr="00103A6D">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-      <w:t xml:space="preserve"> </w:t>
-     </w:r>
-     <w:proofErr w:type="spellStart"/>
-     <w:r w:rsidR="003327F3">
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-       <w:b/>
-       <w:u w:val="single"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="berlaku_sampai"/></w:t>
-     </w:r>
-     <w:proofErr w:type="spellEnd"/>
     </w:p>
-    <w:tbl>
-     <w:tblPr>
-      <w:tblW w:w="0" w:type="auto"/>
-      <w:tblLook w:val="04A0"/>
-     </w:tblPr>
-     <w:tblGrid>
-      <w:gridCol w:w="4784"/>
-      <w:gridCol w:w="4785"/>
-     </w:tblGrid>
-     <w:tr w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidTr="007E76D4">
-      <w:tc>
-       <w:tcPr>
-        <w:tcW w:w="4784" w:type="dxa"/>
-       </w:tcPr>
-       <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="007E76D4">
-        <w:pPr>
-         <w:jc w:val="center"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-        </w:pPr>
-       </w:p>
-      </w:tc>
-      <w:tc>
-       <w:tcPr>
-        <w:tcW w:w="4785" w:type="dxa"/>
-       </w:tcPr>
-       <w:p w:rsidR="001E4992" w:rsidRDefault="001E4992" w:rsidP="007E76D4">
-        <w:pPr>
-         <w:tabs>
-          <w:tab w:val="left" w:pos="3060"/>
-          <w:tab w:val="left" w:pos="3240"/>
-         </w:tabs>
-         <w:jc w:val="center"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-        </w:pPr>
-       </w:p>
-       <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00CD5819" w:rsidP="007E76D4">
-        <w:pPr>
-         <w:tabs>
-          <w:tab w:val="left" w:pos="3060"/>
-          <w:tab w:val="left" w:pos="3240"/>
-         </w:tabs>
-         <w:jc w:val="center"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-        </w:pPr>
-        <w:r>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-         <w:br/>
-        </w:r>
-        <w:proofErr w:type="spellStart"/>
-        <w:r w:rsidR="00F671D3" w:rsidRPr="00103A6D">
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-         <w:t>Babakan</w:t>
-        </w:r>
-        <w:proofErr w:type="spellEnd"/>
-        <w:r w:rsidR="00F671D3" w:rsidRPr="00103A6D">
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-         <w:t xml:space="preserve">, </w:t>
-        </w:r>
-        <w:proofErr w:type="spellStart"/>
-        <w:r w:rsidR="003327F3">
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-         <w:t><xsl:value-of select="tanggal_surat"/></w:t>
-        </w:r>
-        <w:proofErr w:type="spellEnd"/>
-       </w:p>
-       <w:p w:rsidR="00F671D3" w:rsidRDefault="003327F3" w:rsidP="007E76D4">
-        <w:pPr>
-         <w:tabs>
-          <w:tab w:val="left" w:pos="3060"/>
-          <w:tab w:val="left" w:pos="3240"/>
-         </w:tabs>
-         <w:jc w:val="center"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-          <w:b/>
-         </w:rPr>
-        </w:pPr>
-        <w:proofErr w:type="spellStart"/>
-        <w:r>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-          <w:b/>
-         </w:rPr>
-         <w:t><xsl:value-of select="ttd_jabatan"/></w:t>
-        </w:r>
-        <w:proofErr w:type="spellEnd"/>
-       </w:p>
-       <w:p w:rsidR="000014F3" w:rsidRDefault="000014F3" w:rsidP="007E76D4">
-        <w:pPr>
-         <w:tabs>
-          <w:tab w:val="left" w:pos="3060"/>
-          <w:tab w:val="left" w:pos="3240"/>
-         </w:tabs>
-         <w:jc w:val="center"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-        </w:pPr>
-       </w:p>
-       <w:p w:rsidR="001424E8" w:rsidRDefault="001424E8" w:rsidP="007E76D4">
-        <w:pPr>
-         <w:tabs>
-          <w:tab w:val="left" w:pos="3060"/>
-          <w:tab w:val="left" w:pos="3240"/>
-         </w:tabs>
-         <w:jc w:val="center"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-        </w:pPr>
-       </w:p>
-       <w:p w:rsidR="00A137FF" w:rsidRDefault="00A137FF" w:rsidP="007E76D4">
-        <w:pPr>
-         <w:tabs>
-          <w:tab w:val="left" w:pos="3060"/>
-          <w:tab w:val="left" w:pos="3240"/>
-         </w:tabs>
-         <w:jc w:val="center"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-        </w:pPr>
-       </w:p>
-       <w:p w:rsidR="00747817" w:rsidRPr="00103A6D" w:rsidRDefault="00747817" w:rsidP="007E76D4">
-        <w:pPr>
-         <w:tabs>
-          <w:tab w:val="left" w:pos="3060"/>
-          <w:tab w:val="left" w:pos="3240"/>
-         </w:tabs>
-         <w:jc w:val="center"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-        </w:pPr>
-       </w:p>
-       <w:p w:rsidR="007A25F9" w:rsidRPr="00EE705B" w:rsidRDefault="003327F3" w:rsidP="007A25F9">
-        <w:pPr>
-         <w:jc w:val="center"/>
-         <w:outlineLvl w:val="0"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-          <w:b/>
-          <w:u w:val="single"/>
-         </w:rPr>
-        </w:pPr>
-        <w:proofErr w:type="spellStart"/>
-        <w:r>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-          <w:b/>
-          <w:u w:val="single"/>
-         </w:rPr>
-         <w:t><xsl:value-of select="ttd_nama"/></w:t>
-        </w:r>
-        <w:proofErr w:type="spellEnd"/>
-       </w:p>
-       <w:p w:rsidR="007A25F9" w:rsidRPr="00EE705B" w:rsidRDefault="007A25F9" w:rsidP="007A25F9">
-        <w:pPr>
-         <w:jc w:val="center"/>
-         <w:outlineLvl w:val="0"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-        </w:pPr>
-        <w:r w:rsidRPr="00EE705B">
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-         <w:t xml:space="preserve">NIP. </w:t>
-        </w:r>
-        <w:proofErr w:type="spellStart"/>
-        <w:r w:rsidR="003327F3">
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-         </w:rPr>
-         <w:t><xsl:value-of select="ttd_nip"/></w:t>
-        </w:r>
-        <w:proofErr w:type="spellEnd"/>
-       </w:p>
-       <w:p w:rsidR="00F671D3" w:rsidRPr="00103A6D" w:rsidRDefault="00F671D3" w:rsidP="00ED3E73">
-        <w:pPr>
-         <w:tabs>
-          <w:tab w:val="left" w:pos="3060"/>
-          <w:tab w:val="left" w:pos="3240"/>
-         </w:tabs>
-         <w:jc w:val="center"/>
-         <w:rPr>
-          <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-          <w:b/>
-         </w:rPr>
-        </w:pPr>
-       </w:p>
-      </w:tc>
-     </w:tr>
-    </w:tbl>
-    <w:p w:rsidR="003D182B" w:rsidRDefault="003D182B" w:rsidP="003E15B4">
-     <w:pPr>
-      <w:rPr>
-       <w:rFonts w:ascii="Bookman Old Style" w:hAnsi="Bookman Old Style"/>
-      </w:rPr>
-     </w:pPr>
-    </w:p>
-    <w:sectPr w:rsidR="003D182B" w:rsidSect="00F671D3">
-     <w:headerReference w:type="default" r:id="rId7"/>
-     <w:pgSz w:w="12240" w:h="20160" w:code="5"/>
-     <w:pgMar w:top="3150" w:right="1440" w:bottom="1440" w:left="1440" w:header="720" w:footer="720" w:gutter="0"/>
-     <w:cols w:space="720"/>
+    <w:sectPr w:rsidR="007F4ECF" w:rsidRPr="00406C04" w:rsidSect="00F13C1B">
+     <w:pgSz w:w="11906" w:h="16838" w:code="9"/>
+     <w:pgMar w:top="567" w:right="849" w:bottom="709" w:left="1440" w:header="708" w:footer="708" w:gutter="0"/>
+     <w:cols w:space="708"/>
      <w:docGrid w:linePitch="360"/>
     </w:sectPr>
-    	</xsl:for-each>
+      </xsl:for-each>
    </w:body>
   </w:document>
  </xsl:template>
