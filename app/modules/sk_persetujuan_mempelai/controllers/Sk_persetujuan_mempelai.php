@@ -162,6 +162,13 @@ class Sk_persetujuan_mempelai extends Crud_Controller
             $ret['ci_ttl'] = $row['ci_tempat_lahir'].', '.$ret['ci_tanggal_lahir'];
             // $ret['nama_barang'] = ' KK (Kartu Keluarga) ';
 
+            if(!empty($ret['cs_alias'])){
+                $ret['cs_alias'] = ' alias ' . $ret['cs_alias'];
+            }
+            if(!empty($ret['ci_alias'])){
+                $ret['ci_alias'] = ' alias ' . $ret['ci_alias'];
+            }
+
             return $ret;
         };
         $xml = new \Foundationphp\Exporter\Xml($result, null, $options);

@@ -26,10 +26,10 @@
 </div>
 <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Alias 
-		<span class="require">*</span>
+		<span class="require"></span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="cs_alias" name="cs_alias" type="text" placeholder="Alias" class="wajib_isi form-control" autocomplete="off"  value="{{detail.cs_alias}}" />
+		<input id="cs_alias" name="cs_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  value="{{detail.cs_alias}}" />
 	</div>
 </div>
 <div class="form-group">
@@ -38,6 +38,14 @@
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
 		<input id="cs_bin" name="cs_bin" type="text" placeholder="Bin" class="wajib_isi form-control" autocomplete="off"  value="{{detail.cs_bin}}" />
+	</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label">NIK 
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="cs_nik" name="cs_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"  value="{{detail.cs_nik}}" />
 	</div>
 </div>
 <div class="form-group">
@@ -69,12 +77,20 @@
 </div>
 </div>
 <div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">Tempat Tinggal 
-	<span class="require">*</span>
-	</label>
-<div class="col-sm-8 col-lg-7 controls">
-<textarea name="cs_tempat_tinggal" id="cs_tempat_tinggal" class="wajib_isi form-control" placeholder="Tempat Tinggal">{{detail.cs_tempat_tinggal}}</textarea>
+	<label class="col-sm-4 col-lg-3 control-label">Alamat 
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="cs_alamat_a" name="cs_alamat_a" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  value="{{detail.cs_alamat_a}}" />
+	</div>
 </div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label"> 
+		<span class="require"></span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="cs_alamat_b" name="cs_alamat_b" type="text" placeholder="" class=" form-control" autocomplete="off"  value="{{detail.cs_alamat_b}}" />
+	</div>
 </div>
 <h5>Data Calon Istri</h5>
 <div class="form-group">
@@ -87,10 +103,10 @@
 </div>
 <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Alias 
-		<span class="require">*</span>
+		<span class="require"></span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ci_alias" name="ci_alias" type="text" placeholder="Alias" class="wajib_isi form-control" autocomplete="off"  value="{{detail.ci_alias}}" />
+		<input id="ci_alias" name="ci_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  value="{{detail.ci_alias}}" />
 	</div>
 </div>
 <div class="form-group">
@@ -99,6 +115,14 @@
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
 		<input id="ci_binti" name="ci_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off"  value="{{detail.ci_binti}}" />
+	</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label">NIK 
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="ci_nik" name="ci_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"  value="{{detail.ci_nik}}" />
 	</div>
 </div>
 <div class="form-group">
@@ -130,13 +154,22 @@
 </div>
 </div>
 <div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">Tempat Tinggal 
-	<span class="require">*</span>
-	</label>
-<div class="col-sm-8 col-lg-7 controls">
-<textarea name="ci_tempat_tinggal" id="ci_tempat_tinggal" class="wajib_isi form-control" placeholder="Tempat Tinggal">{{detail.ci_tempat_tinggal}}</textarea>
+	<label class="col-sm-4 col-lg-3 control-label">Alamat 
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="ci_alamat_a" name="ci_alamat_a" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  value="{{detail.ci_alamat_a}}" />
+	</div>
 </div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label"> 
+		<span class="require"></span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="ci_alamat_b" name="ci_alamat_b" type="text" placeholder="" class=" form-control" autocomplete="off"  value="{{detail.ci_alamat_b}}" />
+	</div>
 </div>
+
 <h5>Data Tanda Tangan</h5>
 <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Nama <span class="require">*</span></label>

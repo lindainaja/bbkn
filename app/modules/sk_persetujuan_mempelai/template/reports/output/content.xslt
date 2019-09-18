@@ -1060,7 +1060,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="ci_nama"/></w:t>
+      <w:t><xsl:value-of select="ci_nama"/> <xsl:value-of select="ci_alias"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
@@ -1907,7 +1907,7 @@
              <w:szCs w:val="24"/>
              <w:lang w:val="id-ID"/>
             </w:rPr>
-            <w:t xml:space="preserve">    , </w:t>
+            <w:t xml:space="preserve">, </w:t>
            </w:r>
            <w:r>
             <w:rPr>
