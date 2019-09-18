@@ -79,7 +79,7 @@ function format_rupiah($angka){
 }
 
 
-function tanggal_indo($tanggal, $cetak_hari = false)
+function tanggal_indo($tanggal, $cetak_hari = false,$hari_only=false)
 {
     $hari = array ( 1 =>    'Senin',
                 'Selasa',
@@ -106,7 +106,9 @@ function tanggal_indo($tanggal, $cetak_hari = false)
     $tanggal = date('Y-m-d', strtotime($tanggal));
     $split    = explode('-', $tanggal);
     $tgl_indo = preg_replace('/^0/', '', $split[2]) . ' ' . $bulan[ (int)$split[1] ] . ' ' . $split[0];
-    
+    if($hari_only){
+        return $hari[$num];
+    }
     if ($cetak_hari) {
         $num = date('N', strtotime($tanggal));
         return $hari[$num] . ', ' . $tgl_indo;

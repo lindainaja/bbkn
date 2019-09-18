@@ -141,9 +141,10 @@ class Permohonan_kehendak_perkawinan extends Crud_Controller{
             $gender = config_item('gender');
             $ret['date']  = format_tanggal_khusus_indo($row['date']);
             $ret['tanggal_acara']  = format_tanggal_khusus_indo($row['tanggal_acara']);
+            $ret['hari_acara']  = tanggal_indo($row['tanggal_acara'],false,true);
             $ret['tanggal_terima']  = format_tanggal_khusus_indo($row['tanggal_terima']);
 
-           $ret['tanggal_surat']  = format_tanggal_khusus_indo($row['date']);
+           $ret['tanggal_surat']  = date('d-m-Y',strtotime($row['date']));
             // $ret['tanggal_hilang'] = format_tanggal_khusus_indo($row['tgl_hilang']);
             $ret['no_kel'] = $row['nama_kel'].' ';
             return $ret;

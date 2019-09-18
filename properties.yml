@@ -1,0 +1,5 @@
+	fields: [id,no_prop,no_kab,no_kec,no_kel,date,'no',ttd_nama,ttd_nip,ttd_jabatan,file,download,archive,create_on,update_on,create_by,update_by,syarat,s_nama,i_nama,tanggal_acara,waktu_acara,tempat_acara,syarat_a,syarat_b,tanggal_terima,nama_kepala_kua,nama_pemohon,lokasi_yth]
+	autosetPostKeys: 
+	    add: [no_kel,date,'no',ttd_nama,ttd_nip,ttd_jabatan,create_on,create_by,syarat,s_nama,i_nama,tanggal_acara,waktu_acara,tempat_acara,syarat_a,syarat_b,tanggal_terima,nama_kepala_kua,nama_pemohon,lokasi_yth]
+	    edit: [no_kel,date,'no',ttd_nama,ttd_nip,ttd_jabatan,update_on,update_by,syarat,s_nama,i_nama,tanggal_acara,waktu_acara,tempat_acara,syarat_a,syarat_b,tanggal_terima,nama_kepala_kua,nama_pemohon,lokasi_yth] 
+	dateFields: [date,tanggal_acara,tanggal_terima]
