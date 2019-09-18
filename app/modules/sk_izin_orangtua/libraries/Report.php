@@ -28,7 +28,7 @@ class Report  extends ExcelReport
 			'ayah_kewarganegaraan' => 'Kewarganegaraan Ayah',
 			'ayah_agama' => 'Agama Ayah' ,
 			'ayah_pekerjaan' => 'Pekerjaan Ayah',
-			'ayah_tempat_tinggal' => 'Tempat Tinggal Ayah',
+			'ayah_alamat' => 'Alamat Ayah',
 			// 'legend_ibu' => 'Data Ibu',
 			'ibu_nama' => 'Nama Ibu',
 			// 'ibu_alias' => 'Alias',
@@ -36,23 +36,23 @@ class Report  extends ExcelReport
 			'ibu_kewarganegaraan' => 'Kewarganegaraan Ibu',
 			'ibu_agama' => 'Agama Ibu',
 			'ibu_pekerjaan' => 'Pekerjaan Ibu',
-			'ibu_tempat_tinggal' => 'Tempat Tinggal Ibu',
-			// 'legend_cs' => 'Data Calon Suami Ibu',
-			'cs_nama' => 'Nama Calon Suami',
-			// 'cs_alias' => 'Alias',
-			'cs_ttl' => 'Tempat/Tanggal Lahir Calon Suami',
-			'cs_kewarganegaraan' => 'Kewarganegaraan Calon Suami',
-			'cs_agama' => 'Agama Calon Suami',
-			'cs_pekerjaan' => 'Pekerjaan Calon Suami',
-			'cs_tempat_tinggal' => 'Tempat Tinggal Calon Suami',
-			// 'legend_ci' => 'Data Calon Istri',
-			'ci_nama' => 'Nama',
-			'ci_alias' => 'Alias',
-			'ci_ttl' => 'Tempat/Tanggal Lahir Calon Istri',
-			'ci_kewarganegaraan' => 'Kewarganegaraan Calon Istri',
-			'ci_agama' => 'Agama Calon Istri',
-			'ci_pekerjaan' => 'Pekerjaan Calon Istri',
-			'ci_tempat_tinggal' => 'Tempat Tinggal Istri',
+			'ibu_alamat' => 'Alamat Ibu',
+			// 'legend_cs' => 'Data Calon A Ibu',
+			'ca_nama' => 'Nama Calon A',
+			// 'ca_alias' => 'Alias',
+			'ca_ttl' => 'Tempat/Tanggal Lahir Calon A',
+			'ca_kewarganegaraan' => 'Kewarganegaraan Calon A',
+			'ca_agama' => 'Agama Calon A',
+			'ca_pekerjaan' => 'Pekerjaan Calon A',
+			'ca_alamat' => 'Alamat Calon A',
+			// 'legend_ci' => 'Data Calon B',
+			'cb_nama' => 'Nama',
+			'cb_alias' => 'Alias',
+			'cb_ttl' => 'Tempat/Tanggal Lahir Calon B',
+			'cb_kewarganegaraan' => 'Kewarganegaraan Calon B',
+			'cb_agama' => 'Agama Calon B',
+			'cb_pekerjaan' => 'Pekerjaan Calon B',
+			'cb_alamat' => 'Alamat Calon B',
 
 
 	);
@@ -189,21 +189,21 @@ class Report  extends ExcelReport
             $ret['date']  = format_tanggal_khusus_indo($row['date']);
             $ret['ayah_tanggal_lahir']  = format_tanggal_khusus_indo($row['ayah_tanggal_lahir']);
             $ret['ibu_tanggal_lahir']  = format_tanggal_khusus_indo($row['ibu_tanggal_lahir']);
-            $ret['ci_tanggal_lahir']  = format_tanggal_khusus_indo($row['ci_tanggal_lahir']);
-            $ret['cs_tanggal_lahir']  = format_tanggal_khusus_indo($row['cs_tanggal_lahir']);
+            $ret['cb_tanggal_lahir']  = format_tanggal_khusus_indo($row['cb_tanggal_lahir']);
+            $ret['ca_tanggal_lahir']  = format_tanggal_khusus_indo($row['ca_tanggal_lahir']);
             $ret['tanggal_surat']  = format_tanggal_khusus_indo($row['date']);
             $ret['no_kel'] = $row['nama_kel'].' ';
             $ret['nama_kec'] = $row['nama_kec'].' ';
             $ret['ayah_ttl'] = $row['ayah_tempat_lahir'].', '.$ret['ayah_tanggal_lahir'];
             $ret['ibu_ttl'] = $row['ibu_tempat_lahir'].', '.$ret['ibu_tanggal_lahir'];
-            $ret['cs_ttl'] = $row['cs_tempat_lahir'].', '.$ret['cs_tanggal_lahir'];
-            $ret['ci_ttl'] = $row['ci_tempat_lahir'].', '.$ret['ci_tanggal_lahir'];
+            $ret['ca_ttl'] = $row['ca_tempat_lahir'].', '.$ret['ca_tanggal_lahir'];
+            $ret['cb_ttl'] = $row['cb_tempat_lahir'].', '.$ret['cb_tanggal_lahir'];
 
             $gender = config_item('gender');
-            $ret['cs_jenis_kelamin']  = $gender[$ret['cs_jk']];
-            $ret['ci_alias'] = ($ret['ci_alias']!=''&&$ret['ci_alias']!='-') ? ' alias ' . $ret['ci_alias']:'';
-            $ret['cs_alias'] = ($ret['cs_alias']!=''&$ret['cs_alias']!='-') ? ' alias ' . $ret['cs_alias']:'';
-            $ret['cs_alias'] = ($ret['cs_alias']!=''&&$ret['cs_alias']!='-') ? ' alias ' . $ret['cs_alias']:'';
+            $ret['ca_jenis_kelamin']  = $gender[$ret['ca_jk']];
+            $ret['cb_alias'] = ($ret['cb_alias']!=''&&$ret['cb_alias']!='-') ? ' alias ' . $ret['cb_alias']:'';
+            $ret['ca_alias'] = ($ret['ca_alias']!=''&$ret['ca_alias']!='-') ? ' alias ' . $ret['ca_alias']:'';
+            $ret['ca_alias'] = ($ret['ca_alias']!=''&&$ret['ca_alias']!='-') ? ' alias ' . $ret['ca_alias']:'';
             $ret['ayah_alias'] = ($ret['ayah_alias']!='' &&$ret['ayah_alias']!='-') ? ' alias ' . $ret['ayah_alias']:'';
             $ret['ibu_alias'] = ($ret['ibu_alias']!=''&&$ret['ibu_alias'] !='-')? ' alias ' . $ret['ibu_alias']:'';
 
