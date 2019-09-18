@@ -83,12 +83,12 @@ class Sk_izin_orangtua extends Crud_Controller
 	'ibu_dropdown_kewarganegaraan' => form_dropdown('ibu_kewarganegaraan',$negara,'INDONESIA','id="ibu_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
 	'ibu_dropdown_agama' => form_dropdown('ibu_agama',$agama,'','id="ibu_agama" class="wajib_isi select2 form-control" style="width:100%" '),
 	'ibu_dropdown_pekerjaan' => form_dropdown('ibu_pekerjaan',$pekerjaan,'','id="ibu_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'cs_dropdown_kewarganegaraan' => form_dropdown('cs_kewarganegaraan',$negara,'INDONESIA','id="cs_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'cs_dropdown_agama' => form_dropdown('cs_agama',$agama,'','id="cs_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-	'cs_dropdown_pekerjaan' => form_dropdown('cs_pekerjaan',$pekerjaan,'','id="cs_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'ci_dropdown_kewarganegaraan' => form_dropdown('ci_kewarganegaraan',$negara,'INDONESIA','id="ci_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'ci_dropdown_agama' => form_dropdown('ci_agama',$agama,'','id="ci_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-	'ci_dropdown_pekerjaan' => form_dropdown('ci_pekerjaan',$pekerjaan,'','id="ci_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'ca_dropdown_kewarganegaraan' => form_dropdown('ca_kewarganegaraan',$negara,'INDONESIA','id="ca_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'ca_dropdown_agama' => form_dropdown('ca_agama',$agama,'','id="ca_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+	'ca_dropdown_pekerjaan' => form_dropdown('ca_pekerjaan',$pekerjaan,'','id="ca_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'cb_dropdown_kewarganegaraan' => form_dropdown('cb_kewarganegaraan',$negara,'INDONESIA','id="cb_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'cb_dropdown_agama' => form_dropdown('cb_agama',$agama,'','id="cb_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+	'cb_dropdown_pekerjaan' => form_dropdown('cb_pekerjaan',$pekerjaan,'','id="cb_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
 
         );
         $this->twig->display('form/add.twig.php',$data);
@@ -113,12 +113,12 @@ class Sk_izin_orangtua extends Crud_Controller
 	'ibu_dropdown_kewarganegaraan' => form_dropdown('ibu_kewarganegaraan',$negara,$detail['ibu_kewarganegaraan'],'id="ibu_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
 	'ibu_dropdown_agama' => form_dropdown('ibu_agama',$agama,$detail['ibu_agama'],'id="ibu_agama" class="wajib_isi select2 form-control" style="width:100%" '),
 	'ibu_dropdown_pekerjaan' => form_dropdown('ibu_pekerjaan',$pekerjaan,$detail['ibu_pekerjaan'],'id="ibu_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'cs_dropdown_kewarganegaraan' => form_dropdown('cs_kewarganegaraan',$negara,$detail['cs_kewarganegaraan'],'id="cs_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'cs_dropdown_agama' => form_dropdown('cs_agama',$agama,$detail['cs_agama'],'id="cs_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-	'cs_dropdown_pekerjaan' => form_dropdown('cs_pekerjaan',$pekerjaan,$detail['cs_pekerjaan'],'id="cs_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'ci_dropdown_kewarganegaraan' => form_dropdown('ci_kewarganegaraan',$negara,$detail['ci_kewarganegaraan'],'id="ci_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'ci_dropdown_agama' => form_dropdown('ci_agama',$agama,$detail['ci_agama'],'id="ci_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-	'ci_dropdown_pekerjaan' => form_dropdown('ci_pekerjaan',$pekerjaan,$detail['ci_pekerjaan'],'id="ci_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'ca_dropdown_kewarganegaraan' => form_dropdown('ca_kewarganegaraan',$negara,$detail['ca_kewarganegaraan'],'id="ca_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'ca_dropdown_agama' => form_dropdown('ca_agama',$agama,$detail['ca_agama'],'id="ca_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+	'ca_dropdown_pekerjaan' => form_dropdown('ca_pekerjaan',$pekerjaan,$detail['ca_pekerjaan'],'id="ca_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'cb_dropdown_kewarganegaraan' => form_dropdown('cb_kewarganegaraan',$negara,$detail['cb_kewarganegaraan'],'id="cb_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'cb_dropdown_agama' => form_dropdown('cb_agama',$agama,$detail['cb_agama'],'id="cb_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+	'cb_dropdown_pekerjaan' => form_dropdown('cb_pekerjaan',$pekerjaan,$detail['cb_pekerjaan'],'id="cb_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
 
         	'sk_izin_orangtuaid' => $sk_izin_orangtuaid,
         	'detail' => $detail,
@@ -164,24 +164,24 @@ class Sk_izin_orangtua extends Crud_Controller
             }
             $ret = $row;
             $gender = config_item('gender');
-            $ret['cs_jenis_kelamin']  = $gender[$ret['cs_jk']];
+            $ret['ca_jenis_kelamin']  = $gender[$ret['ca_jk']];
             $ret['date']  = format_tanggal_khusus_indo($row['date']);
             $ret['ayah_tanggal_lahir']  = format_tanggal_khusus_indo($row['ayah_tanggal_lahir']);
             $ret['ibu_tanggal_lahir']  = format_tanggal_khusus_indo($row['ibu_tanggal_lahir']);
-            $ret['ci_tanggal_lahir']  = format_tanggal_khusus_indo($row['ci_tanggal_lahir']);
-            $ret['cs_tanggal_lahir']  = format_tanggal_khusus_indo($row['cs_tanggal_lahir']);
+            $ret['cb_tanggal_lahir']  = format_tanggal_khusus_indo($row['cb_tanggal_lahir']);
+            $ret['ca_tanggal_lahir']  = format_tanggal_khusus_indo($row['ca_tanggal_lahir']);
             $ret['tanggal_surat']  = format_tanggal_khusus_indo($row['date']);
             $ret['no_kel'] = $row['nama_kel'].' ';
             $ret['nama_kec'] = $row['nama_kec'].' ';
             $ret['ayah_ttl'] = $row['ayah_tempat_lahir'].', '.$ret['ayah_tanggal_lahir'];
             $ret['ibu_ttl'] = $row['ibu_tempat_lahir'].', '.$ret['ibu_tanggal_lahir'];
-            $ret['cs_ttl'] = $row['cs_tempat_lahir'].', '.$ret['cs_tanggal_lahir'];
-            $ret['ci_ttl'] = $row['ci_tempat_lahir'].', '.$ret['ci_tanggal_lahir'];
+            $ret['ca_ttl'] = $row['ca_tempat_lahir'].', '.$ret['ca_tanggal_lahir'];
+            $ret['cb_ttl'] = $row['cb_tempat_lahir'].', '.$ret['cb_tanggal_lahir'];
 
             
-            $ret['ci_alias'] = ($ret['ci_alias']!=''&&$ret['ci_alias']!='-') ? ' alias ' . $ret['ci_alias']:'';
-            $ret['cs_alias'] = ($ret['cs_alias']!=''&$ret['cs_alias']!='-') ? ' alias ' . $ret['cs_alias']:'';
-            $ret['cs_alias'] = ($ret['cs_alias']!=''&&$ret['cs_alias']!='-') ? ' alias ' . $ret['cs_alias']:'';
+            $ret['cb_alias'] = ($ret['cb_alias']!=''&&$ret['cb_alias']!='-') ? ' alias ' . $ret['cb_alias']:'';
+            $ret['ca_alias'] = ($ret['ca_alias']!=''&$ret['ca_alias']!='-') ? ' alias ' . $ret['ca_alias']:'';
+            $ret['ca_alias'] = ($ret['ca_alias']!=''&&$ret['ca_alias']!='-') ? ' alias ' . $ret['ca_alias']:'';
             $ret['ayah_alias'] = ($ret['ayah_alias']!='' &&$ret['ayah_alias']!='-') ? ' alias ' . $ret['ayah_alias']:'';
             $ret['ibu_alias'] = ($ret['ibu_alias']!=''&&$ret['ibu_alias'] !='-')? ' alias ' . $ret['ibu_alias']:'';
            

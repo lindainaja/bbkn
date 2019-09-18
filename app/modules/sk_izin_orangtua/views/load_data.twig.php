@@ -7,8 +7,8 @@
             <th><div align="center">Tanggal</div></th>
             <th><div align="center">Nama Ayah</div></th>
             <th><div align="center">Nama Ibu</div></th>
-            <th><div align="center">Nama Calon Suami</div></th>
-            <th><div align="center">Nama Calon Istri</div></th>
+            <th><div align="center">Nama Calon A</div></th>
+            <th><div align="center">Nama Calon B</div></th>
             <th><div align="center">Downloaded</div></th>
             <th><div align="center">Action</div></th>
         </tr>
@@ -30,8 +30,8 @@
 
             <td>{{ result_val.ayah_nama }}</td>
             <td>{{ result_val.ibu_nama }}</td>
-            <td>{{ result_val.cs_nama }}</td>
-            <td>{{ result_val.ci_nama }}</td>
+            <td>{{ result_val.ca_nama }}</td>
+            <td>{{ result_val.cb_nama }}</td>
 
     
 

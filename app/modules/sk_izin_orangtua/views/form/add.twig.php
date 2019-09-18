@@ -26,11 +26,23 @@
 </div>
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Alias 
-		<span class="require">*</span>
+		<span class="require"></span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ayah_alias" name="ayah_alias" type="text" placeholder="Alias" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="ayah_alias" name="ayah_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  />
 	</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-3 control-label">Bin <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="ayah_bin" name="ayah_bin" type="text" placeholder="Bin" class="wajib_isi form-control" autocomplete="off" maxlength="50" />
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-3 control-label">NIK <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="ayah_nik" name="ayah_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off" maxlength="50" />
+</div>
 </div>
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
@@ -61,11 +73,11 @@
 </div>
 </div>
     <div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">Tempat Tinggal 
+<label class="col-sm-4 col-lg-3 control-label">Alamat 
 	<span class="require">*</span>
 	</label>
 <div class="col-sm-8 col-lg-7 controls">
-<textarea name="ayah_tempat_tinggal" id="ayah_tempat_tinggal" class="wajib_isi form-control" placeholder="Tempat Tinggal"></textarea>
+<textarea name="ayah_alamat" id="ayah_alamat" class="wajib_isi form-control" placeholder="Alamat"></textarea>
 </div>
 </div>
 <h5>Data Ibu</h5>
@@ -79,11 +91,23 @@
 </div>
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Alias 
-		<span class="require">*</span>
+		<span class="require"></span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ibu_alias" name="ibu_alias" type="text" placeholder="Alias" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="ibu_alias" name="ibu_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  />
 	</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-3 control-label">Binti <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="ibu_binti" name="ibu_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off" maxlength="50" />
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-3 control-label">NIK <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="ibu_nik" name="ibu_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off" maxlength="50" />
+</div>
 </div>
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
@@ -114,124 +138,142 @@
 </div>
 </div>
     <div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">Tempat Tinggal 
+<label class="col-sm-4 col-lg-3 control-label">Alamat 
 	<span class="require">*</span>
 	</label>
 <div class="col-sm-8 col-lg-7 controls">
-<textarea name="ibu_tempat_tinggal" id="ibu_tempat_tinggal" class="wajib_isi form-control" placeholder="Tempat Tinggal"></textarea>
+<textarea name="ibu_alamat" id="ibu_alamat" class="wajib_isi form-control" placeholder="Alamat"></textarea>
 </div>
 </div>
-<h5>Data Calon Suami</h5>
+<h5>Data Calon A</h5>
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Nama 
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="cs_nama" name="cs_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="ca_nama" name="ca_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Alias 
-		<span class="require">*</span>
+		<span class="require"></span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="cs_alias" name="cs_alias" type="text" placeholder="Alias" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="ca_alias" name="ca_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  />
 	</div>
 </div>
 <div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">Jenis Kelamin <span class="require">*</span></label>
+<label class="col-sm-4 col-lg-3 control-label">Bin/Binti <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-<label class="radio-inline"><input name="cs_jk" class="cs_jk jk_l" checked="" type="radio" value="l" /> Laki-laki</label> 
-<label class="radio-inline"><input name="cs_jk" class="cs_jk jk_p" type="radio" value="p" /> Perempuan</label> 
+<input id="ca_bin_binti" name="ca_bin_binti" type="text" placeholder="Bin/Binti" class="wajib_isi form-control" autocomplete="off" maxlength="50" />
 </div>
 </div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-3 control-label">NIK <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="ca_nik" name="ca_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off" maxlength="50" />
+</div>
+</div>
+ 
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
 	<div class="col-sm-4 col-lg-4 controls">
-	<input id="cs_tempat_lahir" name="cs_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
+	<input id="ca_tempat_lahir" name="ca_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
 	</div>
 	<div class="col-sm-4 col-lg-3 controls">
-	<input id="cs_tanggal_lahir" name="cs_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
+	<input id="ca_tanggal_lahir" name="ca_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
 	</div>
 </div>
     <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Warga Negara <span class="require">*</span></label>
 
 <div class="col-sm-8 col-lg-7 controls">
-{{ cs_dropdown_kewarganegaraan|raw }}
+{{ ca_dropdown_kewarganegaraan|raw }}
 </div>
 </div>
     <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Agama <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-{{ cs_dropdown_agama|raw }}
+{{ ca_dropdown_agama|raw }}
 </div>
 </div>
     <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Pekerjaan <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-{{ cs_dropdown_pekerjaan|raw }}
+{{ ca_dropdown_pekerjaan|raw }}
 </div>
 </div>
     <div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">Tempat Tinggal 
+<label class="col-sm-4 col-lg-3 control-label">Alamat 
 	<span class="require">*</span>
 	</label>
 <div class="col-sm-8 col-lg-7 controls">
-<textarea name="cs_tempat_tinggal" id="cs_tempat_tinggal" class="wajib_isi form-control" placeholder="Tempat Tinggal"></textarea>
+<textarea name="ca_alamat" id="ca_alamat" class="wajib_isi form-control" placeholder="Alamat"></textarea>
 </div>
 </div>
-<h5>Data Calon Istri</h5>
+<h5>Data Calon B</h5>
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Nama 
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ci_nama" name="ci_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="cb_nama" name="cb_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Alias 
-		<span class="require">*</span>
+		<span class="require"></span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ci_alias" name="ci_alias" type="text" placeholder="Alias" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="cb_alias" name="cb_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  />
 	</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-3 control-label">Bin/Binti <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="cb_bin_binti" name="cb_bin_binti" type="text" placeholder="Bin/Binti" class="wajib_isi form-control" autocomplete="off" maxlength="50" />
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-3 control-label">NIK <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="cb_nik" name="cb_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off" maxlength="50" />
+</div>
 </div>
     <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
 	<div class="col-sm-4 col-lg-4 controls">
-	<input id="ci_tempat_lahir" name="ci_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
+	<input id="cb_tempat_lahir" name="cb_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
 	</div>
 	<div class="col-sm-4 col-lg-3 controls">
-	<input id="ci_tanggal_lahir" name="ci_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
+	<input id="cb_tanggal_lahir" name="cb_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
 	</div>
 </div>
     <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Warga Negara <span class="require">*</span></label>
 
 <div class="col-sm-8 col-lg-7 controls">
-{{ ci_dropdown_kewarganegaraan|raw }}
+{{ cb_dropdown_kewarganegaraan|raw }}
 </div>
 </div>
     <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Agama <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-{{ ci_dropdown_agama|raw }}
+{{ cb_dropdown_agama|raw }}
 </div>
 </div>
     <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Pekerjaan <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-{{ ci_dropdown_pekerjaan|raw }}
+{{ cb_dropdown_pekerjaan|raw }}
 </div>
 </div>
     <div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">Tempat Tinggal 
+<label class="col-sm-4 col-lg-3 control-label">Alamat 
 	<span class="require">*</span>
 	</label>
 <div class="col-sm-8 col-lg-7 controls">
-<textarea name="ci_tempat_tinggal" id="ci_tempat_tinggal" class="wajib_isi form-control" placeholder="Tempat Tinggal"></textarea>
+<textarea name="cb_alamat" id="cb_alamat" class="wajib_isi form-control" placeholder="Alamat"></textarea>
 </div>
 </div>
 
