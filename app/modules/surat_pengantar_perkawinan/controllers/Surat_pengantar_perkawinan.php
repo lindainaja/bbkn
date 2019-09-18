@@ -115,7 +115,7 @@ class Surat_pengantar_perkawinan extends Crud_Controller{
                 'c_dropdown_agama' => form_dropdown('c_agama',$agama,$detail['c_agama'],'id="c_agama" class="wajib_isi select2 form-control" style="width:100%" '),
                 'c_dropdown_pekerjaan' => form_dropdown('c_pekerjaan',$pekerjaan,$detail['c_pekerjaan'],'id="c_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
                 'syarat_form' => $this->syarat->form($detail['syarat']),
-                'dropdown_status_perkawinan' => form_dropdown('c_status_perkawinan',$status_perkawinan,'','id="c_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
+                'dropdown_status_perkawinan' => form_dropdown('c_status_perkawinan',$status_perkawinan,$detail['c_status_perkawinan'],'id="c_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
 
                 'surat_pengantar_perkawinanid' => $surat_pengantar_perkawinanid,
                 'detail' => $detail,
