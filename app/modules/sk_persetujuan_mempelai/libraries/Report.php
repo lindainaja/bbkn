@@ -24,19 +24,21 @@ class Report  extends ExcelReport
 			'cs_nama' => 'Nama Calon Suami',
 			'cs_alias' => 'Alias Calon Suami',
 			'cs_bin' => 'Bin',
+			'cs_nik' => 'NIK',
 			'cs_ttl' => 'Tempat/Tanggal Lahir Calon Suami',
 			'cs_kewarganegaraan' => 'Kewarganegaraan Calon Suami',
 			'cs_agama' => 'Agama',
 			'cs_pekerjaan' => 'Pekerjaan',
-			'cs_tempat_tinggal' => 'Tempat Tinggal Calon Suami',
+			'cs_alamat' => 'Alamat Calon Suami',
 			'ci_nama' => 'Nama Calon Istri',
 			'ci_alias' => 'Alias Calon Istri',
 			'ci_binti' => 'Binti',
+			'ci_nik' => 'NIK',
 			'ci_ttl' => 'Tempat/Tanggal Lahir Calon Istri',
 			'ci_kewarganegaraan' => 'Kewarganegaraan Calon Istri',
 			'ci_agama' => 'Agama Calon Istri',
 			'ci_pekerjaan' => 'Pekerjaan Calon Istri',
-			'ci_tempat_tinggal' => 'Tempat Tinggal Calon Istri' ,
+			'ci_alamat' => 'Alamat Calon Istri' ,
 
 
 	);
@@ -91,6 +93,7 @@ class Report  extends ExcelReport
 		$cellStart = "A8";
 		$rowStart  = 8;
 		$colStart  = "A";
+		$lastColumn='U';
 
 		
 		$tableColumnWidth = array(
@@ -115,7 +118,7 @@ class Report  extends ExcelReport
 		 		
 		 		$this->activeSheet->getColumnDimension($col)->setWidth(11.71);
 		 	}
-		 	else if ($col == 'S') {
+		 	else if ($col == $lastColumn) {
 		 		$this->activeSheet->getColumnDimension($col)->setWidth(40);
 				
 				
@@ -125,7 +128,7 @@ class Report  extends ExcelReport
 		 	$col++;
 		} 
 		
-		$col = "S";
+		$col = $lastColumn;
 		$this->setStyle("{$colStart}{$rowStart}:{$col}{$rownum}","table_outter");
 
 
@@ -156,13 +159,13 @@ class Report  extends ExcelReport
 			$rownum++;
 			$col = $colStart;
 		}
-		$this->setBorderStyle("A8:S8","top");
+		$this->setBorderStyle("A8:{$lastColumn}8","top");
 
 		$rownum = $rownum-1;
-		$this->setBorderStyle("S8:S{$rownum}","right");
+		$this->setBorderStyle("{$lastColumn}8:{$lastColumn}{$rownum}","right");
 		$this->setBorderStyle("A8:A{$rownum}","left");
 
-		$this->setBorderStyle("A{$rownum}:S{$rownum}","bottom");
+		$this->setBorderStyle("A{$rownum}:{$lastColumn}{$rownum}","bottom");
 
 	}
 	protected function modifyRowData($row){
@@ -177,6 +180,8 @@ class Report  extends ExcelReport
             $ret['no_kel'] = $row['nama_kel'].' ';
             $ret['cs_ttl'] = $row['cs_tempat_lahir'].', '.$ret['cs_tanggal_lahir'];
             $ret['ci_ttl'] = $row['ci_tempat_lahir'].', '.$ret['ci_tanggal_lahir'];
+            $ret['ci_alamat'] = $row['ci_alamat_a'].' '.$ret['ci_alamat_b'];
+            $ret['cs_alamat'] = $row['cs_alamat_a'].' '.$ret['cs_alamat_b'];
 
 	    return $ret;
 	}
