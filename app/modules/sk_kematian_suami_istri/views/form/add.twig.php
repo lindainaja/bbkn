@@ -18,69 +18,7 @@
 <input id="no" name="no" type="text" placeholder="Nomor" class="wajib_isi form-control" autocomplete="off" maxlength="100" />
 </div>
 </div>
-<h5>Data yang masih hidup</h5>
-<div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Nama <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-<input id="nama" name="nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off" maxlength="150" />
-</div>
-</div>
-
-<div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Alias <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-<input id="alias" name="alias" type="text" placeholder="Alias" class="wajib_isi form-control" autocomplete="off" maxlength="150" />
-</div>
-</div>
-<div class="form-group">
-	<label class="col-sm-4 col-lg-4 control-label">Bin/Binti 
-		<span class="require">*</span>
-				</label>
-	<div class="col-sm-8 col-lg-7 controls">
-		<input id="bin_binti" name="bin_binti" type="text" placeholder="Bin Binti" class="wajib_isi form-control" autocomplete="off"  />
-	</div>
-</div>
-<div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Jenis Kelamin <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-<label class="radio-inline"><input name="jk" class="jk jk_l" checked="" type="radio" value="l" /> Laki-laki</label> 
-<label class="radio-inline"><input name="jk" class="jk jk_p" type="radio" value="p" /> Perempuan</label> 
-</div>
-</div>
-<div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
-<div class="col-sm-4 col-lg-4 controls">
-<input id="tempat_lahir" name="tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
-</div>
-<div class="col-sm-4 col-lg-3 controls">
-<input id="tanggal_lahir" name="tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
-</div>
-</div>
-<div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Kewarganegaraan <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-{{ dropdown_kewarganegaraan|raw }}
-</div>
-</div>
-<div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Agama <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-{{ dropdown_agama|raw }}
-</div>
-</div>
-<div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Pekerjaan <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-{{ dropdown_pekerjaan|raw }}
-</div>
-</div>
-<div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Alamat <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-<textarea name="alamat" id="alamat" class="wajib_isi form-control" placeholder="Alamat"></textarea>
-</div>
-</div>
-<h5>Data yang sudah meninggal</h5>
+<h5>Data Yang Meninggal</h5>
 <div class="form-group">
 <label class="col-sm-4 col-lg-4 control-label">Nama <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
@@ -88,9 +26,9 @@
 </div>
 </div>
 <div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Alias <span class="require">*</span></label>
+<label class="col-sm-4 col-lg-4 control-label">Alias <span class="require"></span></label>
 <div class="col-sm-8 col-lg-7 controls">
-<input id="meninggal_alias" name="meninggal_alias" type="text" placeholder="Alias" class="wajib_isi form-control" autocomplete="off" maxlength="150" />
+<input id="meninggal_alias" name="meninggal_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off" maxlength="150" />
 </div>
 </div>
 <div class="form-group">
@@ -102,11 +40,12 @@
 	</div>
 </div>
 <div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Jenis Kelamin <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-<label class="radio-inline"><input name="meninggal_jk" class="meninggal_jk meninggal_jk_l" checked="" type="radio" value="l" /> Laki-laki</label> 
-<label class="radio-inline"><input name="meninggal_jk" class="meninggal_jk meninggal_jk_p" type="radio" value="p" /> Perempuan</label> 
-</div>
+	<label class="col-sm-4 col-lg-4 control-label">NIK
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="meninggal_nik" name="meninggal_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"  />
+	</div>
 </div>
 <div class="form-group">
 <label class="col-sm-4 col-lg-4 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
@@ -138,7 +77,13 @@
 <div class="form-group">
 <label class="col-sm-4 col-lg-4 control-label">Alamat <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-<textarea name="meninggal_alamat" id="meninggal_alamat" class="wajib_isi form-control" placeholder="Alamat"></textarea>
+<input id="meninggal_alamat_a" name="meninggal_alamat_a" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off" maxlength="100" />
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-4 control-label"> <span class="require"></span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="meninggal_alamat_b" name="meninggal_alamat_b" type="text" placeholder="" class=" form-control" autocomplete="off" maxlength="100" />
 </div>
 </div>
 <div class="form-group">
@@ -154,9 +99,78 @@
 </div>
 </div>
 <div class="form-group">
-<label class="col-sm-4 col-lg-4 control-label">Sebab Meninggal <span class="require">*</span></label>
+<label class="col-sm-4 col-lg-4 control-label">Status Hubungan <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-<input id="sebab_meninggal" name="sebab_meninggal" type="text" placeholder="Sebab Meninggal" class="wajib_isi form-control" autocomplete="off" maxlength="100" />
+{{ dropdown_meninggal_status_hubungan|raw }}
+</div>
+</div>
+<h5>Data Yang Bersangkutan</h5>
+<div class="form-group">
+<label class="col-sm-4 col-lg-4 control-label">Nama <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="nama" name="nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off" maxlength="150" />
+</div>
+</div>
+
+<div class="form-group">
+<label class="col-sm-4 col-lg-4 control-label">Alias <span class="require"></span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="alias" name="alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off" maxlength="150" />
+</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-4 control-label">Bin/Binti 
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="bin_binti" name="bin_binti" type="text" placeholder="Bin Binti" class="wajib_isi form-control" autocomplete="off"  />
+	</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-4 control-label">NIK
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="nik" name="nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"  />
+	</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-4 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
+<div class="col-sm-4 col-lg-4 controls">
+<input id="tempat_lahir" name="tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
+</div>
+<div class="col-sm-4 col-lg-3 controls">
+<input id="tanggal_lahir" name="tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-4 control-label">Kewarganegaraan <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+{{ dropdown_kewarganegaraan|raw }}
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-4 control-label">Agama <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+{{ dropdown_agama|raw }}
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-4 control-label">Pekerjaan <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+{{ dropdown_pekerjaan|raw }}
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-4 control-label">Alamat <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="alamat_a" name="alamat_a" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off" maxlength="100" />
+</div>
+</div>
+<div class="form-group">
+<label class="col-sm-4 col-lg-4 control-label"> <span class="require"></span></label>
+<div class="col-sm-8 col-lg-7 controls">
+<input id="alamat_b" name="alamat_b" type="text" placeholder="" class=" form-control" autocomplete="off" maxlength="100" />
 </div>
 </div>
 <h5>Data Tanda Tangan</h5>

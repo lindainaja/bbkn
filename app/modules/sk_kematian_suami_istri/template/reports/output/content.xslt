@@ -582,7 +582,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="nama"/> <xsl:value-of select="alias"/></w:t>
+      <w:t><xsl:value-of select="meninggal_nama"/> <xsl:value-of select="meninggal_alias"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRPr="002F3E4B" w:rsidRDefault="00600964" w:rsidP="00600964">
@@ -672,7 +672,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="bin_binti"/></w:t>
+      <w:t><xsl:value-of select="meninggal_bin_binti"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRPr="002F3E4B" w:rsidRDefault="00600964" w:rsidP="00600964">
@@ -726,7 +726,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="nik"/></w:t>
+      <w:t><xsl:value-of select="meninggal_nik"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRPr="002F3E4B" w:rsidRDefault="00600964" w:rsidP="00600964">
@@ -807,7 +807,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="ttl"/></w:t>
+      <w:t><xsl:value-of select="meninggal_ttl"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRPr="002F3E4B" w:rsidRDefault="00600964" w:rsidP="00600964">
@@ -888,7 +888,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="kewarganegaraan"/></w:t>
+      <w:t><xsl:value-of select="meninggal_kewarganegaraan"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRPr="002F3E4B" w:rsidRDefault="00600964" w:rsidP="00600964">
@@ -969,7 +969,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="agama"/></w:t>
+      <w:t><xsl:value-of select="meninggal_agama"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRPr="002F3E4B" w:rsidRDefault="00600964" w:rsidP="00600964">
@@ -1050,7 +1050,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="pekerjaan"/></w:t>
+      <w:t><xsl:value-of select="meninggal_pekerjaan"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRDefault="00600964" w:rsidP="00600964">
@@ -1131,7 +1131,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="alamat_a"/></w:t>
+      <w:t><xsl:value-of select="meninggal_alamat_a"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRPr="001C5617" w:rsidRDefault="00600964" w:rsidP="00600964">
@@ -1199,7 +1199,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="alamat_b"/></w:t>
+      <w:t><xsl:value-of select="meninggal_alamat_b"/></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRDefault="00600964" w:rsidP="00600964">
@@ -1383,7 +1383,7 @@
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>yang bersangkutan adalah <xsl:value-of select="status_hubungan_yang_meninggal"/>) dari :</w:t>
+      <w:t>yang bersangkutan adalah <xsl:value-of select="meninggal_status_hubungan"/> dari :</w:t>
      </w:r>
      <w:r w:rsidRPr="00600964">
       <w:rPr>
@@ -1502,7 +1502,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="meninggal_nama"/></w:t>
+      <w:t><xsl:value-of select="nama"/> <xsl:value-of select="alias"/></w:t>
      </w:r>
      <w:r w:rsidR="001C5617">
       <w:rPr>
@@ -1609,7 +1609,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="meninggal_bin_binti"/></w:t>
+      <w:t><xsl:value-of select="bin_binti"/></w:t>
      </w:r>
      <w:r w:rsidR="001C5617">
       <w:rPr>
@@ -1671,7 +1671,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="meninggal_nik"/></w:t>
+      <w:t><xsl:value-of select="nik"/></w:t>
      </w:r>
      <w:r w:rsidR="001C5617">
       <w:rPr>
@@ -1760,7 +1760,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="meninggal_ttl"/></w:t>
+      <w:t><xsl:value-of select="ttl"/></w:t>
      </w:r>
      <w:r w:rsidR="001C5617">
       <w:rPr>
@@ -1849,7 +1849,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="meninggal_kewarganegaraan"/></w:t>
+      <w:t><xsl:value-of select="kewarganegaraan"/></w:t>
      </w:r>
      <w:r w:rsidR="001C5617">
       <w:rPr>
@@ -1938,7 +1938,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="meninggal_agama"/></w:t>
+      <w:t><xsl:value-of select="agama"/></w:t>
      </w:r>
      <w:r w:rsidR="001C5617">
       <w:rPr>
@@ -2027,7 +2027,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="meninggal_pekerjaan"/></w:t>
+      <w:t><xsl:value-of select="pekerjaan"/></w:t>
      </w:r>
      <w:r w:rsidR="001C5617">
       <w:rPr>
@@ -2116,7 +2116,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="meninggal_alamat_a"/></w:t>
+      <w:t><xsl:value-of select="alamat_a"/></w:t>
      </w:r>
      <w:r w:rsidR="001C5617">
       <w:rPr>
@@ -2192,7 +2192,7 @@
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
       </w:rPr>
-      <w:t><xsl:value-of select="meninggal_alamat_b"/></w:t>
+      <w:t><xsl:value-of select="alamat_b"/></w:t>
      </w:r>
      <w:r w:rsidR="001C5617">
       <w:rPr>
@@ -2410,7 +2410,7 @@
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>*</w:t>
+      <w:t></w:t>
      </w:r>
      <w:r w:rsidR="00315D3D">
       <w:rPr>
@@ -2419,7 +2419,7 @@
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>*</w:t>
+      <w:t></w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00315D3D" w:rsidRDefault="00315D3D" w:rsidP="00600964">
@@ -2464,7 +2464,7 @@
        <w:szCs w:val="20"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>*)  coret yang tidak perlu</w:t>
+      <w:t> </w:t>
      </w:r>
     </w:p>
     <w:p w:rsidR="00600964" w:rsidRPr="00315D3D" w:rsidRDefault="00600964" w:rsidP="00600964">

@@ -6,28 +6,31 @@ class Sk_kematian_suami_istri extends Crud_Controller{
         'nama_kel' => 'Kelurahan',
         'tanggal_surat' => 'Tanggal Surat',
         'no' => 'Nomor Surat',
-        'nama' => 'Nama',
+        'meninggal_nama' => 'Nama Yang Meninggal ',
+        'meninggal_bin_binti' => 'Bin/Binti  ',
+        'meninggal_alias' => 'Alias  ',
+        // 'meninggal_jenis_kelamin' => 'Jenis Kelamin Almarhum/ah',
+        'meninggal_ttl' => 'Tempat/Tanggal Lahir ',
+        'meninggal_nik' => 'NIK ',
+        'meninggal_kewarganegaraan' => 'Kewarganegaraan ',
+        'meninggal_agama' => 'Agama  ',
+        'meninggal_pekerjaan' => 'Pekerjaan ',
+        'meninggal_alamat' => 'Alamat  ',
+        'tempat_meninggal' => 'Tempat Meninggal',
+        'tanggal_meninggal' => 'Tanggal Meninggal',
+        'meninggal_status_hubungan' => 'Status Hubungan',
+        'nama' => 'Nama Yang Bersangkutan',
         'alias' => 'Alias',
         'bin_binti' => 'Bin/Binti',
-        'jenis_kelamin' => 'Jenis Kelamin',
+        'nik' => 'NIK',
+        // 'jenis_kelamin' => 'Jenis Kelamin',
         'ttl' => 'Tempat/Tanggal Lahir',
         
         'kewarganegaraan' => 'Kewarganegaraan',
         'agama' => 'Agama',
         'pekerjaan' => 'Pekerjaan',
         'alamat' => 'Alamat',
-        'meninggal_nama' => 'Nama Almarhum/ah ',
-        'meninggal_bin_binti' => 'Bin/Binti Almarhum/ah ',
-        'meninggal_alias' => 'Alias Almarhum/ah ',
-        'meninggal_jenis_kelamin' => 'Jenis Kelamin Almarhum/ah',
-        'meninggal_ttl' => 'Tempat/Tanggal Lahir Almarhum/ah',
-        'meninggal_kewarganegaraan' => 'Kewarganegaraan Almarhum/ah',
-        'meninggal_agama' => 'Agama Almarhum/ah ',
-        'meninggal_pekerjaan' => 'Pekerjaan Almarhum/ah',
-        'meninggal_alamat' => 'Alamat Almarhum/ah ',
-        'tempat_meninggal' => 'Tempat Meninggal',
-        'tanggal_meninggal' => 'Tanggal Meninggal',
-        'sebab_meninggal' => 'Sebab Meninggal',
+        
     ];
     public function __construct(){
         parent::__construct(__DIR__);
@@ -67,6 +70,7 @@ class Sk_kematian_suami_istri extends Crud_Controller{
  
     protected function _preExport(&$data){
         $data['gender'] = config_item('gender');
+        // $this->_modifyRowData($data);
     }
 
     public function form_tambah_data()
@@ -75,6 +79,10 @@ class Sk_kematian_suami_istri extends Crud_Controller{
 $agama 			= agama_2_dropdown();
 $pekerjaan	 	= pekerjaan_dropdown();
 $perkawinan	 	= status_kawin_2_dropdown();
+$status_hubungan = [
+    'Suami' => 'Suami',
+    'Istri' => 'Istri'
+];
 $kel		 	= kel_3_dropdown($this->no_prop,$this->no_kab,$this->no_kec,$this->no_kel);
 $data = array(
 	'dropdown_no_kel'=> form_dropdown('no_kel',$kel,$this->session->userdata('log_kel'),'id="no_kel" class="wajib_isi select2 form-control" style="width:100%" '),
@@ -84,6 +92,7 @@ $data = array(
 	'dropdown_meninggal_kewarganegaraan'=> form_dropdown('meninggal_kewarganegaraan',$negara,'INDONESIA','id="meninggal_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
 	'dropdown_meninggal_agama'=> form_dropdown('meninggal_agama',$agama,'','id="meninggal_agama" class="wajib_isi select2 form-control" style="width:100%" '),
 	'dropdown_meninggal_pekerjaan'=> form_dropdown('meninggal_pekerjaan',$pekerjaan,'','id="meninggal_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+    'dropdown_meninggal_status_hubungan' => form_dropdown('meninggal_status_hubungan',$status_hubungan,'','id="meninggal_status_hubungan" class="wajib_isi select2 form-control" style="width:100%" '),
 	'negara' => $negara,
 	'agama' => $agama,
 	'pekerjaan' => $pekerjaan,
@@ -96,6 +105,10 @@ $this->twig->display('form/add.twig.php',$data);;
 
     public function form_edit_data()
     {
+        $status_hubungan = [
+    'Suami' => 'Suami',
+    'Istri' => 'Istri'
+];
         $sk_kematian_suami_istriid = $this->input->post('sk_kematian_suami_istriid');
 $detail = $this->m_sk_kematian_suami_istri->detail_data($sk_kematian_suami_istriid);
 $negara		 	= negara_dropdown();
@@ -112,6 +125,8 @@ $data = array(
 	'dropdown_meninggal_agama'=> form_dropdown('meninggal_agama',$agama,$detail['meninggal_agama'],'id="meninggal_agama" class="wajib_isi select2 form-control" style="width:100%" '),
 	'dropdown_meninggal_pekerjaan'=> form_dropdown('meninggal_pekerjaan',$pekerjaan,$detail['meninggal_pekerjaan'],'id="meninggal_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
 	'sk_kematian_suami_istriid' => $sk_kematian_suami_istriid,
+    'dropdown_meninggal_status_hubungan' => form_dropdown('meninggal_status_hubungan',$status_hubungan,$detail['meninggal_status_hubungan'],'id="meninggal_status_hubungan" class="wajib_isi select2 form-control" style="width:100%" '),
+
 	'detail' => $detail,
 	'negara' => $negara,
 	'agama' => $agama,
@@ -171,10 +186,10 @@ $this->twig->display('form/edit.twig.php',$data);;
      public function _modifyRowData(&$row)
      {
          
-            $gender = config_item('gender');
+            // $gender = config_item('gender');
            
-            $row['jenis_kelamin'] = $gender[$row['jk']];
-            $row['meninggal_jenis_kelamin'] = $gender[$row['meninggal_jk']];
+            // $row['jenis_kelamin'] = $gender[$row['jk']];
+            // $row['meninggal_jenis_kelamin'] = $gender[$row['meninggal_jk']];
             $row['tanggal_lahir']  = format_tanggal_khusus_indo($row['tanggal_lahir']);
             $row['meninggal_tanggal_lahir']  = format_tanggal_khusus_indo($row['meninggal_tanggal_lahir']);
             $row['tanggal_meninggal']  = format_tanggal_khusus_indo($row['tanggal_meninggal']);

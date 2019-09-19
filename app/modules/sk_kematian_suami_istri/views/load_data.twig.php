@@ -6,9 +6,10 @@
             <th><div align="center">#</div></th>
             <th><div align="center">Tanggal</div></th>
             <th><div align="center">Nomor</div></th>
-            <th><div align="center">Nama</div></th>
-            <th><div align="center">Nama Almarhum/ah</div></th>
-            <th><div align="center">Jenis Kelamin</div></th>
+            <th><div align="center">Nama Yang Meninggal</div></th>
+            <th><div align="center">Nama YBS</div></th>
+
+            <!-- <th><div align="center">Jenis Kelamin</div></th> -->
             <th><div align="center">Downloaded</div></th>
             <th><div align="center">Action</div></th>
         </tr>
@@ -30,10 +31,10 @@
 
             <td align="center">{{ result_val.no }}</td>
 
-            <td>{{ result_val.nama }}</td>
             <td>{{ result_val.meninggal_nama }}</td>
+            <td>{{ result_val.nama }}</td>
 
-            <td align="center">{{ gender[result_val.jk] }}</td>
+            <!-- <td align="center">{{ gender[result_val.jk] }}</td> -->
 
             <td align="center">{{ result_val.download }}x</td>
 
