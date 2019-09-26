@@ -23,6 +23,7 @@ function get_menu_mech(){
 
 function menu_check_role($array=array())
 {
+	// print_r($array);
 	if(count($array)>0){
 		return true;
 	} else {

@@ -1,0 +1,19 @@
+properties:
+    tablePk: surat_pemberitahuan_kekurangan_syaratid
+    tableName: surat_pemberitahuan_kekurangan_syarat
+    fields: [id,no_prop,no_kab,no_kec,no_kel,date,'no',file,download,archive,create_on,update_on,create_by,update_by,ttd_nip,ttd_nama,ttd_jabatan,lampiran,perihal_a,perihal_b,kepada_yth,lokasi_yth,cs_nama,ci_nama,nama_syarat_lengkap,nama_syarat_tidak_lengkap,nama_kepala_penghulu]
+    autosetPostKeys: 
+      add: [no_kel,date,'no',create_on,create_by,ttd_nip,ttd_nama,ttd_jabatan,lampiran,perihal_a,perihal_b,kepada_yth,lokasi_yth,cs_nama,ci_nama,nama_syarat_lengkap,nama_syarat_tidak_lengkap,nama_kepala_penghulu]
+      edit: [no_kel,date,'no',update_on,update_by,ttd_nip,ttd_nama,ttd_jabatan,lampiran,perihal_a,perihal_b,kepada_yth,lokasi_yth,cs_nama,ci_nama,nama_syarat_lengkap,nama_syarat_tidak_lengkap,nama_kepala_penghulu] 
+    dateFields: [date]
+    currentDateFields: [create_on, update_on]
+    syaratFields: [syarat]
+    sessionUserIdFields: [create_by, update_by]
+    behaviour: default
+    title: 'Surat Pemberitahuan Kekurangan Syarat/Penolakan Perkawinan atau Rujuk'
+    func: surat_pemberitahuan_kekurangan_syarat
+    modelName: m_surat_pemberitahuan_kekurangan_syarat
+    menuId: 121
+    subject: 'Surat Pemberitahuan Kekurangan Syarat/Penolakan Perkawinan atau Rujuk'
+    mechIds: [372,373,374,375]
+    breadcrumbs: { index: Beranda }
