@@ -6,34 +6,31 @@
 class Report  extends ExcelReport
 {
 	 
-	protected $namaPelayanan = "Surat Permohonan Kehendak Perkawinan";
+	protected $namaPelayanan = "Surat Pemberitahuan Kekurangan Syarat/Penolakan Perkawinan atau Rujuk";
 
 	/*
 	Document Option
 	*/
 	protected $_creator 		= "Simakel";
 	protected $_lastModifiedBy	= "Simakel";
-	protected $_title			= "Laporan Pelayanan Surat Permohonan Kehendak Perkawinan";
-	protected $_keywords		= "laporan simakel Surat Permohonan Kehendak Perkawinan";
+	protected $_title			= "Laporan Pelayanan SPKS_PPR";
+	protected $_keywords		= "laporan simakel Surat Pemberitahuan Kekurangan Syarat/Penolakan Perkawinan atau Rujuk";
 	protected $_outputFilename  = "document.xlsx";
  
 	protected $activeSheet;
 	protected $tableHeaders = [
 	'nama_kel' => 'Kelurahan',
 	'tanggal_surat' => 'Tanggal Surat',
-	'nama' => 'Nama',
 	'no' => 'Nomor Surat',
-	'jenis_kelamin' => 'Jenis Kelamin',
-	'ttl' => 'Tempat/Tanggal Lahir',
-	'tempat_lahir' => 'Tempat Lahir',
-	'kewarganegaraan' => 'Kewarganegaraan',
-	'agama' => 'Agama',
-	'pekerjaan' => 'Pekerjaan',
-	'nik' => 'NIK',
-	'alamat' => 'Alamat',
-	'bidang_usaha' => 'Bidang Usaha',
-	'lokasi' => 'Lokasi',
-	'berlaku_sampai' => 'Berlaku Sampai',
+	'lampiran' => 'Lampiran',
+	'perihal_a' => 'Perihal',
+	'kepada_yth' => 'Kepada Yth',
+	'lokasi_yth' => 'Lokasi Yth',
+	'cs_nama' => 'Nama C.S',
+	'ci_nama' => 'Nama C.I',
+	'nama_syarat_lengkap' => 'Nama Syarat Lengkap',
+	'nama_syarat_tidak_lengkap' => 'Nama Syarat Tidak Lengkap',
+	'nama_kepala_penghulu' => 'Nama Kepala Penghulu',
 ];
 	
 	protected function setDocumentBody(){
@@ -98,7 +95,7 @@ class Report  extends ExcelReport
 		// WRITE TABLE COLUMN TITLE
 		$col 	= $colStart;
 		$rownum = $rowStart;
-		$end_col = 'P';
+		$end_col = 'M';
 		foreach ($tableColumns as $columnTitle) {
 		 	if($col == 'C'){
 				$this->mergeCells("B{$rownum}:C{$rownum}");
@@ -166,11 +163,11 @@ class Report  extends ExcelReport
         }
          $ret = $row;
             $gender = config_item('gender');
-            $ret['jenis_kelamin']  = $gender[$row['jk']];
-            $ret['tanggal_lahir']  = format_tanggal_khusus_indo($row['tanggal_lahir']);
+            // $ret['jenis_kelamin']  = $gender[$row['jk']];
+            // $ret['tanggal_lahir']  = format_tanggal_khusus_indo($row['tanggal_lahir']);
             $ret['tanggal_surat']  = format_tanggal_khusus_indo($row['date']);
-            $ret['berlaku_sampai'] = format_tanggal_khusus_indo($row['berlaku_sampai']);
-            $ret['ttl'] = $row['tempat_lahir'].', '.$ret['tanggal_lahir'];
+            // $ret['berlaku_sampai'] = format_tanggal_khusus_indo($row['berlaku_sampai']);
+            // $ret['ttl'] = $row['tempat_lahir'].', '.$ret['tanggal_lahir'];
             return $ret;
 	}
 	

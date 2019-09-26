@@ -3,8 +3,8 @@ properties:
     tableName: surat_pemberitahuan_kekurangan_syarat
     fields: [id,no_prop,no_kab,no_kec,no_kel,date,'no',file,download,archive,create_on,update_on,create_by,update_by,ttd_nip,ttd_nama,ttd_jabatan,lampiran,perihal_a,perihal_b,kepada_yth,lokasi_yth,cs_nama,ci_nama,nama_syarat_lengkap,nama_syarat_tidak_lengkap,nama_kepala_penghulu]
     autosetPostKeys: 
-      add: [no_kel,date,'no',create_on,create_by,ttd_nip,ttd_nama,ttd_jabatan,lampiran,perihal_a,perihal_b,kepada_yth,lokasi_yth,cs_nama,ci_nama,nama_syarat_lengkap,nama_syarat_tidak_lengkap,nama_kepala_penghulu]
-      edit: [no_kel,date,'no',update_on,update_by,ttd_nip,ttd_nama,ttd_jabatan,lampiran,perihal_a,perihal_b,kepada_yth,lokasi_yth,cs_nama,ci_nama,nama_syarat_lengkap,nama_syarat_tidak_lengkap,nama_kepala_penghulu] 
+        add: [no_kel,date,'no',create_on,create_by,ttd_nip,ttd_nama,ttd_jabatan,lampiran,perihal_a,perihal_b,kepada_yth,lokasi_yth,cs_nama,ci_nama,nama_syarat_lengkap,nama_syarat_tidak_lengkap,nama_kepala_penghulu]
+        edit: [no_kel,date,'no',update_on,update_by,ttd_nip,ttd_nama,ttd_jabatan,lampiran,perihal_a,perihal_b,kepada_yth,lokasi_yth,cs_nama,ci_nama,nama_syarat_lengkap,nama_syarat_tidak_lengkap,nama_kepala_penghulu] 
     dateFields: [date]
     currentDateFields: [create_on, update_on]
     syaratFields: [syarat]

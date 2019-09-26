@@ -140,9 +140,9 @@ class Surat_pemberitahuan_kekurangan_syarat extends Crud_Controller{
              $ret = $row;
             $gender = config_item('gender');
             $ret['date']  = format_tanggal_khusus_indo($row['date']);
-            $ret['tanggal_acara']  = format_tanggal_khusus_indo($row['tanggal_acara']);
-            $ret['hari_acara']  = tanggal_indo($row['tanggal_acara'],false,true);
-            $ret['tanggal_terima']  = format_tanggal_khusus_indo($row['tanggal_terima']);
+            // $ret['tanggal_acara']  = format_tanggal_khusus_indo($row['tanggal_acara']);
+            // $ret['hari_acara']  = tanggal_indo($row['tanggal_acara'],false,true);
+            // $ret['tanggal_terima']  = format_tanggal_khusus_indo($row['tanggal_terima']);
 
            $ret['tanggal_surat']  = date('d-m-Y',strtotime($row['date']));
             // $ret['tanggal_hilang'] = format_tanggal_khusus_indo($row['tgl_hilang']);

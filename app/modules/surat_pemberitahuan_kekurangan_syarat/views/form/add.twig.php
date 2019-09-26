@@ -8,6 +8,14 @@
 </div>
 </div>
 <div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label">No
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="no" name="no" type="text" placeholder="Nomor" class="wajib_isi form-control" autocomplete="off"  />
+	</div>
+</div>
+<div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Tanggal 
 	<span class="require">*</span>
 			</label>
@@ -71,7 +79,7 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="nama_syarat_sudah_lengkap" name="nama_syarat_sudah_lengkap" type="text" placeholder="Sebutkan" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="nama_syarat_lengkap" name="nama_syarat_lengkap" type="text" placeholder="Sebutkan" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
 <div class="form-group">
@@ -79,7 +87,7 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="nama_syarat_belum_lengkap" name="nama_syarat_belum_lengkap" type="text" placeholder="Sebutkan" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="nama_syarat_tidak_lengkap" name="nama_syarat_tidak_lengkap" type="text" placeholder="Sebutkan" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
  
