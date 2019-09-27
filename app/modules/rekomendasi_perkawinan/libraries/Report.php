@@ -13,7 +13,7 @@ class Report  extends ExcelReport
 	*/
 	protected $_creator 		= "Simakel";
 	protected $_lastModifiedBy	= "Simakel";
-	protected $_title			= "L. Pel. Srt. Rekomendasi Perkawinan";
+	protected $_title			= "Lap Rekomendasi Perkawinan";
 	protected $_keywords		= "laporan simakel";
 	protected $_outputFilename  = "document.xlsx";
  
@@ -22,7 +22,7 @@ class Report  extends ExcelReport
 	'nama_kel' => 'Kelurahan',
 	'tanggal_surat' => 'Tanggal Surat',
 	'no' => 'Nomor Surat',
-	'status_doc' => 'Status Doc',
+
 	'a_nama' => 'A Nama',
 	'a_bin_binti' => 'A Bin Binti',
 	'a_nik' => 'A NIK',
@@ -99,7 +99,7 @@ class Report  extends ExcelReport
 		$cellStart = "A8";
 		$rowStart  = 8;
 		$colStart  = "A";
-		$lastColumn='U';
+		$lastColumn='AC';
 
 		
 		$tableColumnWidth = array(

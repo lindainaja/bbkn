@@ -8,6 +8,30 @@
 </div>
 </div>
 <div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label">No 
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="no" name="no" type="text" placeholder="Nomor" class="wajib_isi  form-control" autocomplete="off"  />
+	</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label">Kepada Yth.
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="kepada_yth" name="kepada_yth" type="text" placeholder="Nama Yth" class="wajib_isi  form-control" autocomplete="off"  />
+	</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label">Lokasi Yth.
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="lokasi_yth" name="lokasi_yth" type="text" placeholder="Nama Lokasi" class="wajib_isi  form-control" autocomplete="off"  />
+	</div>
+</div>
+<div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Tanggal 
 	<span class="require">*</span>
 			</label>

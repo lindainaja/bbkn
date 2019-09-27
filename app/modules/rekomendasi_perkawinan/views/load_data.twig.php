@@ -5,8 +5,8 @@
         <tr>
             <th><div align="center">#</div></th>
             <th><div align="center">Tanggal</div></th>
-            <th><div align="center">Nama Calon Suami</div></th>
-            <th><div align="center">Nama Calon Istri</div></th>
+            <th><div align="center">Nama Pihak A</div></th>
+            <th><div align="center">Nama Pihak B</div></th>
             <th><div align="center">Downloaded</div></th>
             <th><div align="center">Action</div></th>
         </tr>

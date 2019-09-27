@@ -1,5 +1,5 @@
 <form class="form-horizontal" action="#" id="form_rekomendasi_perkawinan">
-	<input type="hidden" id="rekomendasi_perkawinanid" name="rekomendasi_perkawinanid" value="0" />
+	<input type="hidden" id="rekomendasi_perkawinanid" name="rekomendasi_perkawinanid" value="{{rekomendasi_perkawinanid}}" />
 	<div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Kelurahan <span class="require">*</span></label>
 
@@ -8,11 +8,35 @@
 </div>
 </div>
 <div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label">No 
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="no" name="no" type="text" placeholder="Nomor" class="wajib_isi  form-control" autocomplete="off" value="{{detail.no}}" />
+	</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label">Kepada Yth.
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="kepada_yth" name="kepada_yth" type="text" placeholder="Nama Yth" class="wajib_isi  form-control" autocomplete="off" value="{{detail.kepada_yth}}" />
+	</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-3 control-label">Lokasi Yth.
+		<span class="require">*</span>
+				</label>
+	<div class="col-sm-8 col-lg-7 controls">
+		<input id="lokasi_yth" name="lokasi_yth" type="text" placeholder="Nama Lokasi" class="wajib_isi  form-control" autocomplete="off" value="{{detail.lokasi_yth}}" />
+	</div>
+</div>
+<div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Tanggal 
 	<span class="require">*</span>
 			</label>
 <div class="col-sm-8 col-lg-7 controls">
-<input id="date" name="date" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
+<input id="date" name="date" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" value="{{format_datepicker(detail.date)}}" />
 </div>
 </div>
 <h5>Data Pihak A</h5>
@@ -21,30 +45,30 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="a_nama" name="a_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="a_nama" name="a_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  value="{{detail.a_nama}}"/>
 	</div>
 </div>
-<!-- <div class="form-group">
-	<label class="col-sm-4 col-lg-3 control-label">Alias 
-		<span class="require"></span>
-				</label>
-	<div class="col-sm-8 col-lg-7 controls">
-		<input id="a_alias" name="a_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  />
-	</div>
-</div> -->
+
 <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Bin/Binti 
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="a_bin_binti" name="a_bin_binti" type="text" placeholder="Bin" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="a_bin_binti" name="a_bin_binti" type="text" placeholder="Bin" class="wajib_isi form-control" autocomplete="off" value="{{detail.a_bin_binti}}" />
 	</div>
 </div>
 <div class="form-group">
-	<label class="col-sm-4 col-lg-4 control-label">Jenis Kelamin <span class="require">*</span></label>
+	{% set checked_al='' %}
+	{% set checked_ap='' %}
+	{% if detail.a_jk=='l' %}
+		{% set checked_al='checked=""' %}
+	{% elseif detail.a_jk=='p' %}
+		{% set checked_ap='checked=""' %}
+	{% endif %}
+	<label class="col-sm-4 col-lg-3 control-label">Jenis Kelamin <span class="require">*</span></label>
 	<div class="col-sm-8 col-lg-7 controls">
-	<label class="radio-inline"><input name="a_jk" class="jk jk_l" checked="" type="radio" value="l" /> Laki-laki</label> 
-	<label class="radio-inline"><input name="a_jk" class="jk jk_p" type="radio" value="p" /> Perempuan</label> 
+	<label class="radio-inline"><input name="a_jk" class="jk jk_l"  {{ checked_al }}  type="radio" value="l" /> Laki-laki</label> 
+	<label class="radio-inline"><input name="a_jk" class="jk jk_p"  {{ checked_ap }} type="radio" value="p" /> Perempuan</label> 
 	</div>
 </div>
 <div class="form-group">
@@ -52,16 +76,16 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="a_nik" name="a_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"   />
+		<input id="a_nik" name="a_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"   value="{{detail.a_nik}}"/>
 	</div>
 </div>
 <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
 	<div class="col-sm-4 col-lg-4 controls">
-	<input id="a_tempat_lahir" name="a_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
+	<input id="a_tempat_lahir" name="a_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" value="{{detail.a_tempat_lahir}}"/>
 	</div>
 	<div class="col-sm-4 col-lg-3 controls">
-	<input id="a_tanggal_lahir" name="a_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
+	<input id="a_tanggal_lahir" name="a_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" value="{{format_datepicker(detail.a_tanggal_lahir)}}"/>
 	</div>
 </div>
 <div class="form-group">
@@ -88,7 +112,7 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="a_alamat" name="a_alamat" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="a_alamat" name="a_alamat" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  value="{{detail.a_alamat}}"/>
 	</div>
 </div>
 <div class="form-group">
@@ -96,7 +120,7 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="a_nomor_paspor" name="a_nomor_paspor" type="text" placeholder="Nomor Paspor" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="a_nomor_paspor" name="a_nomor_paspor" type="text" placeholder="Nomor Paspor" class="wajib_isi form-control" autocomplete="off" value="{{detail.a_nomor_paspor}}" />
 	</div>
 </div>
 <div class="form-group">
@@ -111,7 +135,7 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="b_nama" name="b_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="b_nama" name="b_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  value="{{detail.b_nama}}"/>
 	</div>
 </div>
 
@@ -120,14 +144,21 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="b_bin_binti" name="b_bin_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="b_bin_binti" name="b_bin_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off"  value="{{detail.b_bin_binti}}"/>
 	</div>
 </div>
 <div class="form-group">
-	<label class="col-sm-4 col-lg-4 control-label">Jenis Kelamin <span class="require">*</span></label>
+	{% set checked_bl='' %}
+	{% set checked_bp='' %}
+	{% if detail.b_jk=='l' %}
+		{% set checked_bl='checked=""' %}
+	{% elseif detail.b_jk=='p' %}
+		{% set checked_bp='checked=""' %}
+	{% endif %}
+	<label class="col-sm-4 col-lg-3 control-label">Jenis Kelamin <span class="require">*</span></label>
 	<div class="col-sm-8 col-lg-7 controls">
-	<label class="radio-inline"><input name="b_jk" class="jk jk_l" checked="" type="radio" value="l" /> Laki-laki</label> 
-	<label class="radio-inline"><input name="b_jk" class="jk jk_p" type="radio" value="p" /> Perempuan</label> 
+	<label class="radio-inline"><input name="b_jk" class="jk jk_l" {{checked_bl}} type="radio" value="l" /> Laki-laki</label> 
+	<label class="radio-inline"><input name="b_jk" class="jk jk_p" {{checked_bp}} type="radio" value="p" /> Perempuan</label> 
 	</div>
 </div>
 <div class="form-group">
@@ -135,16 +166,16 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="b_nik" name="b_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"    />
+		<input id="b_nik" name="b_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"    value="{{detail.b_nik}}"/>
 	</div>
 </div>
 <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
 	<div class="col-sm-4 col-lg-4 controls">
-	<input id="b_tempat_lahir" name="b_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
+	<input id="b_tempat_lahir" name="b_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" value="{{detail.b_tempat_lahir}}"/>
 	</div>
 	<div class="col-sm-4 col-lg-3 controls">
-	<input id="b_tanggal_lahir" name="b_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
+	<input id="b_tanggal_lahir" name="b_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" value="{{format_datepicker(detail.b_tanggal_lahir)}}"/>
 	</div>
 </div>
 <div class="form-group">
@@ -171,7 +202,7 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="b_alamat" name="b_alamat" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="b_alamat" name="b_alamat" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  value="{{detail.b_alamat}}"/>
 	</div>
 </div>
 <div class="form-group">
@@ -179,7 +210,7 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="b_nomor_paspor" name="b_nomor_paspor" type="text" placeholder="Nomor Paspor" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="b_nomor_paspor" name="b_nomor_paspor" type="text" placeholder="Nomor Paspor" class="wajib_isi form-control" autocomplete="off"  value="{{detail.b_nomor_paspor}}"/>
 	</div>
 </div>
 <div class="form-group">
@@ -192,10 +223,53 @@
 <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Nama Kepala Penghulu<span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-<input id="nama_kepala_penghulu" name="nama_kepala_penghulu" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off" maxlength="150" />
+<input id="nama_kepala_penghulu" name="nama_kepala_penghulu" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off" maxlength="150" value="{{detail.nama_kepala_penghulu}}" />
 </div>
 </div>
  
  
-
+<div id="selectTmp">
+	{{ dropdown_status_perkawinan_p | raw }}
+	{{ dropdown_status_perkawinan_l | raw }}
+	<span id="a_status_perkawinan_value">{{ detail.a_status_perkawinan }}</span>
+	<span id="b_status_perkawinan_value">{{ detail.b_status_perkawinan }}</span>
+</div>
 </form>	
+<style type="text/css">
+	#selectTmp{
+		display: none;
+	}
+</style>
+<script type="text/javascript">
+
+bind_stt_perkawinan_select('a');
+bind_stt_perkawinan_select('b');
+
+function bind_stt_perkawinan_select(prefix){
+	let selector = 'select#'+prefix+'_status_perkawinan';
+	$('input[type=radio][name='+prefix+'_jk]').on('change', function() {
+		if ($(this).is(':checked')) {
+			var jk = $(this).val();
+	        
+	        var option = $('select[name=status_perkawinan_tmp_'+jk+']').html();
+	        $(selector).html(option);
+	        $(selector).trigger('change');
+
+	        setTimeout(function(){
+	        	var old_value = $('#'+prefix+'_status_perkawinan_value').text();
+	        	$('select#'+prefix+'_status_perkawinan option[value='+old_value+']').attr('selected',true);
+	        	$(selector).trigger('change');
+
+	        },500);
+	    }
+	}).change();
+
+	$(selector).change(function(){
+		var selected = $(this).val();
+
+		if(selected != ''){
+			$('#'+prefix+'_status_perkawinan_value').text(selected);
+		}
+	});
+}
+</script>
