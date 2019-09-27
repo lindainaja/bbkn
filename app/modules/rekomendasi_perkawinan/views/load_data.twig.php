@@ -27,9 +27,9 @@
             <td> {{ format_datepicker(result_val.date) }}</td>  
             
           
-            <td >{{ result_val.cs_nama }}</td>
+            <td >{{ result_val.a_nama }}</td>
 
-            <td>{{ result_val.ci_nama }}</td>
+            <td>{{ result_val.b_nama }}</td>
 
  
 

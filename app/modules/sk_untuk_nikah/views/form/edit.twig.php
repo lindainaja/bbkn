@@ -148,7 +148,7 @@
 </div>
 
 <style type="text/css">
-	#selectTmp, #frmJumlahIstri{
+	#selectTmp, #frmJumlahIstri, #frmNamaMantan{
 		display: none;
 	}
 </style>
@@ -159,14 +159,20 @@
 			if ($(this).is(':checked')) {
 				var jk = $(this).val();
 		        
-		        var option = $('select[name=status_perkawinan_tmp].' + jk).html();
-		        $('select#status_perkawinan').html(option) ;
+		        var option = $('select[name=status_perkawinan_tmp_'+jk+']').html();
+		        // $('select#status_perkawinan').html('') ;
+		        // setTimeout(function(){
+		        	$('select#status_perkawinan').html(option);
+		        $('select#status_perkawinan').trigger('change');
 
+		        // },200);
 		        setTimeout(function(){
 		        	var old_value = $('#status_perkawinan_value').text();
 		        	// console.log(old_value)
-		        	$('select#status_perkawinan').val(old_value).change();
-		        },200);
+		        	$('select#status_perkawinan option[value='+old_value+']').attr('selected',true);
+		        	$('select#status_perkawinan').trigger('change');
+
+		        },500);
 
 
 
@@ -186,7 +192,7 @@
 			}
 
 			if(selected != ''){
-				$('status_perkawinan_value').text(selected);
+				$('#status_perkawinan_value').text(selected);
 			}
 		});
 	});

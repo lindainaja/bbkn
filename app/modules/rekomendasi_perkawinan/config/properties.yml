@@ -10,10 +10,10 @@ properties:
     syaratFields: [syarat]
     sessionUserIdFields: [create_by, update_by]
     behaviour: default
-    title: 'Rekomendasi Perkawinan'
+    title: 'Surat Rekomendasi Perkawinan'
     func: rekomendasi_perkawinan
     modelName: m_rekomendasi_perkawinan
     menuId: 122
-    subject: 'Rekomendasi Perkawinan'
+    subject: 'Surat Rekomendasi Perkawinan'
     mechIds: [376,377,378,379]
     breadcrumbs: { index: Beranda }

@@ -152,7 +152,7 @@
 			if ($(this).is(':checked')) {
 				var jk = $(this).val();
 		        
-		        var option = $('select[name=status_perkawinan_tmp].' + jk).html();
+		        var option = $('select[name=status_perkawinan_tmp_'+jk+']' ).html();
 		        $('select#status_perkawinan').html(option) ;
 
 		        setTimeout(function(){
@@ -191,7 +191,7 @@
 			}
 			 
 			if(selected != ''){
-				$('status_perkawinan_value').text(selected);
+				$('#status_perkawinan_value').text(selected);
 			}
 		});
 	});

@@ -120,7 +120,7 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="b_binti" name="b_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="b_bin_binti" name="b_bin_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
 <div class="form-group">
@@ -197,5 +197,48 @@
 </div>
  
  
-
+<div id="selectTmp">
+	{{ dropdown_status_perkawinan_p | raw }}
+	{{ dropdown_status_perkawinan_l | raw }}
+	<span id="a_status_perkawinan_value">{{ detail.a_status_perkawinan }}</span>
+	<span id="b_status_perkawinan_value">{{ detail.b_status_perkawinan }}</span>
+</div>
 </form>	
+<style type="text/css">
+	#selectTmp{
+		display: none;
+	}
+</style>
+<script type="text/javascript">
+
+bind_stt_perkawinan_select('a');
+bind_stt_perkawinan_select('b');
+
+function bind_stt_perkawinan_select(prefix){
+	let selector = 'select#'+prefix+'_status_perkawinan';
+	$('input[type=radio][name='+prefix+'_jk]').on('change', function() {
+		if ($(this).is(':checked')) {
+			var jk = $(this).val();
+	        
+	        var option = $('select[name=status_perkawinan_tmp_'+jk+']').html();
+	        $(selector).html(option);
+	        $(selector).trigger('change');
+
+	        setTimeout(function(){
+	        	var old_value = $('#'+prefix+'_status_perkawinan_value').text();
+	        	$('select#'+prefix+'_status_perkawinan option[value='+old_value+']').attr('selected',true);
+	        	$(selector).trigger('change');
+
+	        },500);
+	    }
+	}).change();
+
+	$(selector).change(function(){
+		var selected = $(this).val();
+
+		if(selected != ''){
+			$('#'+prefix+'_status_perkawinan_value').text(selected);
+		}
+	});
+}
+</script>

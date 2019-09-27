@@ -120,7 +120,7 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="b_binti" name="b_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off"  />
+		<input id="b_bin_binti" name="b_bin_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
 <div class="form-group">

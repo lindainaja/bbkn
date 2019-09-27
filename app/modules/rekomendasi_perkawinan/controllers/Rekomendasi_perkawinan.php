@@ -70,12 +70,14 @@ class Rekomendasi_perkawinan extends Crud_Controller
     }
     public function form_tambah_data()
     {
-        	$kel  = kel_3_dropdown($this->no_prop,$this->no_kab,$this->no_kec,$this->no_kel);
-	$agama       = agama_2_dropdown();
-	$negara        = negara_dropdown();
-	$pekerjaan   = pekerjaan_dropdown();
+        $kel         = kel_3_dropdown($this->no_prop,$this->no_kab,$this->no_kec,$this->no_kel);
+    	$agama       = agama_2_dropdown();
+    	$negara      = negara_dropdown();
+    	$pekerjaan   = pekerjaan_dropdown();
 
-        $status_kawin = dropdown_status_perkawinan('l');
+        $status_kawin = [];
+        $status_perkawinan_l = dropdown_status_perkawinan('l');
+        $status_perkawinan_p = dropdown_status_perkawinan('p');
         $data = array(
         		'dropdown_no_kel'=> form_dropdown('no_kel',$kel,$this->session->userdata('log_kel'),'id="no_kel" class="wajib_isi select2 form-control" style="width:100%" '),
             	'a_dropdown_kewarganegaraan' => form_dropdown('a_kewarganegaraan',$negara,'INDONESIA','id="a_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
@@ -86,6 +88,8 @@ class Rekomendasi_perkawinan extends Crud_Controller
                 'b_dropdown_pekerjaan' => form_dropdown('b_pekerjaan',$pekerjaan,'','id="a_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
                 'a_dropdown_status_perkawinan' => form_dropdown('a_status_perkawinan',$status_kawin,'','id="a_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
             	'b_dropdown_status_perkawinan' => form_dropdown('b_status_perkawinan',$status_kawin,'','id="b_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
+                'dropdown_status_perkawinan_p' => form_dropdown('status_perkawinan_tmp_p',$status_perkawinan_p,'',' class="wajib_isi p form-control" '),
+                'dropdown_status_perkawinan_l' => form_dropdown('status_perkawinan_tmp_l',$status_perkawinan_l,'',' class="wajib_isi l form-control" ')
 
         );
         $this->twig->display('form/add.twig.php',$data);
@@ -93,31 +97,33 @@ class Rekomendasi_perkawinan extends Crud_Controller
 
     public function form_edit_data()
     {
-            $status_kawin = status_kawin_2_dropdown();
+        $status_kawin = status_kawin_2_dropdown();
         $rekomendasi_perkawinanid = $this->input->post('rekomendasi_perkawinanid');
         $detail = $this->m_rekomendasi_perkawinan->detail_data($rekomendasi_perkawinanid);
         // $detail_data = $this->m_rekomendasi_perkawinan->detail_data_detail($rekomendasi_perkawinanid);
-        	$kel  = kel_3_dropdown($this->no_prop,$this->no_kab,$this->no_kec,$this->no_kel);
-	$negara        = negara_dropdown();
-	$agama       = agama_2_dropdown();
-	$pekerjaan   = pekerjaan_dropdown();
-        $status_kawin = dropdown_status_perkawinan('l');
-
+        $kel  = kel_3_dropdown($this->no_prop,$this->no_kab,$this->no_kec,$this->no_kel);
+    	$negara        = negara_dropdown();
+    	$agama       = agama_2_dropdown();
+    	$pekerjaan   = pekerjaan_dropdown();
+        $status_kawin = [];
+        $status_perkawinan_l = dropdown_status_perkawinan('l');
+        $status_perkawinan_p = dropdown_status_perkawinan('p');
  
         $data = array(
-            	'dropdown_no_kel'=> form_dropdown('no_kel',$kel,$detail['no_kel'],'id="a_no_kel" class="wajib_isi select2 form-control" style="width:100%" '),
-	'a_dropdown_kewarganegaraan' => form_dropdown('a_kewarganegaraan',$negara,$detail['a_kewarganegaraan'],'id="a_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'a_dropdown_agama' => form_dropdown('a_agama',$agama,$detail['a_agama'],'id="a_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-	'a_dropdown_pekerjaan' => form_dropdown('a_pekerjaan',$pekerjaan,$detail['a_pekerjaan'],'id="a_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'b_dropdown_kewarganegaraan' => form_dropdown('b_kewarganegaraan',$negara,$detail['b_kewarganegaraan'],'id="b_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'b_dropdown_agama' => form_dropdown('b_agama',$agama,$detail['b_agama'],'id="b_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-	'b_dropdown_pekerjaan' => form_dropdown('b_pekerjaan',$pekerjaan,$detail['b_pekerjaan'],'id="b_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
-    'a_dropdown_status_perkawinan' => form_dropdown('a_status_perkawinan',$status_kawin,$detail['a_status_perkawinan'],'id="a_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
-                'b_dropdown_status_perkawinan' => form_dropdown('b_status_perkawinan',$status_kawin,$detail['b_status_perkawinan'],'id="b_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
+        	'dropdown_no_kel'=> form_dropdown('no_kel',$kel,$detail['no_kel'],'id="a_no_kel" class="wajib_isi select2 form-control" style="width:100%" '),
+        	'a_dropdown_kewarganegaraan' => form_dropdown('a_kewarganegaraan',$negara,$detail['a_kewarganegaraan'],'id="a_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+        	'a_dropdown_agama' => form_dropdown('a_agama',$agama,$detail['a_agama'],'id="a_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+        	'a_dropdown_pekerjaan' => form_dropdown('a_pekerjaan',$pekerjaan,$detail['a_pekerjaan'],'id="a_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+        	'b_dropdown_kewarganegaraan' => form_dropdown('b_kewarganegaraan',$negara,$detail['b_kewarganegaraan'],'id="b_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+        	'b_dropdown_agama' => form_dropdown('b_agama',$agama,$detail['b_agama'],'id="b_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+        	'b_dropdown_pekerjaan' => form_dropdown('b_pekerjaan',$pekerjaan,$detail['b_pekerjaan'],'id="b_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+            'a_dropdown_status_perkawinan' => form_dropdown('a_status_perkawinan',$status_kawin,$detail['a_status_perkawinan'],'id="a_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
+            'b_dropdown_status_perkawinan' => form_dropdown('b_status_perkawinan',$status_kawin,$detail['b_status_perkawinan'],'id="b_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
 
         	'rekomendasi_perkawinanid' => $rekomendasi_perkawinanid,
         	'detail' => $detail,
-            // 'detail_data' => $detail_data 
+            'dropdown_status_perkawinan_p' => form_dropdown('status_perkawinan_tmp_p',$status_perkawinan_p,'',' class="wajib_isi p form-control" '),
+            'dropdown_status_perkawinan_l' => form_dropdown('status_perkawinan_tmp_l',$status_perkawinan_l,'',' class="wajib_isi l form-control" ')
         );
         $this->twig->display('form/edit.twig.php',$data);
     }

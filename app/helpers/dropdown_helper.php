@@ -509,15 +509,15 @@ if( ! function_exists('enum_dropdown'))
 function dropdown_status_perkawinan($jk){
 	$data = array(
 		'l' => array(
-			'Jejaka' 	=> 'Jejaka',
-			'Duda' 		=> 'Duda',
-			'Beristri' 	=> 'Beristri'
+			'Jejaka' 	=> 'JEJAKA',
+			'Duda' 		=> 'DUDA',
+			'Beristri' 	=> 'BERISTRI'
 		),
 		'p' => array(
-			'Perawan'   => 'Perawan',
-			'Janda' => 'Janda'
+			'Perawan'   => 'PERAWAN',
+			'Janda' => 'JANDA'
 		)
 	);
 
-	return array_merge(array(''=>'--Status Perkawinan--'),$data[$jk]);
+	return array_merge(array(''=>'- - - Pilih Status Perkawinan - - -'),$data[$jk]);
 }

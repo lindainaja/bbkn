@@ -46,6 +46,7 @@ class M_rekomendasi_perkawinan extends CI_Model
 		$this->db->where('pk.archive',0);
 		$this->db->order_by('pk.id','DESC');
 		$result = $this->db->get()->result_array();
+		
 		return $result;
 	}
 

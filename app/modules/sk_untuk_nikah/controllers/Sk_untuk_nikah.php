@@ -49,8 +49,8 @@ class Sk_untuk_nikah extends Crud_Controller
             'dropdown_status_perkawinan' => form_dropdown('status_perkawinan',$status_perkawinan,'','id="status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
             'dropdown_pekerjaan' => form_dropdown('pekerjaan',$pekerjaan,'','id="pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
             'dropdown_agama' => form_dropdown('agama',$agama,'','id="agama" class="wajib_isi select2 form-control" style="width:100%" '),
-            'dropdown_status_perkawinan_p' => form_dropdown('status_perkawinan_tmp',$status_perkawinan_p,'',' class="p wajib_isi form-control" '),
-            'dropdown_status_perkawinan_l' => form_dropdown('status_perkawinan_tmp',$status_perkawinan_l,'',' class="l wajib_isi form-control" ')
+            'dropdown_status_perkawinan_p' => form_dropdown('status_perkawinan_tmp_p',$status_perkawinan_p,'',' class="p wajib_isi form-control" '),
+            'dropdown_status_perkawinan_l' => form_dropdown('status_perkawinan_tmp_l',$status_perkawinan_l,'',' class="l wajib_isi form-control" ')
 
         );
         $this->twig->display('form/add.twig.php',$data);
@@ -79,8 +79,8 @@ class Sk_untuk_nikah extends Crud_Controller
 
             'sk_untuk_nikahid' => $sk_untuk_nikahid,
             'detail' => $detail,
-            'dropdown_status_perkawinan_p' => form_dropdown('status_perkawinan_tmp',$status_perkawinan_p,'',' class="wajib_isi p form-control" '),
-            'dropdown_status_perkawinan_l' => form_dropdown('status_perkawinan_tmp',$status_perkawinan_l,'',' class="wajib_isi l form-control" ')
+            'dropdown_status_perkawinan_p' => form_dropdown('status_perkawinan_tmp_p',$status_perkawinan_p,'',' class="wajib_isi p form-control" '),
+            'dropdown_status_perkawinan_l' => form_dropdown('status_perkawinan_tmp_l',$status_perkawinan_l,'',' class="wajib_isi l form-control" ')
             // 'detail_data' => $detail_data 
         );
         $this->twig->display('form/edit.twig.php',$data);
