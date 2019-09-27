@@ -164,8 +164,9 @@ class Rekomendasi_perkawinan extends Crud_Controller
                 return $row;
             }
             $ret = $row;
-            // $gender = config_item('gender');
-            // $ret['jenis_kelamin']  = $gender[$row['jk']];
+            $gender = config_item('gender');
+            $ret['a_jenis_kelamin']  = $gender[$row['a_jk']];
+            $ret['b_jenis_kelamin']  = $gender[$row['b_jk']];
             $ret['b_tanggal_lahir']  = format_tanggal_khusus_indo($row['b_tanggal_lahir']);
             $ret['a_tanggal_lahir']  = format_tanggal_khusus_indo($row['a_tanggal_lahir']);
             $ret['tanggal_surat']  = format_tanggal_khusus_indo($row['date']);

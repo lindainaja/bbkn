@@ -4,11 +4,8 @@
   <w:document xmlns:ve="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml">
    <w:body>
     	<xsl:for-each select="root/row">
-    <w:p w:rsidR="00D06BBE" w:rsidRPr="00D92D4B" w:rsidRDefault="003B19E0" w:rsidP="003D505E">
+    <w:p w:rsidR="0092704E" w:rsidRDefault="00F519F7" w:rsidP="007F4ECF">
      <w:pPr>
-      <w:pStyle w:val="NoSpacing"/>
-      <w:ind w:left="5040"/>
-      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
@@ -16,22 +13,22 @@
        <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="003B19E0">
+     <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:noProof/>
-       <w:sz w:val="12"/>
-       <w:szCs w:val="12"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
       <w:pict>
        <v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202" path="m,l,21600r21600,l21600,xe">
         <v:stroke joinstyle="miter"/>
         <v:path gradientshapeok="t" o:connecttype="rect"/>
        </v:shapetype>
-       <v:shape id="Text Box 2" o:spid="_x0000_s1026" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:227.35pt;margin-top:-14.6pt;width:262.85pt;height:42.1pt;z-index:251658240;visibility:visible" o:gfxdata="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&#xA;AACtBQAAAAA=&#xA;" strokecolor="white [3212]">
+       <v:shape id="Text Box 20" o:spid="_x0000_s1041" type="#_x0000_t202" style="position:absolute;margin-left:226.65pt;margin-top:-13.25pt;width:262.85pt;height:42.1pt;z-index:251677696;visibility:visible" o:gfxdata="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&#xA;8wAAAK8FAAAAAA==&#xA;" strokecolor="white [3212]">
         <v:textbox>
          <w:txbxContent>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+          <w:p w:rsidR="0092704E" w:rsidRPr="00CC2970" w:rsidRDefault="0092704E" w:rsidP="0092704E">
            <w:pPr>
             <w:pStyle w:val="NoSpacing"/>
             <w:contextualSpacing/>
@@ -51,17 +48,17 @@
             </w:rPr>
             <w:t xml:space="preserve">LAMPIRAN </w:t>
            </w:r>
-           <w:r w:rsidRPr="00CC2970">
+           <w:r>
             <w:rPr>
              <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
              <w:sz w:val="12"/>
              <w:szCs w:val="12"/>
              <w:lang w:val="id-ID"/>
             </w:rPr>
-            <w:t>I</w:t>
+            <w:t>VII</w:t>
            </w:r>
           </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+          <w:p w:rsidR="0092704E" w:rsidRPr="00CC2970" w:rsidRDefault="0092704E" w:rsidP="0092704E">
            <w:pPr>
             <w:pStyle w:val="NoSpacing"/>
             <w:contextualSpacing/>
@@ -83,7 +80,7 @@
             <w:t>KEPUTUSAN DIREKTUR JENDERAL BIMBINGAN MASYARAKAT ISLAM</w:t>
            </w:r>
           </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+          <w:p w:rsidR="0092704E" w:rsidRPr="00CC2970" w:rsidRDefault="0092704E" w:rsidP="0092704E">
            <w:pPr>
             <w:pStyle w:val="NoSpacing"/>
             <w:contextualSpacing/>
@@ -105,7 +102,7 @@
             <w:t>NOMOR 713 TAHUN 2018</w:t>
            </w:r>
           </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+          <w:p w:rsidR="0092704E" w:rsidRPr="00CC2970" w:rsidRDefault="0092704E" w:rsidP="0092704E">
            <w:pPr>
             <w:pStyle w:val="NoSpacing"/>
             <w:contextualSpacing/>
@@ -127,7 +124,7 @@
             <w:t>TENTANG</w:t>
            </w:r>
           </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00CC2970" w:rsidRDefault="00852FA5" w:rsidP="00F13C1B">
+          <w:p w:rsidR="0092704E" w:rsidRPr="00CC2970" w:rsidRDefault="0092704E" w:rsidP="0092704E">
            <w:pPr>
             <w:pStyle w:val="NoSpacing"/>
             <w:contextualSpacing/>
@@ -155,18 +152,18 @@
       </w:pict>
      </w:r>
     </w:p>
-    <w:p w:rsidR="00D92D4B" w:rsidRPr="005D5328" w:rsidRDefault="00D92D4B" w:rsidP="005D5328">
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007F4ECF" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
      <w:pPr>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
     </w:p>
-    <w:p w:rsidR="00D92D4B" w:rsidRPr="002F3E4B" w:rsidRDefault="00D92D4B" w:rsidP="00D92D4B">
+    <w:p w:rsidR="0092704E" w:rsidRDefault="0092704E" w:rsidP="0092704E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
       <w:jc w:val="right"/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
@@ -175,61 +172,203 @@
        <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
+     <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>Model N3</w:t>
+      <w:t>Model N7</w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="00D92D4B" w:rsidRPr="002F3E4B" w:rsidRDefault="00D92D4B" w:rsidP="00D92D4B">
+    <w:p w:rsidR="0092704E" w:rsidRDefault="0092704E" w:rsidP="0092704E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:spacing w:line="276" w:lineRule="auto"/>
+      <w:contextualSpacing/>
       <w:jc w:val="center"/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
-       <w:u w:val="single"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
+     <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
-       <w:u w:val="single"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>SURAT PERSETUJUAN MEMPELAI</w:t>
+      <w:t>KANTOR URUSAN AGAMA</w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="00D92D4B">
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="0092704E">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:spacing w:line="276" w:lineRule="auto"/>
+      <w:contextualSpacing/>
       <w:jc w:val="center"/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
-       <w:u w:val="single"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t xml:space="preserve">KECAMATAN   </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="nama_kec"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="0092704E">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:spacing w:line="276" w:lineRule="auto"/>
+      <w:contextualSpacing/>
+      <w:jc w:val="center"/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t xml:space="preserve">KABUPATEN/KOTA  </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="nama_kab"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
       </w:rPr>
      </w:pPr>
     </w:p>
-    <w:p w:rsidR="00D92D4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="00D92D4B">
+    <w:tbl>
+     <w:tblPr>
+      <w:tblStyle w:val="TableGrid"/>
+      <w:tblW w:w="0" w:type="auto"/>
+      <w:tblBorders>
+       <w:top w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+       <w:left w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+       <w:bottom w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+       <w:right w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+       <w:insideH w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+       <w:insideV w:val="none" w:sz="0" w:space="0" w:color="auto"/>
+      </w:tblBorders>
+      <w:tblLook w:val="04A0"/>
+     </w:tblPr>
+     <w:tblGrid>
+      <w:gridCol w:w="4916"/>
+      <w:gridCol w:w="4917"/>
+     </w:tblGrid>
+     <w:tr w:rsidR="007D41B6" w:rsidTr="007D41B6">
+      <w:tc>
+       <w:tcPr>
+        <w:tcW w:w="4916" w:type="dxa"/>
+       </w:tcPr>
+       <w:p w:rsidR="007D41B6" w:rsidRDefault="007D41B6" w:rsidP="007F4ECF">
+        <w:pPr>
+         <w:pStyle w:val="NoSpacing"/>
+         <w:contextualSpacing/>
+         <w:rPr>
+          <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+         </w:rPr>
+        </w:pPr>
+        <w:r>
+         <w:rPr>
+          <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+          <w:lang w:val="id-ID"/>
+         </w:rPr>
+         <w:t>Nomor</w:t>
+        </w:r>
+        <w:r w:rsidRPr="00D92D4B">
+         <w:rPr>
+          <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+          <w:lang w:val="id-ID"/>
+         </w:rPr>
+         <w:tab/>
+         <w:t xml:space="preserve">: </w:t>
+        </w:r>
+        <w:r>
+         <w:rPr>
+          <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+         </w:rPr>
+         <w:t><xsl:value-of select="no"/></w:t>
+        </w:r>
+       </w:p>
+      </w:tc>
+      <w:tc>
+       <w:tcPr>
+        <w:tcW w:w="4917" w:type="dxa"/>
+       </w:tcPr>
+       <w:p w:rsidR="007D41B6" w:rsidRDefault="007D41B6" w:rsidP="007D41B6">
+        <w:pPr>
+         <w:pStyle w:val="NoSpacing"/>
+         <w:contextualSpacing/>
+         <w:jc w:val="right"/>
+         <w:rPr>
+          <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+         </w:rPr>
+        </w:pPr>
+        <w:r>
+         <w:rPr>
+          <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+          <w:sz w:val="24"/>
+          <w:szCs w:val="24"/>
+         </w:rPr>
+         <w:t><xsl:value-of select="tanggal_surat"/></w:t>
+        </w:r>
+       </w:p>
+      </w:tc>
+     </w:tr>
+    </w:tbl>
+    <w:p w:rsidR="0092704E" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
      <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
@@ -237,96 +376,14 @@
        <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
+     <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>Yang bertanda tangan di bawah ini :</w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="7"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:ind w:left="426" w:hanging="426"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Calon suami :</w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="8"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Nama lengkap dan alias</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
+      <w:t>Lampiran</w:t>
      </w:r>
      <w:r>
       <w:rPr>
@@ -336,77 +393,47 @@
        <w:lang w:val="id-ID"/>
       </w:rPr>
       <w:tab/>
+      <w:t>: 1 (satu) berkas</w:t>
      </w:r>
-     <w:r w:rsidRPr="002F3E4B">
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Perihal</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
       <w:t xml:space="preserve">: </w:t>
      </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="cs_nama"/> <xsl:value-of select="cs_alias"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="8"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
+     <w:r w:rsidR="00B8372D">
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Bin</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
+      <w:t>Rekomendasi P</w:t>
      </w:r>
      <w:r>
       <w:rPr>
@@ -415,36 +442,14 @@
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="cs_bin"/></w:t>
+      <w:t>erkawinan</w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
+    <w:p w:rsidR="0092704E" w:rsidRPr="00D92D4B" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
      <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="8"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:ind w:left="720" w:firstLine="720"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
@@ -452,15 +457,6 @@
        <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Nomor Induk Kependudukan (NIK)</w:t>
-     </w:r>
      <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
@@ -468,36 +464,13 @@
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="cs_nik"/></w:t>
+      <w:t xml:space="preserve">  </w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
+    <w:p w:rsidR="0092704E" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
      <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="8"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
@@ -505,42 +478,39 @@
        <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="00D92D4B" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>Tempat dan tanggal lahir</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
+     </w:pPr>
+     <w:r w:rsidRPr="00D92D4B">
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:tab/>
+      <w:t>Kepada Yth.</w:t>
      </w:r>
-     <w:r w:rsidRPr="002F3E4B">
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
+     </w:pPr>
      <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
@@ -548,79 +518,38 @@
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="cs_ttl"/></w:t>
+      <w:t>Kepala KBRI/KJRI/KUA Kecamatan</w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="009C1548" w:rsidP="007F4ECF">
      <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="8"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
+     <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>Kewarganegaraan</w:t>
+      <w:t><xsl:value-of select="kepada_yth"/></w:t>
      </w:r>
-     <w:r w:rsidRPr="002F3E4B">
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="009C1548" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
+     </w:pPr>
      <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
@@ -628,116 +557,21 @@
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="cs_kewarganegaraan"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="8"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Agama</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
+      <w:t>di</w:t>
      </w:r>
      <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="cs_agama"/></w:t>
+      <w:t xml:space="preserve"> <xsl:value-of select="lokasi_yth"/></w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
+    <w:p w:rsidR="0092704E" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
      <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="8"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
@@ -745,970 +579,11 @@
        <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Pekerjaan</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="cs_pekerjaan"/></w:t>
-     </w:r>
     </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
+    <w:p w:rsidR="0092704E" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
      <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="8"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Alamat</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="cs_alamat_a"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="00D44D19" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:ind w:left="786"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="cs_alamat_b"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="7"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:ind w:left="426" w:hanging="426"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Calon Istri :</w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="10"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Nama lengkap dan alias</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ci_nama"/> <xsl:value-of select="ci_alias"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="10"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Bin</w:t>
-     </w:r>
-     <w:r w:rsidR="00760EB7">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>ti</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ci_binti"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="10"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Nomor Induk Kependudukan (NIK)</w:t>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ci_nik"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="10"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Tempat dan tanggal lahir</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ci_ttl"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="10"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Kewarganegaraan</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ci_kewarganegaraan"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="10"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Agama</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ci_agama"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="10"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Pekerjaan</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ci_pekerjaan"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:numPr>
-       <w:ilvl w:val="0"/>
-       <w:numId w:val="10"/>
-      </w:numPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Alamat</w:t>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ci_alamat_a"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="00D44D19" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:ind w:left="786"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:tab/>
-     </w:r>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t xml:space="preserve">: </w:t>
-     </w:r>
-     <w:r w:rsidR="00D44D19">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-      </w:rPr>
-      <w:t><xsl:value-of select="ci_alamat_b"/></w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:jc w:val="both"/>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-     </w:pPr>
-     <w:r w:rsidRPr="002F3E4B">
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>Menyatakan dengan sesungguhnya bahwa atas dasar suka rela, dengan kesadaran sendiri, tanpa ada paksaan dari siapapun juga, setuju untuk melangsungkan perkawinan</w:t>
-     </w:r>
-     <w:r>
-      <w:rPr>
-       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:sz w:val="24"/>
-       <w:szCs w:val="24"/>
-       <w:lang w:val="id-ID"/>
-      </w:rPr>
-      <w:t>.</w:t>
-     </w:r>
-    </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="000256BE" w:rsidP="002F3E4B">
-     <w:pPr>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:jc w:val="both"/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
@@ -1724,16 +599,591 @@
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:t>Demikian surat persetujuan ini dibuat untuk digunakan seperlunya.</w:t>
+      <w:t>Berdasarkan Peraturan Menteri Agama Nomor 19 Tahun 2018 tentang Pencatatan Perkawinan, telah datang ke kantor kami seorang laki-laki/perempuan :</w:t>
      </w:r>
     </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="002F3E4B" w:rsidP="002F3E4B">
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
      <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
-      <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
-      </w:tabs>
-      <w:ind w:left="786"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Nama</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_nama"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Bin/Binti</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_bin_binti"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Nomor Induk Kependudukan</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_nik"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Tempat dan tanggal lahir</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_ttl"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Jenis Kelamin</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_jenis_kelamin"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Kewarganegaraan</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_kewarganegaraan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="0092704E" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Pekerjaan</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_pekerjaan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="0092704E" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Alamat</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_alamat"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Nomor Paspor</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_nomor_paspor"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Status Perkawinan</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="a_status_perkawinan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
@@ -1742,11 +1192,651 @@
       </w:rPr>
      </w:pPr>
     </w:p>
-    <w:p w:rsidR="002F3E4B" w:rsidRPr="002F3E4B" w:rsidRDefault="003B19E0" w:rsidP="002F3E4B">
+    <w:p w:rsidR="007F4ECF" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
      <w:pPr>
-      <w:pStyle w:val="ListParagraph"/>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Akan melaksanakan perk</w:t>
+     </w:r>
+     <w:r w:rsidR="00DF7CF5">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t>a</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>winan di wilayah Saudara dengan seorang laki-laki/perempuan:</w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Nama</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_nama"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Bin/Binti</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_bin_binti"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Nomor Induk Kependudukan</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_nik"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Tempat dan tanggal lahir</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_ttl"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Jenis Kelamin</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_jenis_kelamin"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Kewarganegaraan</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_kewarganegaraan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Pekerjaan</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_pekerjaan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Alamat</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_alamat"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Nomor Paspor</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_nomor_paspor"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:t>Status Perkawinan</w:t>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t xml:space="preserve">: </w:t>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="b_status_perkawinan"/></w:t>
+     </w:r>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:pStyle w:val="NoSpacing"/>
+      <w:contextualSpacing/>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+     </w:pPr>
+    </w:p>
+    <w:p w:rsidR="007F4ECF" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
       <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
+       <w:tab w:val="left" w:pos="3885"/>
       </w:tabs>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
@@ -1758,266 +1848,54 @@
      <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:noProof/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:pict>
-       <v:shape id="Text Box 10" o:spid="_x0000_s1031" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:-3.15pt;margin-top:9.95pt;width:203.05pt;height:122.95pt;z-index:251665408;visibility:visible" o:gfxdata="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&#xA;AAQA8wAAALIFAAAAAA==&#xA;" strokecolor="white [3212]">
-        <v:textbox>
-         <w:txbxContent>
-          <w:p w:rsidR="00852FA5" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D92D4B" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-           <w:r>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-            <w:t>Calon Suami</w:t>
-           </w:r>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D92D4B" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D92D4B" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D92D4B" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D44D19" w:rsidRDefault="00D44D19" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-            </w:rPr>
-           </w:pPr>
-           <w:r>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-            </w:rPr>
-            <w:t><xsl:value-of select="cs_nama"/></w:t>
-           </w:r>
-          </w:p>
-         </w:txbxContent>
-        </v:textbox>
-       </v:shape>
-      </w:pict>
+      <w:t>Berdasarkan persyaratan yang telah ditentukan dalam PMA Nomor 19 Tahun 2018 kami lampirkan persyaratan permohonan pendaftaran kehendak perkawinan.</w:t>
      </w:r>
      <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-       <w:noProof/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
       </w:rPr>
-      <w:pict>
-       <v:shape id="Text Box 8" o:spid="_x0000_s1032" type="#_x0000_t202" style="position:absolute;left:0;text-align:left;margin-left:276.2pt;margin-top:9.95pt;width:203.05pt;height:122.95pt;z-index:251664384;visibility:visible" o:gfxdata="UEsDBBQABgAIAAAAIQC2gziS/gAAAOEBAAATAAAAW0NvbnRlbnRfVHlwZXNdLnhtbJSRQU7DMBBF&#xA;90jcwfIWJU67QAgl6YK0S0CoHGBkTxKLZGx5TGhvj5O2G0SRWNoz/78nu9wcxkFMGNg6quQqL6RA&#xA;0s5Y6ir5vt9lD1JwBDIwOMJKHpHlpr69KfdHjyxSmriSfYz+USnWPY7AufNIadK6MEJMx9ApD/oD&#xA;OlTrorhX2lFEilmcO2RdNtjC5xDF9pCuTyYBB5bi6bQ4syoJ3g9WQ0ymaiLzg5KdCXlKLjvcW893&#xA;SUOqXwnz5DrgnHtJTxOsQfEKIT7DmDSUCaxw7Rqn8787ZsmRM9e2VmPeBN4uqYvTtW7jvijg9N/y&#xA;JsXecLq0q+WD6m8AAAD//wMAUEsDBBQABgAIAAAAIQA4/SH/1gAAAJQBAAALAAAAX3JlbHMvLnJl&#xA;bHOkkMFqwzAMhu+DvYPRfXGawxijTi+j0GvpHsDYimMaW0Yy2fr2M4PBMnrbUb/Q94l/f/hMi1qR&#xA;JVI2sOt6UJgd+ZiDgffL8ekFlFSbvV0oo4EbChzGx4f9GRdb25HMsYhqlCwG5lrLq9biZkxWOiqY&#xA;22YiTra2kYMu1l1tQD30/bPm3wwYN0x18gb45AdQl1tp5j/sFB2T0FQ7R0nTNEV3j6o9feQzro1i&#xA;OWA14Fm+Q8a1a8+Bvu/d/dMb2JY5uiPbhG/ktn4cqGU/er3pcvwCAAD//wMAUEsDBBQABgAIAAAA&#xA;IQCtMRuFSwIAAJAEAAAOAAAAZHJzL2Uyb0RvYy54bWysVNtu2zAMfR+wfxD0vjrO4jQ14hRdug4D&#xA;ugvQ7gNkWbaFSaImKbG7ry8lp2myvQ3zgyBR1OHhIen19agV2QvnJZiK5hczSoTh0EjTVfTH4927&#xA;FSU+MNMwBUZU9El4er15+2Y92FLMoQfVCEcQxPhysBXtQ7BllnneC838BVhh8LIFp1nAo+uyxrEB&#xA;0bXK5rPZMhvANdYBF96j9Xa6pJuE37aCh29t60UgqqLILaTVpbWOa7ZZs7JzzPaSH2iwf2ChmTQY&#xA;9Ah1ywIjOyf/gtKSO/DQhgsOOoO2lVykHDCbfPZHNg89syLlguJ4e5TJ/z9Y/nX/3RHZYO1QHsM0&#xA;1uhRjIF8gJGsojyD9SV6PVj0CyOa0TWl6u098J+eGNj2zHTixjkYesEapJfHl9nJ0wnHR5B6+AIN&#xA;hmG7AAlobJ2O2qEaBNGRx9OxNJEKR+O8uFxdvi8o4XiXF8t8sSxSDFa+PLfOh08CNImbijqsfYJn&#xA;+3sfIh1WvrjEaB6UbO6kUungunqrHNkz7JO79B3Qz9yUIUNFr4p5MSlwBhFbVhxB6m5SSe00pjsB&#xA;57P4RWBWoh07c7InE9JLXR8hEtmzyFoGnBMldUVXJyhR7o+mSYiBSTXtEUqZg/5R8kn8MNZjqvQy&#xA;Moi1qaF5woI4mMYCxxg3PbjflAw4EhX1v3bMCUrUZ4NFvcoXizhD6bAoLud4cKc39ekNMxyhKhoo&#xA;mbbbMM3dzjrZ9RhpEsjADTZCK1OJXlkd6GPbJzEOIxrn6vScvF5/JJtnAAAA//8DAFBLAwQUAAYA&#xA;CAAAACEAUpMovd8AAAAKAQAADwAAAGRycy9kb3ducmV2LnhtbEyPQU+DQBCF7yb+h82YeLOLpBCg&#xA;LI3R2JsxoqkeF3YKRHaWsNsW/fWOJz1O3pf3vim3ix3FCWc/OFJwu4pAILXODNQpeHt9vMlA+KDJ&#xA;6NERKvhCD9vq8qLUhXFnesFTHTrBJeQLraAPYSqk9G2PVvuVm5A4O7jZ6sDn3Ekz6zOX21HGUZRK&#xA;qwfihV5PeN9j+1kfrQLfRun+eV3v3xu5w+/cmIeP3ZNS11fL3QZEwCX8wfCrz+pQsVPjjmS8GBUk&#xA;SbxmlIM8B8FAnmQJiEZBnCYZyKqU/1+ofgAAAP//AwBQSwECLQAUAAYACAAAACEAtoM4kv4AAADh&#xA;AQAAEwAAAAAAAAAAAAAAAAAAAAAAW0NvbnRlbnRfVHlwZXNdLnhtbFBLAQItABQABgAIAAAAIQA4&#xA;/SH/1gAAAJQBAAALAAAAAAAAAAAAAAAAAC8BAABfcmVscy8ucmVsc1BLAQItABQABgAIAAAAIQCt&#xA;MRuFSwIAAJAEAAAOAAAAAAAAAAAAAAAAAC4CAABkcnMvZTJvRG9jLnhtbFBLAQItABQABgAIAAAA&#xA;IQBSkyi93wAAAAoBAAAPAAAAAAAAAAAAAAAAAKUEAABkcnMvZG93bnJldi54bWxQSwUGAAAAAAQA&#xA;BADzAAAAsQUAAAAA&#xA;" strokecolor="white [3212]">
-        <v:textbox>
-         <w:txbxContent>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D44D19" w:rsidRDefault="00D44D19" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-            </w:rPr>
-           </w:pPr>
-           <w:r>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-            </w:rPr>
-            <w:t><xsl:value-of select="nama_kel"/></w:t>
-           </w:r>
-           <w:r w:rsidR="00852FA5">
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-            <w:t xml:space="preserve">, </w:t>
-           </w:r>
-           <w:r>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-            </w:rPr>
-            <w:t><xsl:value-of select="tanggal_surat"/></w:t>
-           </w:r>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D92D4B" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-           <w:r>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-            <w:t>Calon Istri</w:t>
-           </w:r>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D92D4B" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D92D4B" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D92D4B" w:rsidRDefault="00852FA5" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-             <w:lang w:val="id-ID"/>
-            </w:rPr>
-           </w:pPr>
-          </w:p>
-          <w:p w:rsidR="00852FA5" w:rsidRPr="00D44D19" w:rsidRDefault="00D44D19" w:rsidP="000256BE">
-           <w:pPr>
-            <w:contextualSpacing/>
-            <w:jc w:val="center"/>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-            </w:rPr>
-           </w:pPr>
-           <w:r>
-            <w:rPr>
-             <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
-             <w:sz w:val="24"/>
-             <w:szCs w:val="24"/>
-            </w:rPr>
-            <w:t><xsl:value-of select="ci_nama"/></w:t>
-           </w:r>
-          </w:p>
-         </w:txbxContent>
-        </v:textbox>
-       </v:shape>
-      </w:pict>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
      </w:r>
     </w:p>
-    <w:p w:rsidR="00760EB7" w:rsidRDefault="00760EB7" w:rsidP="00D92D4B">
+    <w:p w:rsidR="007F4ECF" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
      <w:pPr>
       <w:tabs>
-       <w:tab w:val="left" w:pos="3491"/>
+       <w:tab w:val="left" w:pos="3885"/>
       </w:tabs>
-      <w:jc w:val="center"/>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
@@ -2025,38 +1903,45 @@
        <w:lang w:val="id-ID"/>
       </w:rPr>
      </w:pPr>
-    </w:p>
-    <w:p w:rsidR="00760EB7" w:rsidRPr="00760EB7" w:rsidRDefault="00760EB7" w:rsidP="00760EB7">
-     <w:pPr>
+     <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-     </w:pPr>
-    </w:p>
-    <w:p w:rsidR="00760EB7" w:rsidRPr="00760EB7" w:rsidRDefault="00760EB7" w:rsidP="00760EB7">
-     <w:pPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-     </w:pPr>
-    </w:p>
-    <w:p w:rsidR="00760EB7" w:rsidRPr="00760EB7" w:rsidRDefault="00760EB7" w:rsidP="00760EB7">
-     <w:pPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
       <w:rPr>
        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
        <w:sz w:val="24"/>
        <w:szCs w:val="24"/>
        <w:lang w:val="id-ID"/>
       </w:rPr>
-     </w:pPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+      <w:t>Kepala/Penghulu</w:t>
+     </w:r>
     </w:p>
-    <w:p w:rsidR="007F4ECF" w:rsidRPr="0092704E" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+    <w:p w:rsidR="007F4ECF" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
      <w:pPr>
       <w:tabs>
        <w:tab w:val="left" w:pos="3885"/>
@@ -2069,7 +1954,71 @@
       </w:rPr>
      </w:pPr>
     </w:p>
-    <w:sectPr w:rsidR="007F4ECF" w:rsidRPr="0092704E" w:rsidSect="00F13C1B">
+    <w:p w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidRDefault="007F4ECF" w:rsidP="007F4ECF">
+     <w:pPr>
+      <w:tabs>
+       <w:tab w:val="left" w:pos="3885"/>
+      </w:tabs>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+     </w:pPr>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r>
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+       <w:lang w:val="id-ID"/>
+      </w:rPr>
+      <w:tab/>
+     </w:r>
+     <w:r w:rsidR="007D41B6">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t><xsl:value-of select="nama_kepala_penghulu"/></w:t>
+     </w:r>
+     <w:r w:rsidR="00D10870">
+      <w:rPr>
+       <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+       <w:sz w:val="24"/>
+       <w:szCs w:val="24"/>
+      </w:rPr>
+      <w:t></w:t>
+     </w:r>
+    </w:p>
+    <w:sectPr w:rsidR="007F4ECF" w:rsidRPr="007D41B6" w:rsidSect="00F13C1B">
      <w:pgSz w:w="11906" w:h="16838" w:code="9"/>
      <w:pgMar w:top="567" w:right="849" w:bottom="709" w:left="1440" w:header="708" w:footer="708" w:gutter="0"/>
      <w:cols w:space="708"/>
