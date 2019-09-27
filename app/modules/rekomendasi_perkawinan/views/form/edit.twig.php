@@ -1,5 +1,5 @@
 <form class="form-horizontal" action="#" id="form_rekomendasi_perkawinan">
-	<input type="hidden" id="rekomendasi_perkawinanid" name="rekomendasi_perkawinanid" value="{{rekomendasi_perkawinanid}}" />
+	<input type="hidden" id="rekomendasi_perkawinanid" name="rekomendasi_perkawinanid" value="0" />
 	<div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Kelurahan <span class="require">*</span></label>
 
@@ -12,32 +12,39 @@
 	<span class="require">*</span>
 			</label>
 <div class="col-sm-8 col-lg-7 controls">
-<input id="date" name="date" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" value="{{format_datepicker(detail.date)}}"  />
+<input id="date" name="date" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
 </div>
 </div>
-<h5>Data Calon Suami</h5>
+<h5>Data Pihak A</h5>
 <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Nama 
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="cs_nama" name="cs_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  value="{{detail.cs_nama}}" />
+		<input id="a_nama" name="a_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
-<div class="form-group">
+<!-- <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Alias 
 		<span class="require"></span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="cs_alias" name="cs_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  value="{{detail.cs_alias}}" />
+		<input id="a_alias" name="a_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  />
 	</div>
-</div>
+</div> -->
 <div class="form-group">
-	<label class="col-sm-4 col-lg-3 control-label">Bin 
+	<label class="col-sm-4 col-lg-3 control-label">Bin/Binti 
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="cs_bin" name="cs_bin" type="text" placeholder="Bin" class="wajib_isi form-control" autocomplete="off"  value="{{detail.cs_bin}}" />
+		<input id="a_bin_binti" name="a_bin_binti" type="text" placeholder="Bin" class="wajib_isi form-control" autocomplete="off"  />
+	</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-4 control-label">Jenis Kelamin <span class="require">*</span></label>
+	<div class="col-sm-8 col-lg-7 controls">
+	<label class="radio-inline"><input name="a_jk" class="jk jk_l" checked="" type="radio" value="l" /> Laki-laki</label> 
+	<label class="radio-inline"><input name="a_jk" class="jk jk_p" type="radio" value="p" /> Perempuan</label> 
 	</div>
 </div>
 <div class="form-group">
@@ -45,35 +52,35 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="cs_nik" name="cs_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"  value="{{detail.cs_nik}}" />
+		<input id="a_nik" name="a_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"   />
 	</div>
 </div>
 <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
 	<div class="col-sm-4 col-lg-4 controls">
-	<input id="cs_tempat_lahir" name="cs_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" value="{{detail.cs_tempat_lahir}}"/>
+	<input id="a_tempat_lahir" name="a_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
 	</div>
 	<div class="col-sm-4 col-lg-3 controls">
-	<input id="cs_tanggal_lahir" name="cs_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off"  value="{{format_datepicker(detail.cs_tanggal_lahir)}}"/>
+	<input id="a_tanggal_lahir" name="a_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
 	</div>
 </div>
 <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Warga Negara <span class="require">*</span></label>
 
 <div class="col-sm-8 col-lg-7 controls">
-{{ cs_dropdown_kewarganegaraan|raw }}
+{{ a_dropdown_kewarganegaraan|raw }}
 </div>
 </div>
 <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Agama <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-{{ cs_dropdown_agama|raw }}
+{{ a_dropdown_agama|raw }}
 </div>
 </div>
 <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Pekerjaan <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-{{ cs_dropdown_pekerjaan|raw }}
+{{ a_dropdown_pekerjaan|raw }}
 </div>
 </div>
 <div class="form-group">
@@ -81,40 +88,46 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="cs_alamat_a" name="cs_alamat_a" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  value="{{detail.cs_alamat_a}}" />
+		<input id="a_alamat" name="a_alamat" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
 <div class="form-group">
-	<label class="col-sm-4 col-lg-3 control-label"> 
-		<span class="require"></span>
+	<label class="col-sm-4 col-lg-3 control-label">Nomor Paspor 
+		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="cs_alamat_b" name="cs_alamat_b" type="text" placeholder="" class=" form-control" autocomplete="off"  value="{{detail.cs_alamat_b}}" />
+		<input id="a_nomor_paspor" name="a_nomor_paspor" type="text" placeholder="Nomor Paspor" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
-<h5>Data Calon Istri</h5>
+<div class="form-group">
+<label class="col-sm-4 col-lg-3 control-label">Status Perkawinan <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+{{ a_dropdown_status_perkawinan|raw }}
+</div>
+</div>
+<h5>Data Pihak B</h5>
 <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Nama 
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ci_nama" name="ci_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  value="{{detail.ci_nama}}" />
+		<input id="b_nama" name="b_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
+
 <div class="form-group">
-	<label class="col-sm-4 col-lg-3 control-label">Alias 
-		<span class="require"></span>
-				</label>
-	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ci_alias" name="ci_alias" type="text" placeholder="Alias" class=" form-control" autocomplete="off"  value="{{detail.ci_alias}}" />
-	</div>
-</div>
-<div class="form-group">
-	<label class="col-sm-4 col-lg-3 control-label">Binti 
+	<label class="col-sm-4 col-lg-3 control-label">Bin/Binti 
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ci_binti" name="ci_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off"  value="{{detail.ci_binti}}" />
+		<input id="b_binti" name="b_binti" type="text" placeholder="Binti" class="wajib_isi form-control" autocomplete="off"  />
+	</div>
+</div>
+<div class="form-group">
+	<label class="col-sm-4 col-lg-4 control-label">Jenis Kelamin <span class="require">*</span></label>
+	<div class="col-sm-8 col-lg-7 controls">
+	<label class="radio-inline"><input name="b_jk" class="jk jk_l" checked="" type="radio" value="l" /> Laki-laki</label> 
+	<label class="radio-inline"><input name="b_jk" class="jk jk_p" type="radio" value="p" /> Perempuan</label> 
 	</div>
 </div>
 <div class="form-group">
@@ -122,35 +135,35 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ci_nik" name="ci_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"  value="{{detail.ci_nik}}" />
+		<input id="b_nik" name="b_nik" type="text" placeholder="NIK" class="wajib_isi form-control" autocomplete="off"    />
 	</div>
 </div>
 <div class="form-group">
 	<label class="col-sm-4 col-lg-3 control-label">Tempat, Tanggal Lahir <span class="require">*</span></label>
 	<div class="col-sm-4 col-lg-4 controls">
-	<input id="ci_tempat_lahir" name="ci_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" value="{{detail.ci_tempat_lahir}}"/>
+	<input id="b_tempat_lahir" name="b_tempat_lahir" type="text" placeholder="Tempat Lahir" class="wajib_isi form-control" autocomplete="off" />
 	</div>
 	<div class="col-sm-4 col-lg-3 controls">
-	<input id="ci_tanggal_lahir" name="ci_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off"  value="{{format_datepicker(detail.ci_tanggal_lahir)}}"/>
+	<input id="b_tanggal_lahir" name="b_tanggal_lahir" type="text" placeholder="dd/mm/yyyy" class="wajib_isi date-picker form-control input-small" autocomplete="off" />
 	</div>
 </div>
 <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Warga Negara <span class="require">*</span></label>
 
 <div class="col-sm-8 col-lg-7 controls">
-{{ ci_dropdown_kewarganegaraan|raw }}
+{{ b_dropdown_kewarganegaraan|raw }}
 </div>
 </div>
 <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Agama <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-{{ ci_dropdown_agama|raw }}
+{{ b_dropdown_agama|raw }}
 </div>
 </div>
 <div class="form-group">
 <label class="col-sm-4 col-lg-3 control-label">Pekerjaan <span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-{{ ci_dropdown_pekerjaan|raw }}
+{{ b_dropdown_pekerjaan|raw }}
 </div>
 </div>
 <div class="form-group">
@@ -158,36 +171,31 @@
 		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ci_alamat_a" name="ci_alamat_a" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  value="{{detail.ci_alamat_a}}" />
+		<input id="b_alamat" name="b_alamat" type="text" placeholder="Alamat" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
 <div class="form-group">
-	<label class="col-sm-4 col-lg-3 control-label"> 
-		<span class="require"></span>
+	<label class="col-sm-4 col-lg-3 control-label">Nomor Paspor 
+		<span class="require">*</span>
 				</label>
 	<div class="col-sm-8 col-lg-7 controls">
-		<input id="ci_alamat_b" name="ci_alamat_b" type="text" placeholder="" class=" form-control" autocomplete="off"  value="{{detail.ci_alamat_b}}" />
+		<input id="b_nomor_paspor" name="b_nomor_paspor" type="text" placeholder="Nomor Paspor" class="wajib_isi form-control" autocomplete="off"  />
 	</div>
 </div>
-
+<div class="form-group">
+<label class="col-sm-4 col-lg-3 control-label">Status Perkawinan <span class="require">*</span></label>
+<div class="col-sm-8 col-lg-7 controls">
+{{ b_dropdown_status_perkawinan|raw }}
+</div>
+</div>
 <h5>Data Tanda Tangan</h5>
 <div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">Nama <span class="require">*</span></label>
+<label class="col-sm-4 col-lg-3 control-label">Nama Kepala Penghulu<span class="require">*</span></label>
 <div class="col-sm-8 col-lg-7 controls">
-<input id="ttd_nama" name="ttd_nama" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off" maxlength="150" value="{{detail.ttd_nama}}"/>
+<input id="nama_kepala_penghulu" name="nama_kepala_penghulu" type="text" placeholder="Nama" class="wajib_isi form-control" autocomplete="off" maxlength="150" />
 </div>
 </div>
-<div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">NIP <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-<input id="ttd_nip" name="ttd_nip" type="text" placeholder="NIP" class="wajib_isi form-control" autocomplete="off" maxlength="50" value="{{detail.ttd_nip}}"  />
-</div>
-</div>
-<div class="form-group">
-<label class="col-sm-4 col-lg-3 control-label">Jabatan <span class="require">*</span></label>
-<div class="col-sm-8 col-lg-7 controls">
-<input id="ttd_jabatan" name="ttd_jabatan" type="text" placeholder="Jabatan" class="wajib_isi form-control" autocomplete="off" maxlength="100" value="{{detail.ttd_jabatan}}"/>
-</div>
-</div>
+ 
+ 
 
 </form>	

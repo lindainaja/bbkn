@@ -75,14 +75,17 @@ class Rekomendasi_perkawinan extends Crud_Controller
 	$negara        = negara_dropdown();
 	$pekerjaan   = pekerjaan_dropdown();
 
+        $status_kawin = dropdown_status_perkawinan('l');
         $data = array(
         		'dropdown_no_kel'=> form_dropdown('no_kel',$kel,$this->session->userdata('log_kel'),'id="no_kel" class="wajib_isi select2 form-control" style="width:100%" '),
-            	'cs_dropdown_kewarganegaraan' => form_dropdown('cs_kewarganegaraan',$negara,'INDONESIA','id="cs_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-            	'cs_dropdown_agama' => form_dropdown('cs_agama',$agama,'','id="cs_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-            	'cs_dropdown_pekerjaan' => form_dropdown('cs_pekerjaan',$pekerjaan,'','id="cs_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
-            	'ci_dropdown_kewarganegaraan' => form_dropdown('ci_kewarganegaraan',$negara,'INDONESIA','id="cs_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-            	'ci_dropdown_agama' => form_dropdown('ci_agama',$agama,'','id="cs_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-            	'ci_dropdown_pekerjaan' => form_dropdown('ci_pekerjaan',$pekerjaan,'','id="cs_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+            	'a_dropdown_kewarganegaraan' => form_dropdown('a_kewarganegaraan',$negara,'INDONESIA','id="a_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+            	'a_dropdown_agama' => form_dropdown('a_agama',$agama,'','id="a_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+            	'a_dropdown_pekerjaan' => form_dropdown('a_pekerjaan',$pekerjaan,'','id="a_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+            	'b_dropdown_kewarganegaraan' => form_dropdown('b_kewarganegaraan',$negara,'INDONESIA','id="a_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+            	'b_dropdown_agama' => form_dropdown('b_agama',$agama,'','id="a_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+                'b_dropdown_pekerjaan' => form_dropdown('b_pekerjaan',$pekerjaan,'','id="a_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+                'a_dropdown_status_perkawinan' => form_dropdown('a_status_perkawinan',$status_kawin,'','id="a_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
+            	'b_dropdown_status_perkawinan' => form_dropdown('b_status_perkawinan',$status_kawin,'','id="b_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
 
         );
         $this->twig->display('form/add.twig.php',$data);
@@ -90,6 +93,7 @@ class Rekomendasi_perkawinan extends Crud_Controller
 
     public function form_edit_data()
     {
+            $status_kawin = status_kawin_2_dropdown();
         $rekomendasi_perkawinanid = $this->input->post('rekomendasi_perkawinanid');
         $detail = $this->m_rekomendasi_perkawinan->detail_data($rekomendasi_perkawinanid);
         // $detail_data = $this->m_rekomendasi_perkawinan->detail_data_detail($rekomendasi_perkawinanid);
@@ -97,16 +101,19 @@ class Rekomendasi_perkawinan extends Crud_Controller
 	$negara        = negara_dropdown();
 	$agama       = agama_2_dropdown();
 	$pekerjaan   = pekerjaan_dropdown();
+        $status_kawin = dropdown_status_perkawinan('l');
 
  
         $data = array(
-            	'dropdown_no_kel'=> form_dropdown('no_kel',$kel,$detail['no_kel'],'id="cs_no_kel" class="wajib_isi select2 form-control" style="width:100%" '),
-	'cs_dropdown_kewarganegaraan' => form_dropdown('cs_kewarganegaraan',$negara,$detail['cs_kewarganegaraan'],'id="cs_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'cs_dropdown_agama' => form_dropdown('cs_agama',$agama,$detail['cs_agama'],'id="cs_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-	'cs_dropdown_pekerjaan' => form_dropdown('cs_pekerjaan',$pekerjaan,$detail['cs_pekerjaan'],'id="cs_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'ci_dropdown_kewarganegaraan' => form_dropdown('ci_kewarganegaraan',$negara,$detail['ci_kewarganegaraan'],'id="ci_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
-	'ci_dropdown_agama' => form_dropdown('ci_agama',$agama,$detail['ci_agama'],'id="ci_agama" class="wajib_isi select2 form-control" style="width:100%" '),
-	'ci_dropdown_pekerjaan' => form_dropdown('ci_pekerjaan',$pekerjaan,$detail['ci_pekerjaan'],'id="ci_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+            	'dropdown_no_kel'=> form_dropdown('no_kel',$kel,$detail['no_kel'],'id="a_no_kel" class="wajib_isi select2 form-control" style="width:100%" '),
+	'a_dropdown_kewarganegaraan' => form_dropdown('a_kewarganegaraan',$negara,$detail['a_kewarganegaraan'],'id="a_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'a_dropdown_agama' => form_dropdown('a_agama',$agama,$detail['a_agama'],'id="a_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+	'a_dropdown_pekerjaan' => form_dropdown('a_pekerjaan',$pekerjaan,$detail['a_pekerjaan'],'id="a_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'b_dropdown_kewarganegaraan' => form_dropdown('b_kewarganegaraan',$negara,$detail['b_kewarganegaraan'],'id="b_kewarganegaraan" class="wajib_isi select2 form-control" style="width:100%" '),
+	'b_dropdown_agama' => form_dropdown('b_agama',$agama,$detail['b_agama'],'id="b_agama" class="wajib_isi select2 form-control" style="width:100%" '),
+	'b_dropdown_pekerjaan' => form_dropdown('b_pekerjaan',$pekerjaan,$detail['b_pekerjaan'],'id="b_pekerjaan" class="wajib_isi select2 form-control" style="width:100%" '),
+    'a_dropdown_status_perkawinan' => form_dropdown('a_status_perkawinan',$status_kawin,$detail['a_status_perkawinan'],'id="a_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
+                'b_dropdown_status_perkawinan' => form_dropdown('b_status_perkawinan',$status_kawin,$detail['b_status_perkawinan'],'id="b_status_perkawinan" class="wajib_isi select2 form-control" style="width:100%" '),
 
         	'rekomendasi_perkawinanid' => $rekomendasi_perkawinanid,
         	'detail' => $detail,
@@ -153,20 +160,20 @@ class Rekomendasi_perkawinan extends Crud_Controller
             $ret = $row;
             // $gender = config_item('gender');
             // $ret['jenis_kelamin']  = $gender[$row['jk']];
-            $ret['ci_tanggal_lahir']  = format_tanggal_khusus_indo($row['ci_tanggal_lahir']);
-            $ret['cs_tanggal_lahir']  = format_tanggal_khusus_indo($row['cs_tanggal_lahir']);
+            $ret['b_tanggal_lahir']  = format_tanggal_khusus_indo($row['b_tanggal_lahir']);
+            $ret['a_tanggal_lahir']  = format_tanggal_khusus_indo($row['a_tanggal_lahir']);
             $ret['tanggal_surat']  = format_tanggal_khusus_indo($row['date']);
             // $ret['tanggal_hilang'] = format_tanggal_khusus_indo($row['tgl_hilang']);
             $ret['nama_kec'] = $row['nama_kec'].' ';
-            $ret['cs_ttl'] = $row['cs_tempat_lahir'].', '.$ret['cs_tanggal_lahir'];
-            $ret['ci_ttl'] = $row['ci_tempat_lahir'].', '.$ret['ci_tanggal_lahir'];
+            $ret['a_ttl'] = $row['a_tempat_lahir'].', '.$ret['a_tanggal_lahir'];
+            $ret['b_ttl'] = $row['b_tempat_lahir'].', '.$ret['b_tanggal_lahir'];
             // $ret['nama_barang'] = ' KK (Kartu Keluarga) ';
 
-            if(!empty($ret['cs_alias'])){
-                $ret['cs_alias'] = ' alias ' . $ret['cs_alias'];
+            if(!empty($ret['a_alias'])){
+                $ret['a_alias'] = ' alias ' . $ret['a_alias'];
             }
-            if(!empty($ret['ci_alias'])){
-                $ret['ci_alias'] = ' alias ' . $ret['ci_alias'];
+            if(!empty($ret['b_alias'])){
+                $ret['b_alias'] = ' alias ' . $ret['b_alias'];
             }
 
             return $ret;
